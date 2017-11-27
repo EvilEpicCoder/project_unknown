@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="221px" height="221px" viewBox="0 0 221 221" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Benefits/tuition-assistence" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Benefits/tuition" transform="translate(-619.000000, -1501.000000)">
+            <g id="Group" transform="translate(619.000000, 1501.000000)">
+                <text id="tuition-reimbursemen" font-family="Effra-Light, Effra" font-size="14" font-weight="300" fill="#FFFFFF">
+                    <tspan x="34.452" y="165">tuition reimbursement for </tspan>
+                    <tspan x="68.304" y="182">graduate work</tspan>
+                </text>
+                <text id="50%" font-family="Effra-Bold, Effra" font-size="36" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="72" y="147">50% </tspan>
+                </text>
+                <g>
+                    <circle id="Oval-3" fill="#00263D" cx="110.5" cy="110.5" r="110.5"></circle>
+                    <text id="tuition-reimbursemen" font-family="Effra-Light, Effra" font-size="14" font-weight="300" fill="#FFFFFF">
+                        <tspan x="34.452" y="165">tuition reimbursement for </tspan>
+                        <tspan x="68.304" y="182">graduate work</tspan>
+                    </text>
+                    <text id="50%" font-family="Effra-Bold, Effra" font-size="36" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="72" y="147">50% </tspan>
+                    </text>
+                </g>
+                <path d="M221,110.5 C221,49.4725351 171.527465,0 110.5,0 C49.4725351,0 -9.09494756e-13,49.4725351 -9.09494756e-13,110.5 C1.62012848,110.806634 220.785869,110.494638 221,110.5 Z" id="Oval-3" fill="#498BC9"></path>
+            </g>
+        </g>
+    </g>
+</svg>
