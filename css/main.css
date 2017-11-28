@@ -1,4 +1,6 @@
-
+Editing:  
+/home/kennytaht45/public_html/sfshr/dist/css/main.css
+ Encoding:    Re-open Use Code Editor     Close  Save Changes
 
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -258,8 +260,8 @@ th {
 }
 @font-face {
     font-family: 'Glyphicons Halflings';
-    src: url(../fonts/bootstrap/glyphicons-halflings-regular.eot);
-    src: url(../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype"), url(../fonts/bootstrap/glyphicons-halflings-regular.woff2) format("woff2"), url(../fonts/bootstrap/glyphicons-halflings-regular.woff) format("woff"), url(../fonts/bootstrap/glyphicons-halflings-regular.ttf) format("truetype"), url(../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg")
+    src: url(http://signature.thegocostaging.com/fonts/bootstrap/glyphicons-halflings-regular.eot);
+    src: url(http://signature.thegocostaging.com/fonts/bootstrap/glyphicons-halflings-regular.eot?) format("embedded-opentype"), url(http://signature.thegocostaging.com/fonts/bootstrap/glyphicons-halflings-regular.woff2) format("woff2"), url(http://signature.thegocostaging.com/fonts/bootstrap/glyphicons-halflings-regular.woff) format("woff"), url(http://signature.thegocostaging.com/fonts/bootstrap/glyphicons-halflings-regular.ttf) format("truetype"), url(http://signature.thegocostaging.com/fonts/bootstrap/glyphicons-halflings-regular.svg) format("svg")
 }
 
 .glyphicon {
@@ -1410,7 +1412,7 @@ ul {
     margin-top: 0;
     margin-bottom: 10px
 }
-.small-bullets li {
+.small-bullets li { 
     background: url("../img/bullet.png") no-repeat left 5px;
     background-position: left center;
     background-size: 4px;
@@ -6903,7 +6905,7 @@ button.close {
 @font-face {
     font-family: FontAwesome;
     src: url(../fonts/fontawesome-webfont.eot?v=4.7.0);
-    src: url(../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format("embedded-opentype"), url(../fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2"), url(../fonts/fontawesome-webfont.woff?v=4.7.0) format("woff"), url(../fonts/fontawesome-webfont.ttf?v=4.7.0) format("truetype"), url(../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format("svg");
+    src: url(../fonts/fontawesome-webfont.eot?) format("embedded-opentype"), url(../fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2"), url(../fonts/fontawesome-webfont.woff?v=4.7.0) format("woff"), url(../fonts/fontawesome-webfont.ttf?v=4.7.0) format("truetype"), url(../fonts/fontawesome-webfont.svg?v=4.7.0) format("svg");
     font-weight: 400;
     font-style: normal
 }
@@ -7068,2140 +7070,2140 @@ button.close {
     color: #fff
 }
 .fa-glass:before {
-    content: "ï€€"
+    content: ""
 }
 .fa-music:before {
-    content: "ï€"
+    content: ""
 }
 .fa-search:before {
-    content: "ï€‚"
+    content: ""
 }
 .fa-envelope-o:before {
-    content: "ï€ƒ"
+    content: ""
 }
 .fa-heart:before {
-    content: "ï€„"
+    content: ""
 }
 .fa-star:before {
-    content: "ï€…"
+    content: ""
 }
 .fa-star-o:before {
-    content: "ï€†"
+    content: ""
 }
 .fa-user:before {
-    content: "ï€‡"
+    content: ""
 }
 .fa-film:before {
-    content: "ï€ˆ"
+    content: ""
 }
 .fa-th-large:before {
-    content: "ï€‰"
+    content: ""
 }
 .fa-th:before {
-    content: "ï€Š"
+    content: ""
 }
 .fa-th-list:before {
-    content: "ï€‹"
+    content: ""
 }
 .fa-check:before {
-    content: "ï€Œ"
+    content: ""
 }
 .fa-close:before,
 .fa-remove:before,
 .fa-times:before {
-    content: "ï€"
+    content: ""
 }
 .fa-search-plus:before {
-    content: "ï€Ž"
+    content: ""
 }
 .fa-search-minus:before {
-    content: "ï€"
+    content: ""
 }
 .fa-power-off:before {
-    content: "ï€‘"
+    content: ""
 }
 .fa-signal:before {
-    content: "ï€’"
+    content: ""
 }
 .fa-cog:before,
 .fa-gear:before {
-    content: "ï€“"
+    content: ""
 }
 .fa-trash-o:before {
-    content: "ï€”"
+    content: ""
 }
 .fa-home:before {
-    content: "ï€•"
+    content: ""
 }
 .fa-file-o:before {
-    content: "ï€–"
+    content: ""
 }
 .fa-clock-o:before {
-    content: "ï€—"
+    content: ""
 }
 .fa-road:before {
-    content: "ï€˜"
+    content: ""
 }
 .fa-download:before {
-    content: "ï€™"
+    content: ""
 }
 .fa-arrow-circle-o-down:before {
-    content: "ï€š"
+    content: ""
 }
 .fa-arrow-circle-o-up:before {
-    content: "ï€›"
+    content: ""
 }
 .fa-inbox:before {
-    content: "ï€œ"
+    content: ""
 }
 .fa-play-circle-o:before {
-    content: "ï€"
+    content: ""
 }
 .fa-repeat:before,
 .fa-rotate-right:before {
-    content: "ï€ž"
+    content: ""
 }
 .fa-refresh:before {
-    content: "ï€¡"
+    content: ""
 }
 .fa-list-alt:before {
-    content: "ï€¢"
+    content: ""
 }
 .fa-lock:before {
-    content: "ï€£"
+    content: ""
 }
 .fa-flag:before {
-    content: "ï€¤"
+    content: ""
 }
 .fa-headphones:before {
-    content: "ï€¥"
+    content: ""
 }
 .fa-volume-off:before {
-    content: "ï€¦"
+    content: ""
 }
 .fa-volume-down:before {
-    content: "ï€§"
+    content: ""
 }
 .fa-volume-up:before {
-    content: "ï€¨"
+    content: ""
 }
 .fa-qrcode:before {
-    content: "ï€©"
+    content: ""
 }
 .fa-barcode:before {
-    content: "ï€ª"
+    content: ""
 }
 .fa-tag:before {
-    content: "ï€«"
+    content: ""
 }
 .fa-tags:before {
-    content: "ï€¬"
+    content: ""
 }
 .fa-book:before {
-    content: "ï€­"
+    content: ""
 }
 .fa-bookmark:before {
-    content: "ï€®"
+    content: ""
 }
 .fa-print:before {
-    content: "ï€¯"
+    content: ""
 }
 .fa-camera:before {
-    content: "ï€°"
+    content: ""
 }
 .fa-font:before {
-    content: "ï€±"
+    content: ""
 }
 .fa-bold:before {
-    content: "ï€²"
+    content: ""
 }
 .fa-italic:before {
-    content: "ï€³"
+    content: ""
 }
 .fa-text-height:before {
-    content: "ï€´"
+    content: ""
 }
 .fa-text-width:before {
-    content: "ï€µ"
+    content: ""
 }
 .fa-align-left:before {
-    content: "ï€¶"
+    content: ""
 }
 .fa-align-center:before {
-    content: "ï€·"
+    content: ""
 }
 .fa-align-right:before {
-    content: "ï€¸"
+    content: ""
 }
 .fa-align-justify:before {
-    content: "ï€¹"
+    content: ""
 }
 .fa-list:before {
-    content: "ï€º"
+    content: ""
 }
 .fa-dedent:before,
 .fa-outdent:before {
-    content: "ï€»"
+    content: ""
 }
 .fa-indent:before {
-    content: "ï€¼"
+    content: ""
 }
 .fa-video-camera:before {
-    content: "ï€½"
+    content: ""
 }
 .fa-image:before,
 .fa-photo:before,
 .fa-picture-o:before {
-    content: "ï€¾"
+    content: ""
 }
 .fa-pencil:before {
-    content: "ï€"
+    content: ""
 }
 .fa-map-marker:before {
-    content: "ï"
+    content: ""
 }
 .fa-adjust:before {
-    content: "ï‚"
+    content: ""
 }
 .fa-tint:before {
-    content: "ïƒ"
+    content: ""
 }
 .fa-edit:before,
 .fa-pencil-square-o:before {
-    content: "ï„"
+    content: ""
 }
 .fa-share-square-o:before {
-    content: "ï…"
+    content: ""
 }
 .fa-check-square-o:before {
-    content: "ï†"
+    content: ""
 }
 .fa-arrows:before {
-    content: "ï‡"
+    content: ""
 }
 .fa-step-backward:before {
-    content: "ïˆ"
+    content: ""
 }
 .fa-fast-backward:before {
-    content: "ï‰"
+    content: ""
 }
 .fa-backward:before {
-    content: "ïŠ"
+    content: ""
 }
 .fa-play:before {
-    content: "ï‹"
+    content: ""
 }
 .fa-pause:before {
-    content: "ïŒ"
+    content: ""
 }
 .fa-stop:before {
-    content: "ï"
+    content: ""
 }
 .fa-forward:before {
-    content: "ïŽ"
+    content: ""
 }
 .fa-fast-forward:before {
-    content: "ï"
+    content: ""
 }
 .fa-step-forward:before {
-    content: "ï‘"
+    content: ""
 }
 .fa-eject:before {
-    content: "ï’"
+    content: ""
 }
 .fa-chevron-left:before {
-    content: "ï“"
+    content: ""
 }
 .fa-chevron-right:before {
-    content: "ï”"
+    content: ""
 }
 .fa-plus-circle:before {
-    content: "ï•"
+    content: ""
 }
 .fa-minus-circle:before {
-    content: "ï–"
+    content: ""
 }
 .fa-times-circle:before {
-    content: "ï—"
+    content: ""
 }
 .fa-check-circle:before {
-    content: "ï˜"
+    content: ""
 }
 .fa-question-circle:before {
-    content: "ï™"
+    content: ""
 }
 .fa-info-circle:before {
-    content: "ïš"
+    content: ""
 }
 .fa-crosshairs:before {
-    content: "ï›"
+    content: ""
 }
 .fa-times-circle-o:before {
-    content: "ïœ"
+    content: ""
 }
 .fa-check-circle-o:before {
-    content: "ï"
+    content: ""
 }
 .fa-ban:before {
-    content: "ïž"
+    content: ""
 }
 .fa-arrow-left:before {
-    content: "ï "
+    content: ""
 }
 .fa-arrow-right:before {
-    content: "ï¡"
+    content: ""
 }
 .fa-arrow-up:before {
-    content: "ï¢"
+    content: ""
 }
 .fa-arrow-down:before {
-    content: "ï£"
+    content: ""
 }
 .fa-mail-forward:before,
 .fa-share:before {
-    content: "ï¤"
+    content: ""
 }
 .fa-expand:before {
-    content: "ï¥"
+    content: ""
 }
 .fa-compress:before {
-    content: "ï¦"
+    content: ""
 }
 .fa-plus:before {
-    content: "ï§"
+    content: ""
 }
 .fa-minus:before {
-    content: "ï¨"
+    content: ""
 }
 .fa-asterisk:before {
-    content: "ï©"
+    content: ""
 }
 .fa-exclamation-circle:before {
-    content: "ïª"
+    content: ""
 }
 .fa-gift:before {
-    content: "ï«"
+    content: ""
 }
 .fa-leaf:before {
-    content: "ï¬"
+    content: ""
 }
 .fa-fire:before {
-    content: "ï­"
+    content: ""
 }
 .fa-eye:before {
-    content: "ï®"
+    content: ""
 }
 .fa-eye-slash:before {
-    content: "ï°"
+    content: ""
 }
 .fa-exclamation-triangle:before,
 .fa-warning:before {
-    content: "ï±"
+    content: ""
 }
 .fa-plane:before {
-    content: "ï²"
+    content: ""
 }
 .fa-calendar:before {
-    content: "ï³"
+    content: ""
 }
 .fa-random:before {
-    content: "ï´"
+    content: ""
 }
 .fa-comment:before {
-    content: "ïµ"
+    content: ""
 }
 .fa-magnet:before {
-    content: "ï¶"
+    content: ""
 }
 .fa-chevron-up:before {
-    content: "ï·"
+    content: ""
 }
 .fa-chevron-down:before {
-    content: "ï¸"
+    content: ""
 }
 .fa-retweet:before {
-    content: "ï¹"
+    content: ""
 }
 .fa-shopping-cart:before {
-    content: "ïº"
+    content: ""
 }
 .fa-folder:before {
-    content: "ï»"
+    content: ""
 }
 .fa-folder-open:before {
-    content: "ï¼"
+    content: ""
 }
 .fa-arrows-v:before {
-    content: "ï½"
+    content: ""
 }
 .fa-arrows-h:before {
-    content: "ï¾"
+    content: ""
 }
 .fa-bar-chart-o:before,
 .fa-bar-chart:before {
-    content: "ï‚€"
+    content: ""
 }
 .fa-twitter-square:before {
-    content: "ï‚"
+    content: ""
 }
 .fa-facebook-square:before {
-    content: "ï‚‚"
+    content: ""
 }
 .fa-camera-retro:before {
-    content: "ï‚ƒ"
+    content: ""
 }
 .fa-key:before {
-    content: "ï‚„"
+    content: ""
 }
 .fa-cogs:before,
 .fa-gears:before {
-    content: "ï‚…"
+    content: ""
 }
 .fa-comments:before {
-    content: "ï‚†"
+    content: ""
 }
 .fa-thumbs-o-up:before {
-    content: "ï‚‡"
+    content: ""
 }
 .fa-thumbs-o-down:before {
-    content: "ï‚ˆ"
+    content: ""
 }
 .fa-star-half:before {
-    content: "ï‚‰"
+    content: ""
 }
 .fa-heart-o:before {
-    content: "ï‚Š"
+    content: ""
 }
 .fa-sign-out:before {
-    content: "ï‚‹"
+    content: ""
 }
 .fa-linkedin-square:before {
-    content: "ï‚Œ"
+    content: ""
 }
 .fa-thumb-tack:before {
-    content: "ï‚"
+    content: ""
 }
 .fa-external-link:before {
-    content: "ï‚Ž"
+    content: ""
 }
 .fa-sign-in:before {
-    content: "ï‚"
+    content: ""
 }
 .fa-trophy:before {
-    content: "ï‚‘"
+    content: ""
 }
 .fa-github-square:before {
-    content: "ï‚’"
+    content: ""
 }
 .fa-upload:before {
-    content: "ï‚“"
+    content: ""
 }
 .fa-lemon-o:before {
-    content: "ï‚”"
+    content: ""
 }
 .fa-phone:before {
-    content: "ï‚•"
+    content: ""
 }
 .fa-square-o:before {
-    content: "ï‚–"
+    content: ""
 }
 .fa-bookmark-o:before {
-    content: "ï‚—"
+    content: ""
 }
 .fa-phone-square:before {
-    content: "ï‚˜"
+    content: ""
 }
 .fa-twitter:before {
-    content: "ï‚™"
+    content: ""
 }
 .fa-facebook-f:before,
 .fa-facebook:before {
-    content: "ï‚š"
+    content: ""
 }
 .fa-github:before {
-    content: "ï‚›"
+    content: ""
 }
 .fa-unlock:before {
-    content: "ï‚œ"
+    content: ""
 }
 .fa-credit-card:before {
-    content: "ï‚"
+    content: ""
 }
 .fa-feed:before,
 .fa-rss:before {
-    content: "ï‚ž"
+    content: ""
 }
 .fa-hdd-o:before {
-    content: "ï‚ "
+    content: ""
 }
 .fa-bullhorn:before {
-    content: "ï‚¡"
+    content: ""
 }
 .fa-bell:before {
-    content: "ïƒ³"
+    content: ""
 }
 .fa-certificate:before {
-    content: "ï‚£"
+    content: ""
 }
 .fa-hand-o-right:before {
-    content: "ï‚¤"
+    content: ""
 }
 .fa-hand-o-left:before {
-    content: "ï‚¥"
+    content: ""
 }
 .fa-hand-o-up:before {
-    content: "ï‚¦"
+    content: ""
 }
 .fa-hand-o-down:before {
-    content: "ï‚§"
+    content: ""
 }
 .fa-arrow-circle-left:before {
-    content: "ï‚¨"
+    content: ""
 }
 .fa-arrow-circle-right:before {
-    content: "ï‚©"
+    content: ""
 }
 .fa-arrow-circle-up:before {
-    content: "ï‚ª"
+    content: ""
 }
 .fa-arrow-circle-down:before {
-    content: "ï‚«"
+    content: ""
 }
 .fa-globe:before {
-    content: "ï‚¬"
+    content: ""
 }
 .fa-wrench:before {
-    content: "ï‚­"
+    content: ""
 }
 .fa-tasks:before {
-    content: "ï‚®"
+    content: ""
 }
 .fa-filter:before {
-    content: "ï‚°"
+    content: ""
 }
 .fa-briefcase:before {
-    content: "ï‚±"
+    content: ""
 }
 .fa-arrows-alt:before {
-    content: "ï‚²"
+    content: ""
 }
 .fa-group:before,
 .fa-users:before {
-    content: "ïƒ€"
+    content: ""
 }
 .fa-chain:before,
 .fa-link:before {
-    content: "ïƒ"
+    content: ""
 }
 .fa-cloud:before {
-    content: "ïƒ‚"
+    content: ""
 }
 .fa-flask:before {
-    content: "ïƒƒ"
+    content: ""
 }
 .fa-cut:before,
 .fa-scissors:before {
-    content: "ïƒ„"
+    content: ""
 }
 .fa-copy:before,
 .fa-files-o:before {
-    content: "ïƒ…"
+    content: ""
 }
 .fa-paperclip:before {
-    content: "ïƒ†"
+    content: ""
 }
 .fa-floppy-o:before,
 .fa-save:before {
-    content: "ïƒ‡"
+    content: ""
 }
 .fa-square:before {
-    content: "ïƒˆ"
+    content: ""
 }
 .fa-bars:before,
 .fa-navicon:before,
 .fa-reorder:before {
-    content: "ïƒ‰"
+    content: ""
 }
 .fa-list-ul:before {
-    content: "ïƒŠ"
+    content: ""
 }
 .fa-list-ol:before {
-    content: "ïƒ‹"
+    content: ""
 }
 .fa-strikethrough:before {
-    content: "ïƒŒ"
+    content: ""
 }
 .fa-underline:before {
-    content: "ïƒ"
+    content: ""
 }
 .fa-table:before {
-    content: "ïƒŽ"
+    content: ""
 }
 .fa-magic:before {
-    content: "ïƒ"
+    content: ""
 }
 .fa-truck:before {
-    content: "ïƒ‘"
+    content: ""
 }
 .fa-pinterest:before {
-    content: "ïƒ’"
+    content: ""
 }
 .fa-pinterest-square:before {
-    content: "ïƒ“"
+    content: ""
 }
 .fa-google-plus-square:before {
-    content: "ïƒ”"
+    content: ""
 }
 .fa-google-plus:before {
-    content: "ïƒ•"
+    content: ""
 }
 .fa-money:before {
-    content: "ïƒ–"
+    content: ""
 }
 .fa-caret-down:before {
-    content: "ïƒ—"
+    content: ""
 }
 .fa-caret-up:before {
-    content: "ïƒ˜"
+    content: ""
 }
 .fa-caret-left:before {
-    content: "ïƒ™"
+    content: ""
 }
 .fa-caret-right:before {
-    content: "ïƒš"
+    content: ""
 }
 .fa-columns:before {
-    content: "ïƒ›"
+    content: ""
 }
 .fa-sort:before,
 .fa-unsorted:before {
-    content: "ïƒœ"
+    content: ""
 }
 .fa-sort-desc:before,
 .fa-sort-down:before {
-    content: "ïƒ"
+    content: ""
 }
 .fa-sort-asc:before,
 .fa-sort-up:before {
-    content: "ïƒž"
+    content: ""
 }
 .fa-envelope:before {
-    content: "ïƒ "
+    content: ""
 }
 .fa-linkedin:before {
-    content: "ïƒ¡"
+    content: ""
 }
 .fa-rotate-left:before,
 .fa-undo:before {
-    content: "ïƒ¢"
+    content: ""
 }
 .fa-gavel:before,
 .fa-legal:before {
-    content: "ïƒ£"
+    content: ""
 }
 .fa-dashboard:before,
 .fa-tachometer:before {
-    content: "ïƒ¤"
+    content: ""
 }
 .fa-comment-o:before {
-    content: "ïƒ¥"
+    content: ""
 }
 .fa-comments-o:before {
-    content: "ïƒ¦"
+    content: ""
 }
 .fa-bolt:before,
 .fa-flash:before {
-    content: "ïƒ§"
+    content: ""
 }
 .fa-sitemap:before {
-    content: "ïƒ¨"
+    content: ""
 }
 .fa-umbrella:before {
-    content: "ïƒ©"
+    content: ""
 }
 .fa-clipboard:before,
 .fa-paste:before {
-    content: "ïƒª"
+    content: ""
 }
 .fa-lightbulb-o:before {
-    content: "ïƒ«"
+    content: ""
 }
 .fa-exchange:before {
-    content: "ïƒ¬"
+    content: ""
 }
 .fa-cloud-download:before {
-    content: "ïƒ­"
+    content: ""
 }
 .fa-cloud-upload:before {
-    content: "ïƒ®"
+    content: ""
 }
 .fa-user-md:before {
-    content: "ïƒ°"
+    content: ""
 }
 .fa-stethoscope:before {
-    content: "ïƒ±"
+    content: ""
 }
 .fa-suitcase:before {
-    content: "ïƒ²"
+    content: ""
 }
 .fa-bell-o:before {
-    content: "ï‚¢"
+    content: ""
 }
 .fa-coffee:before {
-    content: "ïƒ´"
+    content: ""
 }
 .fa-cutlery:before {
-    content: "ïƒµ"
+    content: ""
 }
 .fa-file-text-o:before {
-    content: "ïƒ¶"
+    content: ""
 }
 .fa-building-o:before {
-    content: "ïƒ·"
+    content: ""
 }
 .fa-hospital-o:before {
-    content: "ïƒ¸"
+    content: ""
 }
 .fa-ambulance:before {
-    content: "ïƒ¹"
+    content: ""
 }
 .fa-medkit:before {
-    content: "ïƒº"
+    content: ""
 }
 .fa-fighter-jet:before {
-    content: "ïƒ»"
+    content: ""
 }
 .fa-beer:before {
-    content: "ïƒ¼"
+    content: ""
 }
 .fa-h-square:before {
-    content: "ïƒ½"
+    content: ""
 }
 .fa-plus-square:before {
-    content: "ïƒ¾"
+    content: ""
 }
 .fa-angle-double-left:before {
-    content: "ï„€"
+    content: ""
 }
 .fa-angle-double-right:before {
-    content: "ï„"
+    content: ""
 }
 .fa-angle-double-up:before {
-    content: "ï„‚"
+    content: ""
 }
 .fa-angle-double-down:before {
-    content: "ï„ƒ"
+    content: ""
 }
 .fa-angle-left:before {
-    content: "ï„„"
+    content: ""
 }
 .fa-angle-right:before {
-    content: "ï„…"
+    content: ""
 }
 .fa-angle-up:before {
-    content: "ï„†"
+    content: ""
 }
 .fa-angle-down:before {
-    content: "ï„‡"
+    content: ""
 }
 .fa-desktop:before {
-    content: "ï„ˆ"
+    content: ""
 }
 .fa-laptop:before {
-    content: "ï„‰"
+    content: ""
 }
 .fa-tablet:before {
-    content: "ï„Š"
+    content: ""
 }
 .fa-mobile-phone:before,
 .fa-mobile:before {
-    content: "ï„‹"
+    content: ""
 }
 .fa-circle-o:before {
-    content: "ï„Œ"
+    content: ""
 }
 .fa-quote-left:before {
-    content: "ï„"
+    content: ""
 }
 .fa-quote-right:before {
-    content: "ï„Ž"
+    content: ""
 }
 .fa-spinner:before {
-    content: "ï„"
+    content: ""
 }
 .fa-circle:before {
-    content: "ï„‘"
+    content: ""
 }
 .fa-mail-reply:before,
 .fa-reply:before {
-    content: "ï„’"
+    content: ""
 }
 .fa-github-alt:before {
-    content: "ï„“"
+    content: ""
 }
 .fa-folder-o:before {
-    content: "ï„”"
+    content: ""
 }
 .fa-folder-open-o:before {
-    content: "ï„•"
+    content: ""
 }
 .fa-smile-o:before {
-    content: "ï„˜"
+    content: ""
 }
 .fa-frown-o:before {
-    content: "ï„™"
+    content: ""
 }
 .fa-meh-o:before {
-    content: "ï„š"
+    content: ""
 }
 .fa-gamepad:before {
-    content: "ï„›"
+    content: ""
 }
 .fa-keyboard-o:before {
-    content: "ï„œ"
+    content: ""
 }
 .fa-flag-o:before {
-    content: "ï„"
+    content: ""
 }
 .fa-flag-checkered:before {
-    content: "ï„ž"
+    content: ""
 }
 .fa-terminal:before {
-    content: "ï„ "
+    content: ""
 }
 .fa-code:before {
-    content: "ï„¡"
+    content: ""
 }
 .fa-mail-reply-all:before,
 .fa-reply-all:before {
-    content: "ï„¢"
+    content: ""
 }
 .fa-star-half-empty:before,
 .fa-star-half-full:before,
 .fa-star-half-o:before {
-    content: "ï„£"
+    content: ""
 }
 .fa-location-arrow:before {
-    content: "ï„¤"
+    content: ""
 }
 .fa-crop:before {
-    content: "ï„¥"
+    content: ""
 }
 .fa-code-fork:before {
-    content: "ï„¦"
+    content: ""
 }
 .fa-chain-broken:before,
 .fa-unlink:before {
-    content: "ï„§"
+    content: ""
 }
 .fa-question:before {
-    content: "ï„¨"
+    content: ""
 }
 .fa-info:before {
-    content: "ï„©"
+    content: ""
 }
 .fa-exclamation:before {
-    content: "ï„ª"
+    content: ""
 }
 .fa-superscript:before {
-    content: "ï„«"
+    content: ""
 }
 .fa-subscript:before {
-    content: "ï„¬"
+    content: ""
 }
 .fa-eraser:before {
-    content: "ï„­"
+    content: ""
 }
 .fa-puzzle-piece:before {
-    content: "ï„®"
+    content: ""
 }
 .fa-microphone:before {
-    content: "ï„°"
+    content: ""
 }
 .fa-microphone-slash:before {
-    content: "ï„±"
+    content: ""
 }
 .fa-shield:before {
-    content: "ï„²"
+    content: ""
 }
 .fa-calendar-o:before {
-    content: "ï„³"
+    content: ""
 }
 .fa-fire-extinguisher:before {
-    content: "ï„´"
+    content: ""
 }
 .fa-rocket:before {
-    content: "ï„µ"
+    content: ""
 }
 .fa-maxcdn:before {
-    content: "ï„¶"
+    content: ""
 }
 .fa-chevron-circle-left:before {
-    content: "ï„·"
+    content: ""
 }
 .fa-chevron-circle-right:before {
-    content: "ï„¸"
+    content: ""
 }
 .fa-chevron-circle-up:before {
-    content: "ï„¹"
+    content: ""
 }
 .fa-chevron-circle-down:before {
-    content: "ï„º"
+    content: ""
 }
 .fa-html5:before {
-    content: "ï„»"
+    content: ""
 }
 .fa-css3:before {
-    content: "ï„¼"
+    content: ""
 }
 .fa-anchor:before {
-    content: "ï„½"
+    content: ""
 }
 .fa-unlock-alt:before {
-    content: "ï„¾"
+    content: ""
 }
 .fa-bullseye:before {
-    content: "ï…€"
+    content: ""
 }
 .fa-ellipsis-h:before {
-    content: "ï…"
+    content: ""
 }
 .fa-ellipsis-v:before {
-    content: "ï…‚"
+    content: ""
 }
 .fa-rss-square:before {
-    content: "ï…ƒ"
+    content: ""
 }
 .fa-play-circle:before {
-    content: "ï…„"
+    content: ""
 }
 .fa-ticket:before {
-    content: "ï……"
+    content: ""
 }
 .fa-minus-square:before {
-    content: "ï…†"
+    content: ""
 }
 .fa-minus-square-o:before {
-    content: "ï…‡"
+    content: ""
 }
 .fa-level-up:before {
-    content: "ï…ˆ"
+    content: ""
 }
 .fa-level-down:before {
-    content: "ï…‰"
+    content: ""
 }
 .fa-check-square:before {
-    content: "ï…Š"
+    content: ""
 }
 .fa-pencil-square:before {
-    content: "ï…‹"
+    content: ""
 }
 .fa-external-link-square:before {
-    content: "ï…Œ"
+    content: ""
 }
 .fa-share-square:before {
-    content: "ï…"
+    content: ""
 }
 .fa-compass:before {
-    content: "ï…Ž"
+    content: ""
 }
 .fa-caret-square-o-down:before,
 .fa-toggle-down:before {
-    content: "ï…"
+    content: ""
 }
 .fa-caret-square-o-up:before,
 .fa-toggle-up:before {
-    content: "ï…‘"
+    content: ""
 }
 .fa-caret-square-o-right:before,
 .fa-toggle-right:before {
-    content: "ï…’"
+    content: ""
 }
 .fa-eur:before,
 .fa-euro:before {
-    content: "ï…“"
+    content: ""
 }
 .fa-gbp:before {
-    content: "ï…”"
+    content: ""
 }
 .fa-dollar:before,
 .fa-usd:before {
-    content: "ï…•"
+    content: ""
 }
 .fa-inr:before,
 .fa-rupee:before {
-    content: "ï…–"
+    content: ""
 }
 .fa-cny:before,
 .fa-jpy:before,
 .fa-rmb:before,
 .fa-yen:before {
-    content: "ï…—"
+    content: ""
 }
 .fa-rouble:before,
 .fa-rub:before,
 .fa-ruble:before {
-    content: "ï…˜"
+    content: ""
 }
 .fa-krw:before,
 .fa-won:before {
-    content: "ï…™"
+    content: ""
 }
 .fa-bitcoin:before,
 .fa-btc:before {
-    content: "ï…š"
+    content: ""
 }
 .fa-file:before {
-    content: "ï…›"
+    content: ""
 }
 .fa-file-text:before {
-    content: "ï…œ"
+    content: ""
 }
 .fa-sort-alpha-asc:before {
-    content: "ï…"
+    content: ""
 }
 .fa-sort-alpha-desc:before {
-    content: "ï…ž"
+    content: ""
 }
 .fa-sort-amount-asc:before {
-    content: "ï… "
+    content: ""
 }
 .fa-sort-amount-desc:before {
-    content: "ï…¡"
+    content: ""
 }
 .fa-sort-numeric-asc:before {
-    content: "ï…¢"
+    content: ""
 }
 .fa-sort-numeric-desc:before {
-    content: "ï…£"
+    content: ""
 }
 .fa-thumbs-up:before {
-    content: "ï…¤"
+    content: ""
 }
 .fa-thumbs-down:before {
-    content: "ï…¥"
+    content: ""
 }
 .fa-youtube-square:before {
-    content: "ï…¦"
+    content: ""
 }
 .fa-youtube:before {
-    content: "ï…§"
+    content: ""
 }
 .fa-xing:before {
-    content: "ï…¨"
+    content: ""
 }
 .fa-xing-square:before {
-    content: "ï…©"
+    content: ""
 }
 .fa-youtube-play:before {
-    content: "ï…ª"
+    content: ""
 }
 .fa-dropbox:before {
-    content: "ï…«"
+    content: ""
 }
 .fa-stack-overflow:before {
-    content: "ï…¬"
+    content: ""
 }
 .fa-instagram:before {
-    content: "ï…­"
+    content: ""
 }
 .fa-flickr:before {
-    content: "ï…®"
+    content: ""
 }
 .fa-adn:before {
-    content: "ï…°"
+    content: ""
 }
 .fa-bitbucket:before {
-    content: "ï…±"
+    content: ""
 }
 .fa-bitbucket-square:before {
-    content: "ï…²"
+    content: ""
 }
 .fa-tumblr:before {
-    content: "ï…³"
+    content: ""
 }
 .fa-tumblr-square:before {
-    content: "ï…´"
+    content: ""
 }
 .fa-long-arrow-down:before {
-    content: "ï…µ"
+    content: ""
 }
 .fa-long-arrow-up:before {
-    content: "ï…¶"
+    content: ""
 }
 .fa-long-arrow-left:before {
-    content: "ï…·"
+    content: ""
 }
 .fa-long-arrow-right:before {
-    content: "ï…¸"
+    content: ""
 }
 .fa-apple:before {
-    content: "ï…¹"
+    content: ""
 }
 .fa-windows:before {
-    content: "ï…º"
+    content: ""
 }
 .fa-android:before {
-    content: "ï…»"
+    content: ""
 }
 .fa-linux:before {
-    content: "ï…¼"
+    content: ""
 }
 .fa-dribbble:before {
-    content: "ï…½"
+    content: ""
 }
 .fa-skype:before {
-    content: "ï…¾"
+    content: ""
 }
 .fa-foursquare:before {
-    content: "ï†€"
+    content: ""
 }
 .fa-trello:before {
-    content: "ï†"
+    content: ""
 }
 .fa-female:before {
-    content: "ï†‚"
+    content: ""
 }
 .fa-male:before {
-    content: "ï†ƒ"
+    content: ""
 }
 .fa-gittip:before,
 .fa-gratipay:before {
-    content: "ï†„"
+    content: ""
 }
 .fa-sun-o:before {
-    content: "ï†…"
+    content: ""
 }
 .fa-moon-o:before {
-    content: "ï††"
+    content: ""
 }
 .fa-archive:before {
-    content: "ï†‡"
+    content: ""
 }
 .fa-bug:before {
-    content: "ï†ˆ"
+    content: ""
 }
 .fa-vk:before {
-    content: "ï†‰"
+    content: ""
 }
 .fa-weibo:before {
-    content: "ï†Š"
+    content: ""
 }
 .fa-renren:before {
-    content: "ï†‹"
+    content: ""
 }
 .fa-pagelines:before {
-    content: "ï†Œ"
+    content: ""
 }
 .fa-stack-exchange:before {
-    content: "ï†"
+    content: ""
 }
 .fa-arrow-circle-o-right:before {
-    content: "ï†Ž"
+    content: ""
 }
 .fa-arrow-circle-o-left:before {
-    content: "ï†"
+    content: ""
 }
 .fa-caret-square-o-left:before,
 .fa-toggle-left:before {
-    content: "ï†‘"
+    content: ""
 }
 .fa-dot-circle-o:before {
-    content: "ï†’"
+    content: ""
 }
 .fa-wheelchair:before {
-    content: "ï†“"
+    content: ""
 }
 .fa-vimeo-square:before {
-    content: "ï†”"
+    content: ""
 }
 .fa-try:before,
 .fa-turkish-lira:before {
-    content: "ï†•"
+    content: ""
 }
 .fa-plus-square-o:before {
-    content: "ï†–"
+    content: ""
 }
 .fa-space-shuttle:before {
-    content: "ï†—"
+    content: ""
 }
 .fa-slack:before {
-    content: "ï†˜"
+    content: ""
 }
 .fa-envelope-square:before {
-    content: "ï†™"
+    content: ""
 }
 .fa-wordpress:before {
-    content: "ï†š"
+    content: ""
 }
 .fa-openid:before {
-    content: "ï†›"
+    content: ""
 }
 .fa-bank:before,
 .fa-institution:before,
 .fa-university:before {
-    content: "ï†œ"
+    content: ""
 }
 .fa-graduation-cap:before,
 .fa-mortar-board:before {
-    content: "ï†"
+    content: ""
 }
 .fa-yahoo:before {
-    content: "ï†ž"
+    content: ""
 }
 .fa-google:before {
-    content: "ï† "
+    content: ""
 }
 .fa-reddit:before {
-    content: "ï†¡"
+    content: ""
 }
 .fa-reddit-square:before {
-    content: "ï†¢"
+    content: ""
 }
 .fa-stumbleupon-circle:before {
-    content: "ï†£"
+    content: ""
 }
 .fa-stumbleupon:before {
-    content: "ï†¤"
+    content: ""
 }
 .fa-delicious:before {
-    content: "ï†¥"
+    content: ""
 }
 .fa-digg:before {
-    content: "ï†¦"
+    content: ""
 }
 .fa-pied-piper-pp:before {
-    content: "ï†§"
+    content: ""
 }
 .fa-pied-piper-alt:before {
-    content: "ï†¨"
+    content: ""
 }
 .fa-drupal:before {
-    content: "ï†©"
+    content: ""
 }
 .fa-joomla:before {
-    content: "ï†ª"
+    content: ""
 }
 .fa-language:before {
-    content: "ï†«"
+    content: ""
 }
 .fa-fax:before {
-    content: "ï†¬"
+    content: ""
 }
 .fa-building:before {
-    content: "ï†­"
+    content: ""
 }
 .fa-child:before {
-    content: "ï†®"
+    content: ""
 }
 .fa-paw:before {
-    content: "ï†°"
+    content: ""
 }
 .fa-spoon:before {
-    content: "ï†±"
+    content: ""
 }
 .fa-cube:before {
-    content: "ï†²"
+    content: ""
 }
 .fa-cubes:before {
-    content: "ï†³"
+    content: ""
 }
 .fa-behance:before {
-    content: "ï†´"
+    content: ""
 }
 .fa-behance-square:before {
-    content: "ï†µ"
+    content: ""
 }
 .fa-steam:before {
-    content: "ï†¶"
+    content: ""
 }
 .fa-steam-square:before {
-    content: "ï†·"
+    content: ""
 }
 .fa-recycle:before {
-    content: "ï†¸"
+    content: ""
 }
 .fa-automobile:before,
 .fa-car:before {
-    content: "ï†¹"
+    content: ""
 }
 .fa-cab:before,
 .fa-taxi:before {
-    content: "ï†º"
+    content: ""
 }
 .fa-tree:before {
-    content: "ï†»"
+    content: ""
 }
 .fa-spotify:before {
-    content: "ï†¼"
+    content: ""
 }
 .fa-deviantart:before {
-    content: "ï†½"
+    content: ""
 }
 .fa-soundcloud:before {
-    content: "ï†¾"
+    content: ""
 }
 .fa-database:before {
-    content: "ï‡€"
+    content: ""
 }
 .fa-file-pdf-o:before {
-    content: "ï‡"
+    content: ""
 }
 .fa-file-word-o:before {
-    content: "ï‡‚"
+    content: ""
 }
 .fa-file-excel-o:before {
-    content: "ï‡ƒ"
+    content: ""
 }
 .fa-file-powerpoint-o:before {
-    content: "ï‡„"
+    content: ""
 }
 .fa-file-image-o:before,
 .fa-file-photo-o:before,
 .fa-file-picture-o:before {
-    content: "ï‡…"
+    content: ""
 }
 .fa-file-archive-o:before,
 .fa-file-zip-o:before {
-    content: "ï‡†"
+    content: ""
 }
 .fa-file-audio-o:before,
 .fa-file-sound-o:before {
-    content: "ï‡‡"
+    content: ""
 }
 .fa-file-movie-o:before,
 .fa-file-video-o:before {
-    content: "ï‡ˆ"
+    content: ""
 }
 .fa-file-code-o:before {
-    content: "ï‡‰"
+    content: ""
 }
 .fa-vine:before {
-    content: "ï‡Š"
+    content: ""
 }
 .fa-codepen:before {
-    content: "ï‡‹"
+    content: ""
 }
 .fa-jsfiddle:before {
-    content: "ï‡Œ"
+    content: ""
 }
 .fa-life-bouy:before,
 .fa-life-buoy:before,
 .fa-life-ring:before,
 .fa-life-saver:before,
 .fa-support:before {
-    content: "ï‡"
+    content: ""
 }
 .fa-circle-o-notch:before {
-    content: "ï‡Ž"
+    content: ""
 }
 .fa-ra:before,
 .fa-rebel:before,
 .fa-resistance:before {
-    content: "ï‡"
+    content: ""
 }
 .fa-empire:before,
 .fa-ge:before {
-    content: "ï‡‘"
+    content: ""
 }
 .fa-git-square:before {
-    content: "ï‡’"
+    content: ""
 }
 .fa-git:before {
-    content: "ï‡“"
+    content: ""
 }
 .fa-hacker-news:before,
 .fa-y-combinator-square:before,
 .fa-yc-square:before {
-    content: "ï‡”"
+    content: ""
 }
 .fa-tencent-weibo:before {
-    content: "ï‡•"
+    content: ""
 }
 .fa-qq:before {
-    content: "ï‡–"
+    content: ""
 }
 .fa-wechat:before,
 .fa-weixin:before {
-    content: "ï‡—"
+    content: ""
 }
 .fa-paper-plane:before,
 .fa-send:before {
-    content: "ï‡˜"
+    content: ""
 }
 .fa-paper-plane-o:before,
 .fa-send-o:before {
-    content: "ï‡™"
+    content: ""
 }
 .fa-history:before {
-    content: "ï‡š"
+    content: ""
 }
 .fa-circle-thin:before {
-    content: "ï‡›"
+    content: ""
 }
 .fa-header:before {
-    content: "ï‡œ"
+    content: ""
 }
 .fa-paragraph:before {
-    content: "ï‡"
+    content: ""
 }
 .fa-sliders:before {
-    content: "ï‡ž"
+    content: ""
 }
 .fa-share-alt:before {
-    content: "ï‡ "
+    content: ""
 }
 .fa-share-alt-square:before {
-    content: "ï‡¡"
+    content: ""
 }
 .fa-bomb:before {
-    content: "ï‡¢"
+    content: ""
 }
 .fa-futbol-o:before,
 .fa-soccer-ball-o:before {
-    content: "ï‡£"
+    content: ""
 }
 .fa-tty:before {
-    content: "ï‡¤"
+    content: ""
 }
 .fa-binoculars:before {
-    content: "ï‡¥"
+    content: ""
 }
 .fa-plug:before {
-    content: "ï‡¦"
+    content: ""
 }
 .fa-slideshare:before {
-    content: "ï‡§"
+    content: ""
 }
 .fa-twitch:before {
-    content: "ï‡¨"
+    content: ""
 }
 .fa-yelp:before {
-    content: "ï‡©"
+    content: ""
 }
 .fa-newspaper-o:before {
-    content: "ï‡ª"
+    content: ""
 }
 .fa-wifi:before {
-    content: "ï‡«"
+    content: ""
 }
 .fa-calculator:before {
-    content: "ï‡¬"
+    content: ""
 }
 .fa-paypal:before {
-    content: "ï‡­"
+    content: ""
 }
 .fa-google-wallet:before {
-    content: "ï‡®"
+    content: ""
 }
 .fa-cc-visa:before {
-    content: "ï‡°"
+    content: ""
 }
 .fa-cc-mastercard:before {
-    content: "ï‡±"
+    content: ""
 }
 .fa-cc-discover:before {
-    content: "ï‡²"
+    content: ""
 }
 .fa-cc-amex:before {
-    content: "ï‡³"
+    content: ""
 }
 .fa-cc-paypal:before {
-    content: "ï‡´"
+    content: ""
 }
 .fa-cc-stripe:before {
-    content: "ï‡µ"
+    content: ""
 }
 .fa-bell-slash:before {
-    content: "ï‡¶"
+    content: ""
 }
 .fa-bell-slash-o:before {
-    content: "ï‡·"
+    content: ""
 }
 .fa-trash:before {
-    content: "ï‡¸"
+    content: ""
 }
 .fa-copyright:before {
-    content: "ï‡¹"
+    content: ""
 }
 .fa-at:before {
-    content: "ï‡º"
+    content: ""
 }
 .fa-eyedropper:before {
-    content: "ï‡»"
+    content: ""
 }
 .fa-paint-brush:before {
-    content: "ï‡¼"
+    content: ""
 }
 .fa-birthday-cake:before {
-    content: "ï‡½"
+    content: ""
 }
 .fa-area-chart:before {
-    content: "ï‡¾"
+    content: ""
 }
 .fa-pie-chart:before {
-    content: "ïˆ€"
+    content: ""
 }
 .fa-line-chart:before {
-    content: "ïˆ"
+    content: ""
 }
 .fa-lastfm:before {
-    content: "ïˆ‚"
+    content: ""
 }
 .fa-lastfm-square:before {
-    content: "ïˆƒ"
+    content: ""
 }
 .fa-toggle-off:before {
-    content: "ïˆ„"
+    content: ""
 }
 .fa-toggle-on:before {
-    content: "ïˆ…"
+    content: ""
 }
 .fa-bicycle:before {
-    content: "ïˆ†"
+    content: ""
 }
 .fa-bus:before {
-    content: "ïˆ‡"
+    content: ""
 }
 .fa-ioxhost:before {
-    content: "ïˆˆ"
+    content: ""
 }
 .fa-angellist:before {
-    content: "ïˆ‰"
+    content: ""
 }
 .fa-cc:before {
-    content: "ïˆŠ"
+    content: ""
 }
 .fa-ils:before,
 .fa-shekel:before,
 .fa-sheqel:before {
-    content: "ïˆ‹"
+    content: ""
 }
 .fa-meanpath:before {
-    content: "ïˆŒ"
+    content: ""
 }
 .fa-buysellads:before {
-    content: "ïˆ"
+    content: ""
 }
 .fa-connectdevelop:before {
-    content: "ïˆŽ"
+    content: ""
 }
 .fa-dashcube:before {
-    content: "ïˆ"
+    content: ""
 }
 .fa-forumbee:before {
-    content: "ïˆ‘"
+    content: ""
 }
 .fa-leanpub:before {
-    content: "ïˆ’"
+    content: ""
 }
 .fa-sellsy:before {
-    content: "ïˆ“"
+    content: ""
 }
 .fa-shirtsinbulk:before {
-    content: "ïˆ”"
+    content: ""
 }
 .fa-simplybuilt:before {
-    content: "ïˆ•"
+    content: ""
 }
 .fa-skyatlas:before {
-    content: "ïˆ–"
+    content: ""
 }
 .fa-cart-plus:before {
-    content: "ïˆ—"
+    content: ""
 }
 .fa-cart-arrow-down:before {
-    content: "ïˆ˜"
+    content: ""
 }
 .fa-diamond:before {
-    content: "ïˆ™"
+    content: ""
 }
 .fa-ship:before {
-    content: "ïˆš"
+    content: ""
 }
 .fa-user-secret:before {
-    content: "ïˆ›"
+    content: ""
 }
 .fa-motorcycle:before {
-    content: "ïˆœ"
+    content: ""
 }
 .fa-street-view:before {
-    content: "ïˆ"
+    content: ""
 }
 .fa-heartbeat:before {
-    content: "ïˆž"
+    content: ""
 }
 .fa-venus:before {
-    content: "ïˆ¡"
+    content: ""
 }
 .fa-mars:before {
-    content: "ïˆ¢"
+    content: ""
 }
 .fa-mercury:before {
-    content: "ïˆ£"
+    content: ""
 }
 .fa-intersex:before,
 .fa-transgender:before {
-    content: "ïˆ¤"
+    content: ""
 }
 .fa-transgender-alt:before {
-    content: "ïˆ¥"
+    content: ""
 }
 .fa-venus-double:before {
-    content: "ïˆ¦"
+    content: ""
 }
 .fa-mars-double:before {
-    content: "ïˆ§"
+    content: ""
 }
 .fa-venus-mars:before {
-    content: "ïˆ¨"
+    content: ""
 }
 .fa-mars-stroke:before {
-    content: "ïˆ©"
+    content: ""
 }
 .fa-mars-stroke-v:before {
-    content: "ïˆª"
+    content: ""
 }
 .fa-mars-stroke-h:before {
-    content: "ïˆ«"
+    content: ""
 }
 .fa-neuter:before {
-    content: "ïˆ¬"
+    content: ""
 }
 .fa-genderless:before {
-    content: "ïˆ­"
+    content: ""
 }
 .fa-facebook-official:before {
-    content: "ïˆ°"
+    content: ""
 }
 .fa-pinterest-p:before {
-    content: "ïˆ±"
+    content: ""
 }
 .fa-whatsapp:before {
-    content: "ïˆ²"
+    content: ""
 }
 .fa-server:before {
-    content: "ïˆ³"
+    content: ""
 }
 .fa-user-plus:before {
-    content: "ïˆ´"
+    content: ""
 }
 .fa-user-times:before {
-    content: "ïˆµ"
+    content: ""
 }
 .fa-bed:before,
 .fa-hotel:before {
-    content: "ïˆ¶"
+    content: ""
 }
 .fa-viacoin:before {
-    content: "ïˆ·"
+    content: ""
 }
 .fa-train:before {
-    content: "ïˆ¸"
+    content: ""
 }
 .fa-subway:before {
-    content: "ïˆ¹"
+    content: ""
 }
 .fa-medium:before {
-    content: "ïˆº"
+    content: ""
 }
 .fa-y-combinator:before,
 .fa-yc:before {
-    content: "ïˆ»"
+    content: ""
 }
 .fa-optin-monster:before {
-    content: "ïˆ¼"
+    content: ""
 }
 .fa-opencart:before {
-    content: "ïˆ½"
+    content: ""
 }
 .fa-expeditedssl:before {
-    content: "ïˆ¾"
+    content: ""
 }
 .fa-battery-4:before,
 .fa-battery-full:before,
 .fa-battery:before {
-    content: "ï‰€"
+    content: ""
 }
 .fa-battery-3:before,
 .fa-battery-three-quarters:before {
-    content: "ï‰"
+    content: ""
 }
 .fa-battery-2:before,
 .fa-battery-half:before {
-    content: "ï‰‚"
+    content: ""
 }
 .fa-battery-1:before,
 .fa-battery-quarter:before {
-    content: "ï‰ƒ"
+    content: ""
 }
 .fa-battery-0:before,
 .fa-battery-empty:before {
-    content: "ï‰„"
+    content: ""
 }
 .fa-mouse-pointer:before {
-    content: "ï‰…"
+    content: ""
 }
 .fa-i-cursor:before {
-    content: "ï‰†"
+    content: ""
 }
 .fa-object-group:before {
-    content: "ï‰‡"
+    content: ""
 }
 .fa-object-ungroup:before {
-    content: "ï‰ˆ"
+    content: ""
 }
 .fa-sticky-note:before {
-    content: "ï‰‰"
+    content: ""
 }
 .fa-sticky-note-o:before {
-    content: "ï‰Š"
+    content: ""
 }
 .fa-cc-jcb:before {
-    content: "ï‰‹"
+    content: ""
 }
 .fa-cc-diners-club:before {
-    content: "ï‰Œ"
+    content: ""
 }
 .fa-clone:before {
-    content: "ï‰"
+    content: ""
 }
 .fa-balance-scale:before {
-    content: "ï‰Ž"
+    content: ""
 }
 .fa-hourglass-o:before {
-    content: "ï‰"
+    content: ""
 }
 .fa-hourglass-1:before,
 .fa-hourglass-start:before {
-    content: "ï‰‘"
+    content: ""
 }
 .fa-hourglass-2:before,
 .fa-hourglass-half:before {
-    content: "ï‰’"
+    content: ""
 }
 .fa-hourglass-3:before,
 .fa-hourglass-end:before {
-    content: "ï‰“"
+    content: ""
 }
 .fa-hourglass:before {
-    content: "ï‰”"
+    content: ""
 }
 .fa-hand-grab-o:before,
 .fa-hand-rock-o:before {
-    content: "ï‰•"
+    content: ""
 }
 .fa-hand-paper-o:before,
 .fa-hand-stop-o:before {
-    content: "ï‰–"
+    content: ""
 }
 .fa-hand-scissors-o:before {
-    content: "ï‰—"
+    content: ""
 }
 .fa-hand-lizard-o:before {
-    content: "ï‰˜"
+    content: ""
 }
 .fa-hand-spock-o:before {
-    content: "ï‰™"
+    content: ""
 }
 .fa-hand-pointer-o:before {
-    content: "ï‰š"
+    content: ""
 }
 .fa-hand-peace-o:before {
-    content: "ï‰›"
+    content: ""
 }
 .fa-trademark:before {
-    content: "ï‰œ"
+    content: ""
 }
 .fa-registered:before {
-    content: "ï‰"
+    content: ""
 }
 .fa-creative-commons:before {
-    content: "ï‰ž"
+    content: ""
 }
 .fa-gg:before {
-    content: "ï‰ "
+    content: ""
 }
 .fa-gg-circle:before {
-    content: "ï‰¡"
+    content: ""
 }
 .fa-tripadvisor:before {
-    content: "ï‰¢"
+    content: ""
 }
 .fa-odnoklassniki:before {
-    content: "ï‰£"
+    content: ""
 }
 .fa-odnoklassniki-square:before {
-    content: "ï‰¤"
+    content: ""
 }
 .fa-get-pocket:before {
-    content: "ï‰¥"
+    content: ""
 }
 .fa-wikipedia-w:before {
-    content: "ï‰¦"
+    content: ""
 }
 .fa-safari:before {
-    content: "ï‰§"
+    content: ""
 }
 .fa-chrome:before {
-    content: "ï‰¨"
+    content: ""
 }
 .fa-firefox:before {
-    content: "ï‰©"
+    content: ""
 }
 .fa-opera:before {
-    content: "ï‰ª"
+    content: ""
 }
 .fa-internet-explorer:before {
-    content: "ï‰«"
+    content: ""
 }
 .fa-television:before,
 .fa-tv:before {
-    content: "ï‰¬"
+    content: ""
 }
 .fa-contao:before {
-    content: "ï‰­"
+    content: ""
 }
 .fa-500px:before {
-    content: "ï‰®"
+    content: ""
 }
 .fa-amazon:before {
-    content: "ï‰°"
+    content: ""
 }
 .fa-calendar-plus-o:before {
-    content: "ï‰±"
+    content: ""
 }
 .fa-calendar-minus-o:before {
-    content: "ï‰²"
+    content: ""
 }
 .fa-calendar-times-o:before {
-    content: "ï‰³"
+    content: ""
 }
 .fa-calendar-check-o:before {
-    content: "ï‰´"
+    content: ""
 }
 .fa-industry:before {
-    content: "ï‰µ"
+    content: ""
 }
 .fa-map-pin:before {
-    content: "ï‰¶"
+    content: ""
 }
 .fa-map-signs:before {
-    content: "ï‰·"
+    content: ""
 }
 .fa-map-o:before {
-    content: "ï‰¸"
+    content: ""
 }
 .fa-map:before {
-    content: "ï‰¹"
+    content: ""
 }
 .fa-commenting:before {
-    content: "ï‰º"
+    content: ""
 }
 .fa-commenting-o:before {
-    content: "ï‰»"
+    content: ""
 }
 .fa-houzz:before {
-    content: "ï‰¼"
+    content: ""
 }
 .fa-vimeo:before {
-    content: "ï‰½"
+    content: ""
 }
 .fa-black-tie:before {
-    content: "ï‰¾"
+    content: ""
 }
 .fa-fonticons:before {
-    content: "ïŠ€"
+    content: ""
 }
 .fa-reddit-alien:before {
-    content: "ïŠ"
+    content: ""
 }
 .fa-edge:before {
-    content: "ïŠ‚"
+    content: ""
 }
 .fa-credit-card-alt:before {
-    content: "ïŠƒ"
+    content: ""
 }
 .fa-codiepie:before {
-    content: "ïŠ„"
+    content: ""
 }
 .fa-modx:before {
-    content: "ïŠ…"
+    content: ""
 }
 .fa-fort-awesome:before {
-    content: "ïŠ†"
+    content: ""
 }
 .fa-usb:before {
-    content: "ïŠ‡"
+    content: ""
 }
 .fa-product-hunt:before {
-    content: "ïŠˆ"
+    content: ""
 }
 .fa-mixcloud:before {
-    content: "ïŠ‰"
+    content: ""
 }
 .fa-scribd:before {
-    content: "ïŠŠ"
+    content: ""
 }
 .fa-pause-circle:before {
-    content: "ïŠ‹"
+    content: ""
 }
 .fa-pause-circle-o:before {
-    content: "ïŠŒ"
+    content: ""
 }
 .fa-stop-circle:before {
-    content: "ïŠ"
+    content: ""
 }
 .fa-stop-circle-o:before {
-    content: "ïŠŽ"
+    content: ""
 }
 .fa-shopping-bag:before {
-    content: "ïŠ"
+    content: ""
 }
 .fa-shopping-basket:before {
-    content: "ïŠ‘"
+    content: ""
 }
 .fa-hashtag:before {
-    content: "ïŠ’"
+    content: ""
 }
 .fa-bluetooth:before {
-    content: "ïŠ“"
+    content: ""
 }
 .fa-bluetooth-b:before {
-    content: "ïŠ”"
+    content: ""
 }
 .fa-percent:before {
-    content: "ïŠ•"
+    content: ""
 }
 .fa-gitlab:before {
-    content: "ïŠ–"
+    content: ""
 }
 .fa-wpbeginner:before {
-    content: "ïŠ—"
+    content: ""
 }
 .fa-wpforms:before {
-    content: "ïŠ˜"
+    content: ""
 }
 .fa-envira:before {
-    content: "ïŠ™"
+    content: ""
 }
 .fa-universal-access:before {
-    content: "ïŠš"
+    content: ""
 }
 .fa-wheelchair-alt:before {
-    content: "ïŠ›"
+    content: ""
 }
 .fa-question-circle-o:before {
-    content: "ïŠœ"
+    content: ""
 }
 .fa-blind:before {
-    content: "ïŠ"
+    content: ""
 }
 .fa-audio-description:before {
-    content: "ïŠž"
+    content: ""
 }
 .fa-volume-control-phone:before {
-    content: "ïŠ "
+    content: ""
 }
 .fa-braille:before {
-    content: "ïŠ¡"
+    content: ""
 }
 .fa-assistive-listening-systems:before {
-    content: "ïŠ¢"
+    content: ""
 }
 .fa-american-sign-language-interpreting:before,
 .fa-asl-interpreting:before {
-    content: "ïŠ£"
+    content: ""
 }
 .fa-deaf:before,
 .fa-deafness:before,
 .fa-hard-of-hearing:before {
-    content: "ïŠ¤"
+    content: ""
 }
 .fa-glide:before {
-    content: "ïŠ¥"
+    content: ""
 }
 .fa-glide-g:before {
-    content: "ïŠ¦"
+    content: ""
 }
 .fa-sign-language:before,
 .fa-signing:before {
-    content: "ïŠ§"
+    content: ""
 }
 .fa-low-vision:before {
-    content: "ïŠ¨"
+    content: ""
 }
 .fa-viadeo:before {
-    content: "ïŠ©"
+    content: ""
 }
 .fa-viadeo-square:before {
-    content: "ïŠª"
+    content: ""
 }
 .fa-snapchat:before {
-    content: "ïŠ«"
+    content: ""
 }
 .fa-snapchat-ghost:before {
-    content: "ïŠ¬"
+    content: ""
 }
 .fa-snapchat-square:before {
-    content: "ïŠ­"
+    content: ""
 }
 .fa-pied-piper:before {
-    content: "ïŠ®"
+    content: ""
 }
 .fa-first-order:before {
-    content: "ïŠ°"
+    content: ""
 }
 .fa-yoast:before {
-    content: "ïŠ±"
+    content: ""
 }
 .fa-themeisle:before {
-    content: "ïŠ²"
+    content: ""
 }
 .fa-google-plus-circle:before,
 .fa-google-plus-official:before {
-    content: "ïŠ³"
+    content: ""
 }
 .fa-fa:before,
 .fa-font-awesome:before {
-    content: "ïŠ´"
+    content: ""
 }
 .fa-handshake-o:before {
-    content: "ïŠµ"
+    content: ""
 }
 .fa-envelope-open:before {
-    content: "ïŠ¶"
+    content: ""
 }
 .fa-envelope-open-o:before {
-    content: "ïŠ·"
+    content: ""
 }
 .fa-linode:before {
-    content: "ïŠ¸"
+    content: ""
 }
 .fa-address-book:before {
-    content: "ïŠ¹"
+    content: ""
 }
 .fa-address-book-o:before {
-    content: "ïŠº"
+    content: ""
 }
 .fa-address-card:before,
 .fa-vcard:before {
-    content: "ïŠ»"
+    content: ""
 }
 .fa-address-card-o:before,
 .fa-vcard-o:before {
-    content: "ïŠ¼"
+    content: ""
 }
 .fa-user-circle:before {
-    content: "ïŠ½"
+    content: ""
 }
 .fa-user-circle-o:before {
-    content: "ïŠ¾"
+    content: ""
 }
 .fa-user-o:before {
-    content: "ï‹€"
+    content: ""
 }
 .fa-id-badge:before {
-    content: "ï‹"
+    content: ""
 }
 .fa-drivers-license:before,
 .fa-id-card:before {
-    content: "ï‹‚"
+    content: ""
 }
 .fa-drivers-license-o:before,
 .fa-id-card-o:before {
-    content: "ï‹ƒ"
+    content: ""
 }
 .fa-quora:before {
-    content: "ï‹„"
+    content: ""
 }
 .fa-free-code-camp:before {
-    content: "ï‹…"
+    content: ""
 }
 .fa-telegram:before {
-    content: "ï‹†"
+    content: ""
 }
 .fa-thermometer-4:before,
 .fa-thermometer-full:before,
 .fa-thermometer:before {
-    content: "ï‹‡"
+    content: ""
 }
 .fa-thermometer-3:before,
 .fa-thermometer-three-quarters:before {
-    content: "ï‹ˆ"
+    content: ""
 }
 .fa-thermometer-2:before,
 .fa-thermometer-half:before {
-    content: "ï‹‰"
+    content: ""
 }
 .fa-thermometer-1:before,
 .fa-thermometer-quarter:before {
-    content: "ï‹Š"
+    content: ""
 }
 .fa-thermometer-0:before,
 .fa-thermometer-empty:before {
-    content: "ï‹‹"
+    content: ""
 }
 .fa-shower:before {
-    content: "ï‹Œ"
+    content: ""
 }
 .fa-bath:before,
 .fa-bathtub:before,
 .fa-s15:before {
-    content: "ï‹"
+    content: ""
 }
 .fa-podcast:before {
-    content: "ï‹Ž"
+    content: ""
 }
 .fa-window-maximize:before {
-    content: "ï‹"
+    content: ""
 }
 .fa-window-minimize:before {
-    content: "ï‹‘"
+    content: ""
 }
 .fa-window-restore:before {
-    content: "ï‹’"
+    content: ""
 }
 .fa-times-rectangle:before,
 .fa-window-close:before {
-    content: "ï‹“"
+    content: ""
 }
 .fa-times-rectangle-o:before,
 .fa-window-close-o:before {
-    content: "ï‹”"
+    content: ""
 }
 .fa-bandcamp:before {
-    content: "ï‹•"
+    content: ""
 }
 .fa-grav:before {
-    content: "ï‹–"
+    content: ""
 }
 .fa-etsy:before {
-    content: "ï‹—"
+    content: ""
 }
 .fa-imdb:before {
-    content: "ï‹˜"
+    content: ""
 }
 .fa-ravelry:before {
-    content: "ï‹™"
+    content: ""
 }
 .fa-eercast:before {
-    content: "ï‹š"
+    content: ""
 }
 .fa-microchip:before {
-    content: "ï‹›"
+    content: ""
 }
 .fa-snowflake-o:before {
-    content: "ï‹œ"
+    content: ""
 }
 .fa-superpowers:before {
-    content: "ï‹"
+    content: ""
 }
 .fa-wpexplorer:before {
-    content: "ï‹ž"
+    content: ""
 }
 .fa-meetup:before {
-    content: "ï‹ "
+    content: ""
 }
 .sr-only {
     position: absolute;
@@ -9228,16 +9230,16 @@ button.close {
   https://twitter.com/benjsperry  https://twitter.com/ionicframework
   MIT License: https://github.com/driftyco/ionicons
 
-  Android-style icons originally built by Googleâ€™s
+  Android-style icons originally built by Google’s
   Material Design Icons: https://github.com/google/material-design-icons
   used under CC BY http://creativecommons.org/licenses/by/4.0/
-  Modified icons to fit ioniconâ€™s grid from original.
+  Modified icons to fit ionicon’s grid from original.
 */
 
 @font-face {
     font-family: Ionicons;
     src: url(../fonts/ionicons.eot?v=2.0.1);
-    src: url(../fonts/ionicons.eot?v=2.0.1#iefix) format("embedded-opentype"), url(../fonts/ionicons.ttf?v=2.0.1) format("truetype"), url(../fonts/ionicons.woff?v=2.0.1) format("woff"), url(../fonts/ionicons.svg?v=2.0.1#Ionicons) format("svg");
+    src: url(../fonts/ionicons.eot?v=2.0.1) format("embedded-opentype"), url(../fonts/ionicons.ttf?v=2.0.1) format("truetype"), url(../fonts/ionicons.woff?v=2.0.1) format("woff"), url(../fonts/ionicons.svg?v=2.0.1) format("svg");
     font-weight: 400;
     font-style: normal
 }
@@ -9989,2203 +9991,2203 @@ button.close {
     -moz-osx-font-smoothing: grayscale
 }
 .ion-alert:before {
-    content: "ï„"
+    content: ""
 }
 .ion-alert-circled:before {
-    content: "ï„€"
+    content: ""
 }
 .ion-android-add:before {
-    content: "ï‹‡"
+    content: ""
 }
 .ion-android-add-circle:before {
-    content: "ï™"
+    content: ""
 }
 .ion-android-alarm-clock:before {
-    content: "ïš"
+    content: ""
 }
 .ion-android-alert:before {
-    content: "ï›"
+    content: ""
 }
 .ion-android-apps:before {
-    content: "ïœ"
+    content: ""
 }
 .ion-android-archive:before {
-    content: "ï‹‰"
+    content: ""
 }
 .ion-android-arrow-back:before {
-    content: "ï‹Š"
+    content: ""
 }
 .ion-android-arrow-down:before {
-    content: "ï"
+    content: ""
 }
 .ion-android-arrow-dropdown:before {
-    content: "ïŸ"
+    content: ""
 }
 .ion-android-arrow-dropdown-circle:before {
-    content: "ïž"
+    content: ""
 }
 .ion-android-arrow-dropleft:before {
-    content: "ï¡"
+    content: ""
 }
 .ion-android-arrow-dropleft-circle:before {
-    content: "ï "
+    content: ""
 }
 .ion-android-arrow-dropright:before {
-    content: "ï£"
+    content: ""
 }
 .ion-android-arrow-dropright-circle:before {
-    content: "ï¢"
+    content: ""
 }
 .ion-android-arrow-dropup:before {
-    content: "ï¥"
+    content: ""
 }
 .ion-android-arrow-dropup-circle:before {
-    content: "ï¤"
+    content: ""
 }
 .ion-android-arrow-forward:before {
-    content: "ïŒ"
+    content: ""
 }
 .ion-android-arrow-up:before {
-    content: "ï¦"
+    content: ""
 }
 .ion-android-attach:before {
-    content: "ï§"
+    content: ""
 }
 .ion-android-bar:before {
-    content: "ï¨"
+    content: ""
 }
 .ion-android-bicycle:before {
-    content: "ï©"
+    content: ""
 }
 .ion-android-boat:before {
-    content: "ïª"
+    content: ""
 }
 .ion-android-bookmark:before {
-    content: "ï«"
+    content: ""
 }
 .ion-android-bulb:before {
-    content: "ï¬"
+    content: ""
 }
 .ion-android-bus:before {
-    content: "ï­"
+    content: ""
 }
 .ion-android-calendar:before {
-    content: "ï‹‘"
+    content: ""
 }
 .ion-android-call:before {
-    content: "ï‹’"
+    content: ""
 }
 .ion-android-camera:before {
-    content: "ï‹“"
+    content: ""
 }
 .ion-android-cancel:before {
-    content: "ï®"
+    content: ""
 }
 .ion-android-car:before {
-    content: "ï¯"
+    content: ""
 }
 .ion-android-cart:before {
-    content: "ï°"
+    content: ""
 }
 .ion-android-chat:before {
-    content: "ï‹”"
+    content: ""
 }
 .ion-android-checkbox:before {
-    content: "ï´"
+    content: ""
 }
 .ion-android-checkbox-blank:before {
-    content: "ï±"
+    content: ""
 }
 .ion-android-checkbox-outline:before {
-    content: "ï³"
+    content: ""
 }
 .ion-android-checkbox-outline-blank:before {
-    content: "ï²"
+    content: ""
 }
 .ion-android-checkmark-circle:before {
-    content: "ïµ"
+    content: ""
 }
 .ion-android-clipboard:before {
-    content: "ï¶"
+    content: ""
 }
 .ion-android-close:before {
-    content: "ï‹—"
+    content: ""
 }
 .ion-android-cloud:before {
-    content: "ïº"
+    content: ""
 }
 .ion-android-cloud-circle:before {
-    content: "ï·"
+    content: ""
 }
 .ion-android-cloud-done:before {
-    content: "ï¸"
+    content: ""
 }
 .ion-android-cloud-outline:before {
-    content: "ï¹"
+    content: ""
 }
 .ion-android-color-palette:before {
-    content: "ï»"
+    content: ""
 }
 .ion-android-compass:before {
-    content: "ï¼"
+    content: ""
 }
 .ion-android-contact:before {
-    content: "ï‹˜"
+    content: ""
 }
 .ion-android-contacts:before {
-    content: "ï‹™"
+    content: ""
 }
 .ion-android-contract:before {
-    content: "ï½"
+    content: ""
 }
 .ion-android-create:before {
-    content: "ï¾"
+    content: ""
 }
 .ion-android-delete:before {
-    content: "ï¿"
+    content: ""
 }
 .ion-android-desktop:before {
-    content: "ïŽ€"
+    content: ""
 }
 .ion-android-document:before {
-    content: "ïŽ"
+    content: ""
 }
 .ion-android-done:before {
-    content: "ïŽƒ"
+    content: ""
 }
 .ion-android-done-all:before {
-    content: "ïŽ‚"
+    content: ""
 }
 .ion-android-download:before {
-    content: "ï‹"
+    content: ""
 }
 .ion-android-drafts:before {
-    content: "ïŽ„"
+    content: ""
 }
 .ion-android-exit:before {
-    content: "ïŽ…"
+    content: ""
 }
 .ion-android-expand:before {
-    content: "ïŽ†"
+    content: ""
 }
 .ion-android-favorite:before {
-    content: "ïŽˆ"
+    content: ""
 }
 .ion-android-favorite-outline:before {
-    content: "ïŽ‡"
+    content: ""
 }
 .ion-android-film:before {
-    content: "ïŽ‰"
+    content: ""
 }
 .ion-android-folder:before {
-    content: "ï‹ "
+    content: ""
 }
 .ion-android-folder-open:before {
-    content: "ïŽŠ"
+    content: ""
 }
 .ion-android-funnel:before {
-    content: "ïŽ‹"
+    content: ""
 }
 .ion-android-globe:before {
-    content: "ïŽŒ"
+    content: ""
 }
 .ion-android-hand:before {
-    content: "ï‹£"
+    content: ""
 }
 .ion-android-hangout:before {
-    content: "ïŽ"
+    content: ""
 }
 .ion-android-happy:before {
-    content: "ïŽŽ"
+    content: ""
 }
 .ion-android-home:before {
-    content: "ïŽ"
+    content: ""
 }
 .ion-android-image:before {
-    content: "ï‹¤"
+    content: ""
 }
 .ion-android-laptop:before {
-    content: "ïŽ"
+    content: ""
 }
 .ion-android-list:before {
-    content: "ïŽ‘"
+    content: ""
 }
 .ion-android-locate:before {
-    content: "ï‹©"
+    content: ""
 }
 .ion-android-lock:before {
-    content: "ïŽ’"
+    content: ""
 }
 .ion-android-mail:before {
-    content: "ï‹«"
+    content: ""
 }
 .ion-android-map:before {
-    content: "ïŽ“"
+    content: ""
 }
 .ion-android-menu:before {
-    content: "ïŽ”"
+    content: ""
 }
 .ion-android-microphone:before {
-    content: "ï‹¬"
+    content: ""
 }
 .ion-android-microphone-off:before {
-    content: "ïŽ•"
+    content: ""
 }
 .ion-android-more-horizontal:before {
-    content: "ïŽ–"
+    content: ""
 }
 .ion-android-more-vertical:before {
-    content: "ïŽ—"
+    content: ""
 }
 .ion-android-navigate:before {
-    content: "ïŽ˜"
+    content: ""
 }
 .ion-android-notifications:before {
-    content: "ïŽ›"
+    content: ""
 }
 .ion-android-notifications-none:before {
-    content: "ïŽ™"
+    content: ""
 }
 .ion-android-notifications-off:before {
-    content: "ïŽš"
+    content: ""
 }
 .ion-android-open:before {
-    content: "ïŽœ"
+    content: ""
 }
 .ion-android-options:before {
-    content: "ïŽ"
+    content: ""
 }
 .ion-android-people:before {
-    content: "ïŽž"
+    content: ""
 }
 .ion-android-person:before {
-    content: "ïŽ "
+    content: ""
 }
 .ion-android-person-add:before {
-    content: "ïŽŸ"
+    content: ""
 }
 .ion-android-phone-landscape:before {
-    content: "ïŽ¡"
+    content: ""
 }
 .ion-android-phone-portrait:before {
-    content: "ïŽ¢"
+    content: ""
 }
 .ion-android-pin:before {
-    content: "ïŽ£"
+    content: ""
 }
 .ion-android-plane:before {
-    content: "ïŽ¤"
+    content: ""
 }
 .ion-android-playstore:before {
-    content: "ï‹°"
+    content: ""
 }
 .ion-android-print:before {
-    content: "ïŽ¥"
+    content: ""
 }
 .ion-android-radio-button-off:before {
-    content: "ïŽ¦"
+    content: ""
 }
 .ion-android-radio-button-on:before {
-    content: "ïŽ§"
+    content: ""
 }
 .ion-android-refresh:before {
-    content: "ïŽ¨"
+    content: ""
 }
 .ion-android-remove:before {
-    content: "ï‹´"
+    content: ""
 }
 .ion-android-remove-circle:before {
-    content: "ïŽ©"
+    content: ""
 }
 .ion-android-restaurant:before {
-    content: "ïŽª"
+    content: ""
 }
 .ion-android-sad:before {
-    content: "ïŽ«"
+    content: ""
 }
 .ion-android-search:before {
-    content: "ï‹µ"
+    content: ""
 }
 .ion-android-send:before {
-    content: "ï‹¶"
+    content: ""
 }
 .ion-android-settings:before {
-    content: "ï‹·"
+    content: ""
 }
 .ion-android-share:before {
-    content: "ï‹¸"
+    content: ""
 }
 .ion-android-share-alt:before {
-    content: "ïŽ¬"
+    content: ""
 }
 .ion-android-star:before {
-    content: "ï‹¼"
+    content: ""
 }
 .ion-android-star-half:before {
-    content: "ïŽ­"
+    content: ""
 }
 .ion-android-star-outline:before {
-    content: "ïŽ®"
+    content: ""
 }
 .ion-android-stopwatch:before {
-    content: "ï‹½"
+    content: ""
 }
 .ion-android-subway:before {
-    content: "ïŽ¯"
+    content: ""
 }
 .ion-android-sunny:before {
-    content: "ïŽ°"
+    content: ""
 }
 .ion-android-sync:before {
-    content: "ïŽ±"
+    content: ""
 }
 .ion-android-textsms:before {
-    content: "ïŽ²"
+    content: ""
 }
 .ion-android-time:before {
-    content: "ïŽ³"
+    content: ""
 }
 .ion-android-train:before {
-    content: "ïŽ´"
+    content: ""
 }
 .ion-android-unlock:before {
-    content: "ïŽµ"
+    content: ""
 }
 .ion-android-upload:before {
-    content: "ïŽ¶"
+    content: ""
 }
 .ion-android-volume-down:before {
-    content: "ïŽ·"
+    content: ""
 }
 .ion-android-volume-mute:before {
-    content: "ïŽ¸"
+    content: ""
 }
 .ion-android-volume-off:before {
-    content: "ïŽ¹"
+    content: ""
 }
 .ion-android-volume-up:before {
-    content: "ïŽº"
+    content: ""
 }
 .ion-android-walk:before {
-    content: "ïŽ»"
+    content: ""
 }
 .ion-android-warning:before {
-    content: "ïŽ¼"
+    content: ""
 }
 .ion-android-watch:before {
-    content: "ïŽ½"
+    content: ""
 }
 .ion-android-wifi:before {
-    content: "ïŒ…"
+    content: ""
 }
 .ion-aperture:before {
-    content: "ïŒ“"
+    content: ""
 }
 .ion-archive:before {
-    content: "ï„‚"
+    content: ""
 }
 .ion-arrow-down-a:before {
-    content: "ï„ƒ"
+    content: ""
 }
 .ion-arrow-down-b:before {
-    content: "ï„„"
+    content: ""
 }
 .ion-arrow-down-c:before {
-    content: "ï„…"
+    content: ""
 }
 .ion-arrow-expand:before {
-    content: "ï‰ž"
+    content: ""
 }
 .ion-arrow-graph-down-left:before {
-    content: "ï‰Ÿ"
+    content: ""
 }
 .ion-arrow-graph-down-right:before {
-    content: "ï‰ "
+    content: ""
 }
 .ion-arrow-graph-up-left:before {
-    content: "ï‰¡"
+    content: ""
 }
 .ion-arrow-graph-up-right:before {
-    content: "ï‰¢"
+    content: ""
 }
 .ion-arrow-left-a:before {
-    content: "ï„†"
+    content: ""
 }
 .ion-arrow-left-b:before {
-    content: "ï„‡"
+    content: ""
 }
 .ion-arrow-left-c:before {
-    content: "ï„ˆ"
+    content: ""
 }
 .ion-arrow-move:before {
-    content: "ï‰£"
+    content: ""
 }
 .ion-arrow-resize:before {
-    content: "ï‰¤"
+    content: ""
 }
 .ion-arrow-return-left:before {
-    content: "ï‰¥"
+    content: ""
 }
 .ion-arrow-return-right:before {
-    content: "ï‰¦"
+    content: ""
 }
 .ion-arrow-right-a:before {
-    content: "ï„‰"
+    content: ""
 }
 .ion-arrow-right-b:before {
-    content: "ï„Š"
+    content: ""
 }
 .ion-arrow-right-c:before {
-    content: "ï„‹"
+    content: ""
 }
 .ion-arrow-shrink:before {
-    content: "ï‰§"
+    content: ""
 }
 .ion-arrow-swap:before {
-    content: "ï‰¨"
+    content: ""
 }
 .ion-arrow-up-a:before {
-    content: "ï„Œ"
+    content: ""
 }
 .ion-arrow-up-b:before {
-    content: "ï„"
+    content: ""
 }
 .ion-arrow-up-c:before {
-    content: "ï„Ž"
+    content: ""
 }
 .ion-asterisk:before {
-    content: "ïŒ”"
+    content: ""
 }
 .ion-at:before {
-    content: "ï„"
+    content: ""
 }
 .ion-backspace:before {
-    content: "ïŽ¿"
+    content: ""
 }
 .ion-backspace-outline:before {
-    content: "ïŽ¾"
+    content: ""
 }
 .ion-bag:before {
-    content: "ï„"
+    content: ""
 }
 .ion-battery-charging:before {
-    content: "ï„‘"
+    content: ""
 }
 .ion-battery-empty:before {
-    content: "ï„’"
+    content: ""
 }
 .ion-battery-full:before {
-    content: "ï„“"
+    content: ""
 }
 .ion-battery-half:before {
-    content: "ï„”"
+    content: ""
 }
 .ion-battery-low:before {
-    content: "ï„•"
+    content: ""
 }
 .ion-beaker:before {
-    content: "ï‰©"
+    content: ""
 }
 .ion-beer:before {
-    content: "ï‰ª"
+    content: ""
 }
 .ion-bluetooth:before {
-    content: "ï„–"
+    content: ""
 }
 .ion-bonfire:before {
-    content: "ïŒ•"
+    content: ""
 }
 .ion-bookmark:before {
-    content: "ï‰«"
+    content: ""
 }
 .ion-bowtie:before {
-    content: "ï€"
+    content: ""
 }
 .ion-briefcase:before {
-    content: "ï‰¬"
+    content: ""
 }
 .ion-bug:before {
-    content: "ïŠ¾"
+    content: ""
 }
 .ion-calculator:before {
-    content: "ï‰­"
+    content: ""
 }
 .ion-calendar:before {
-    content: "ï„—"
+    content: ""
 }
 .ion-camera:before {
-    content: "ï„˜"
+    content: ""
 }
 .ion-card:before {
-    content: "ï„™"
+    content: ""
 }
 .ion-cash:before {
-    content: "ïŒ–"
+    content: ""
 }
 .ion-chatbox:before {
-    content: "ï„›"
+    content: ""
 }
 .ion-chatbox-working:before {
-    content: "ï„š"
+    content: ""
 }
 .ion-chatboxes:before {
-    content: "ï„œ"
+    content: ""
 }
 .ion-chatbubble:before {
-    content: "ï„ž"
+    content: ""
 }
 .ion-chatbubble-working:before {
-    content: "ï„"
+    content: ""
 }
 .ion-chatbubbles:before {
-    content: "ï„Ÿ"
+    content: ""
 }
 .ion-checkmark:before {
-    content: "ï„¢"
+    content: ""
 }
 .ion-checkmark-circled:before {
-    content: "ï„ "
+    content: ""
 }
 .ion-checkmark-round:before {
-    content: "ï„¡"
+    content: ""
 }
 .ion-chevron-down:before {
-    content: "ï„£"
+    content: ""
 }
 .ion-chevron-left:before {
-    content: "ï„¤"
+    content: ""
 }
 .ion-chevron-right:before {
-    content: "ï„¥"
+    content: ""
 }
 .ion-chevron-up:before {
-    content: "ï„¦"
+    content: ""
 }
 .ion-clipboard:before {
-    content: "ï„§"
+    content: ""
 }
 .ion-clock:before {
-    content: "ï‰®"
+    content: ""
 }
 .ion-close:before {
-    content: "ï„ª"
+    content: ""
 }
 .ion-close-circled:before {
-    content: "ï„¨"
+    content: ""
 }
 .ion-close-round:before {
-    content: "ï„©"
+    content: ""
 }
 .ion-closed-captioning:before {
-    content: "ïŒ—"
+    content: ""
 }
 .ion-cloud:before {
-    content: "ï„«"
+    content: ""
 }
 .ion-code:before {
-    content: "ï‰±"
+    content: ""
 }
 .ion-code-download:before {
-    content: "ï‰¯"
+    content: ""
 }
 .ion-code-working:before {
-    content: "ï‰°"
+    content: ""
 }
 .ion-coffee:before {
-    content: "ï‰²"
+    content: ""
 }
 .ion-compass:before {
-    content: "ï‰³"
+    content: ""
 }
 .ion-compose:before {
-    content: "ï„¬"
+    content: ""
 }
 .ion-connection-bars:before {
-    content: "ï‰´"
+    content: ""
 }
 .ion-contrast:before {
-    content: "ï‰µ"
+    content: ""
 }
 .ion-crop:before {
-    content: "ï"
+    content: ""
 }
 .ion-cube:before {
-    content: "ïŒ˜"
+    content: ""
 }
 .ion-disc:before {
-    content: "ï„­"
+    content: ""
 }
 .ion-document:before {
-    content: "ï„¯"
+    content: ""
 }
 .ion-document-text:before {
-    content: "ï„®"
+    content: ""
 }
 .ion-drag:before {
-    content: "ï„°"
+    content: ""
 }
 .ion-earth:before {
-    content: "ï‰¶"
+    content: ""
 }
 .ion-easel:before {
-    content: "ï‚"
+    content: ""
 }
 .ion-edit:before {
-    content: "ïŠ¿"
+    content: ""
 }
 .ion-egg:before {
-    content: "ï‰·"
+    content: ""
 }
 .ion-eject:before {
-    content: "ï„±"
+    content: ""
 }
 .ion-email:before {
-    content: "ï„²"
+    content: ""
 }
 .ion-email-unread:before {
-    content: "ïƒ"
+    content: ""
 }
 .ion-erlenmeyer-flask:before {
-    content: "ï…"
+    content: ""
 }
 .ion-erlenmeyer-flask-bubbles:before {
-    content: "ï„"
+    content: ""
 }
 .ion-eye:before {
-    content: "ï„³"
+    content: ""
 }
 .ion-eye-disabled:before {
-    content: "ïŒ†"
+    content: ""
 }
 .ion-female:before {
-    content: "ï‰¸"
+    content: ""
 }
 .ion-filing:before {
-    content: "ï„´"
+    content: ""
 }
 .ion-film-marker:before {
-    content: "ï„µ"
+    content: ""
 }
 .ion-fireball:before {
-    content: "ïŒ™"
+    content: ""
 }
 .ion-flag:before {
-    content: "ï‰¹"
+    content: ""
 }
 .ion-flame:before {
-    content: "ïŒš"
+    content: ""
 }
 .ion-flash:before {
-    content: "ï„·"
+    content: ""
 }
 .ion-flash-off:before {
-    content: "ï„¶"
+    content: ""
 }
 .ion-folder:before {
-    content: "ï„¹"
+    content: ""
 }
 .ion-fork:before {
-    content: "ï‰º"
+    content: ""
 }
 .ion-fork-repo:before {
-    content: "ï‹€"
+    content: ""
 }
 .ion-forward:before {
-    content: "ï„º"
+    content: ""
 }
 .ion-funnel:before {
-    content: "ïŒ›"
+    content: ""
 }
 .ion-gear-a:before {
-    content: "ï„½"
+    content: ""
 }
 .ion-gear-b:before {
-    content: "ï„¾"
+    content: ""
 }
 .ion-grid:before {
-    content: "ï„¿"
+    content: ""
 }
 .ion-hammer:before {
-    content: "ï‰»"
+    content: ""
 }
 .ion-happy:before {
-    content: "ïŒœ"
+    content: ""
 }
 .ion-happy-outline:before {
-    content: "ï†"
+    content: ""
 }
 .ion-headphone:before {
-    content: "ï…€"
+    content: ""
 }
 .ion-heart:before {
-    content: "ï…"
+    content: ""
 }
 .ion-heart-broken:before {
-    content: "ïŒ"
+    content: ""
 }
 .ion-help:before {
-    content: "ï…ƒ"
+    content: ""
 }
 .ion-help-buoy:before {
-    content: "ï‰¼"
+    content: ""
 }
 .ion-help-circled:before {
-    content: "ï…‚"
+    content: ""
 }
 .ion-home:before {
-    content: "ï…„"
+    content: ""
 }
 .ion-icecream:before {
-    content: "ï‰½"
+    content: ""
 }
 .ion-image:before {
-    content: "ï…‡"
+    content: ""
 }
 .ion-images:before {
-    content: "ï…ˆ"
+    content: ""
 }
 .ion-information:before {
-    content: "ï…Š"
+    content: ""
 }
 .ion-information-circled:before {
-    content: "ï…‰"
+    content: ""
 }
 .ion-ionic:before {
-    content: "ï…‹"
+    content: ""
 }
 .ion-ios-alarm:before {
-    content: "ïˆ"
+    content: ""
 }
 .ion-ios-alarm-outline:before {
-    content: "ï‡"
+    content: ""
 }
 .ion-ios-albums:before {
-    content: "ïŠ"
+    content: ""
 }
 .ion-ios-albums-outline:before {
-    content: "ï‰"
+    content: ""
 }
 .ion-ios-americanfootball:before {
-    content: "ïŒ"
+    content: ""
 }
 .ion-ios-americanfootball-outline:before {
-    content: "ï‹"
+    content: ""
 }
 .ion-ios-analytics:before {
-    content: "ïŽ"
+    content: ""
 }
 .ion-ios-analytics-outline:before {
-    content: "ï"
+    content: ""
 }
 .ion-ios-arrow-back:before {
-    content: "ï"
+    content: ""
 }
 .ion-ios-arrow-down:before {
-    content: "ï"
+    content: ""
 }
 .ion-ios-arrow-forward:before {
-    content: "ï‘"
+    content: ""
 }
 .ion-ios-arrow-left:before {
-    content: "ï’"
+    content: ""
 }
 .ion-ios-arrow-right:before {
-    content: "ï“"
+    content: ""
 }
 .ion-ios-arrow-thin-down:before {
-    content: "ï”"
+    content: ""
 }
 .ion-ios-arrow-thin-left:before {
-    content: "ï•"
+    content: ""
 }
 .ion-ios-arrow-thin-right:before {
-    content: "ï–"
+    content: ""
 }
 .ion-ios-arrow-thin-up:before {
-    content: "ï—"
+    content: ""
 }
 .ion-ios-arrow-up:before {
-    content: "ï˜"
+    content: ""
 }
 .ion-ios-at:before {
-    content: "ïš"
+    content: ""
 }
 .ion-ios-at-outline:before {
-    content: "ï™"
+    content: ""
 }
 .ion-ios-barcode:before {
-    content: "ïœ"
+    content: ""
 }
 .ion-ios-barcode-outline:before {
-    content: "ï›"
+    content: ""
 }
 .ion-ios-baseball:before {
-    content: "ïž"
+    content: ""
 }
 .ion-ios-baseball-outline:before {
-    content: "ï"
+    content: ""
 }
 .ion-ios-basketball:before {
-    content: "ï "
+    content: ""
 }
 .ion-ios-basketball-outline:before {
-    content: "ïŸ"
+    content: ""
 }
 .ion-ios-bell:before {
-    content: "ï¢"
+    content: ""
 }
 .ion-ios-bell-outline:before {
-    content: "ï¡"
+    content: ""
 }
 .ion-ios-body:before {
-    content: "ï¤"
+    content: ""
 }
 .ion-ios-body-outline:before {
-    content: "ï£"
+    content: ""
 }
 .ion-ios-bolt:before {
-    content: "ï¦"
+    content: ""
 }
 .ion-ios-bolt-outline:before {
-    content: "ï¥"
+    content: ""
 }
 .ion-ios-book:before {
-    content: "ï¨"
+    content: ""
 }
 .ion-ios-book-outline:before {
-    content: "ï§"
+    content: ""
 }
 .ion-ios-bookmarks:before {
-    content: "ïª"
+    content: ""
 }
 .ion-ios-bookmarks-outline:before {
-    content: "ï©"
+    content: ""
 }
 .ion-ios-box:before {
-    content: "ï¬"
+    content: ""
 }
 .ion-ios-box-outline:before {
-    content: "ï«"
+    content: ""
 }
 .ion-ios-briefcase:before {
-    content: "ï®"
+    content: ""
 }
 .ion-ios-briefcase-outline:before {
-    content: "ï­"
+    content: ""
 }
 .ion-ios-browsers:before {
-    content: "ï°"
+    content: ""
 }
 .ion-ios-browsers-outline:before {
-    content: "ï¯"
+    content: ""
 }
 .ion-ios-calculator:before {
-    content: "ï²"
+    content: ""
 }
 .ion-ios-calculator-outline:before {
-    content: "ï±"
+    content: ""
 }
 .ion-ios-calendar:before {
-    content: "ï´"
+    content: ""
 }
 .ion-ios-calendar-outline:before {
-    content: "ï³"
+    content: ""
 }
 .ion-ios-camera:before {
-    content: "ï¶"
+    content: ""
 }
 .ion-ios-camera-outline:before {
-    content: "ïµ"
+    content: ""
 }
 .ion-ios-cart:before {
-    content: "ï¸"
+    content: ""
 }
 .ion-ios-cart-outline:before {
-    content: "ï·"
+    content: ""
 }
 .ion-ios-chatboxes:before {
-    content: "ïº"
+    content: ""
 }
 .ion-ios-chatboxes-outline:before {
-    content: "ï¹"
+    content: ""
 }
 .ion-ios-chatbubble:before {
-    content: "ï¼"
+    content: ""
 }
 .ion-ios-chatbubble-outline:before {
-    content: "ï»"
+    content: ""
 }
 .ion-ios-checkmark:before {
-    content: "ï¿"
+    content: ""
 }
 .ion-ios-checkmark-empty:before {
-    content: "ï½"
+    content: ""
 }
 .ion-ios-checkmark-outline:before {
-    content: "ï¾"
+    content: ""
 }
 .ion-ios-circle-filled:before {
-    content: "ï€"
+    content: ""
 }
 .ion-ios-circle-outline:before {
-    content: "ï"
+    content: ""
 }
 .ion-ios-clock:before {
-    content: "ïƒ"
+    content: ""
 }
 .ion-ios-clock-outline:before {
-    content: "ï‚"
+    content: ""
 }
 .ion-ios-close:before {
-    content: "ï†"
+    content: ""
 }
 .ion-ios-close-empty:before {
-    content: "ï„"
+    content: ""
 }
 .ion-ios-close-outline:before {
-    content: "ï…"
+    content: ""
 }
 .ion-ios-cloud:before {
-    content: "ïŒ"
+    content: ""
 }
 .ion-ios-cloud-download:before {
-    content: "ïˆ"
+    content: ""
 }
 .ion-ios-cloud-download-outline:before {
-    content: "ï‡"
+    content: ""
 }
 .ion-ios-cloud-outline:before {
-    content: "ï‰"
+    content: ""
 }
 .ion-ios-cloud-upload:before {
-    content: "ï‹"
+    content: ""
 }
 .ion-ios-cloud-upload-outline:before {
-    content: "ïŠ"
+    content: ""
 }
 .ion-ios-cloudy:before {
-    content: "ï"
+    content: ""
 }
 .ion-ios-cloudy-night:before {
-    content: "ïŽ"
+    content: ""
 }
 .ion-ios-cloudy-night-outline:before {
-    content: "ï"
+    content: ""
 }
 .ion-ios-cloudy-outline:before {
-    content: "ï"
+    content: ""
 }
 .ion-ios-cog:before {
-    content: "ï’"
+    content: ""
 }
 .ion-ios-cog-outline:before {
-    content: "ï‘"
+    content: ""
 }
 .ion-ios-color-filter:before {
-    content: "ï”"
+    content: ""
 }
 .ion-ios-color-filter-outline:before {
-    content: "ï“"
+    content: ""
 }
 .ion-ios-color-wand:before {
-    content: "ï–"
+    content: ""
 }
 .ion-ios-color-wand-outline:before {
-    content: "ï•"
+    content: ""
 }
 .ion-ios-compose:before {
-    content: "ï˜"
+    content: ""
 }
 .ion-ios-compose-outline:before {
-    content: "ï—"
+    content: ""
 }
 .ion-ios-contact:before {
-    content: "ïš"
+    content: ""
 }
 .ion-ios-contact-outline:before {
-    content: "ï™"
+    content: ""
 }
 .ion-ios-copy:before {
-    content: "ïœ"
+    content: ""
 }
 .ion-ios-copy-outline:before {
-    content: "ï›"
+    content: ""
 }
 .ion-ios-crop:before {
-    content: "ïž"
+    content: ""
 }
 .ion-ios-crop-strong:before {
-    content: "ï"
+    content: ""
 }
 .ion-ios-download:before {
-    content: "ï "
+    content: ""
 }
 .ion-ios-download-outline:before {
-    content: "ïŸ"
+    content: ""
 }
 .ion-ios-drag:before {
-    content: "ï¡"
+    content: ""
 }
 .ion-ios-email:before {
-    content: "ï£"
+    content: ""
 }
 .ion-ios-email-outline:before {
-    content: "ï¢"
+    content: ""
 }
 .ion-ios-eye:before {
-    content: "ï¥"
+    content: ""
 }
 .ion-ios-eye-outline:before {
-    content: "ï¤"
+    content: ""
 }
 .ion-ios-fastforward:before {
-    content: "ï§"
+    content: ""
 }
 .ion-ios-fastforward-outline:before {
-    content: "ï¦"
+    content: ""
 }
 .ion-ios-filing:before {
-    content: "ï©"
+    content: ""
 }
 .ion-ios-filing-outline:before {
-    content: "ï¨"
+    content: ""
 }
 .ion-ios-film:before {
-    content: "ï«"
+    content: ""
 }
 .ion-ios-film-outline:before {
-    content: "ïª"
+    content: ""
 }
 .ion-ios-flag:before {
-    content: "ï­"
+    content: ""
 }
 .ion-ios-flag-outline:before {
-    content: "ï¬"
+    content: ""
 }
 .ion-ios-flame:before {
-    content: "ï¯"
+    content: ""
 }
 .ion-ios-flame-outline:before {
-    content: "ï®"
+    content: ""
 }
 .ion-ios-flask:before {
-    content: "ï±"
+    content: ""
 }
 .ion-ios-flask-outline:before {
-    content: "ï°"
+    content: ""
 }
 .ion-ios-flower:before {
-    content: "ï³"
+    content: ""
 }
 .ion-ios-flower-outline:before {
-    content: "ï²"
+    content: ""
 }
 .ion-ios-folder:before {
-    content: "ïµ"
+    content: ""
 }
 .ion-ios-folder-outline:before {
-    content: "ï´"
+    content: ""
 }
 .ion-ios-football:before {
-    content: "ï·"
+    content: ""
 }
 .ion-ios-football-outline:before {
-    content: "ï¶"
+    content: ""
 }
 .ion-ios-game-controller-a:before {
-    content: "ï¹"
+    content: ""
 }
 .ion-ios-game-controller-a-outline:before {
-    content: "ï¸"
+    content: ""
 }
 .ion-ios-game-controller-b:before {
-    content: "ï»"
+    content: ""
 }
 .ion-ios-game-controller-b-outline:before {
-    content: "ïº"
+    content: ""
 }
 .ion-ios-gear:before {
-    content: "ï½"
+    content: ""
 }
 .ion-ios-gear-outline:before {
-    content: "ï¼"
+    content: ""
 }
 .ion-ios-glasses:before {
-    content: "ï¿"
+    content: ""
 }
 .ion-ios-glasses-outline:before {
-    content: "ï¾"
+    content: ""
 }
 .ion-ios-grid-view:before {
-    content: "ï‘"
+    content: ""
 }
 .ion-ios-grid-view-outline:before {
-    content: "ï‘€"
+    content: ""
 }
 .ion-ios-heart:before {
-    content: "ï‘ƒ"
+    content: ""
 }
 .ion-ios-heart-outline:before {
-    content: "ï‘‚"
+    content: ""
 }
 .ion-ios-help:before {
-    content: "ï‘†"
+    content: ""
 }
 .ion-ios-help-empty:before {
-    content: "ï‘„"
+    content: ""
 }
 .ion-ios-help-outline:before {
-    content: "ï‘…"
+    content: ""
 }
 .ion-ios-home:before {
-    content: "ï‘ˆ"
+    content: ""
 }
 .ion-ios-home-outline:before {
-    content: "ï‘‡"
+    content: ""
 }
 .ion-ios-infinite:before {
-    content: "ï‘Š"
+    content: ""
 }
 .ion-ios-infinite-outline:before {
-    content: "ï‘‰"
+    content: ""
 }
 .ion-ios-information:before {
-    content: "ï‘"
+    content: ""
 }
 .ion-ios-information-empty:before {
-    content: "ï‘‹"
+    content: ""
 }
 .ion-ios-information-outline:before {
-    content: "ï‘Œ"
+    content: ""
 }
 .ion-ios-ionic-outline:before {
-    content: "ï‘Ž"
+    content: ""
 }
 .ion-ios-keypad:before {
-    content: "ï‘"
+    content: ""
 }
 .ion-ios-keypad-outline:before {
-    content: "ï‘"
+    content: ""
 }
 .ion-ios-lightbulb:before {
-    content: "ï‘’"
+    content: ""
 }
 .ion-ios-lightbulb-outline:before {
-    content: "ï‘‘"
+    content: ""
 }
 .ion-ios-list:before {
-    content: "ï‘”"
+    content: ""
 }
 .ion-ios-list-outline:before {
-    content: "ï‘“"
+    content: ""
 }
 .ion-ios-location:before {
-    content: "ï‘–"
+    content: ""
 }
 .ion-ios-location-outline:before {
-    content: "ï‘•"
+    content: ""
 }
 .ion-ios-locked:before {
-    content: "ï‘˜"
+    content: ""
 }
 .ion-ios-locked-outline:before {
-    content: "ï‘—"
+    content: ""
 }
 .ion-ios-loop:before {
-    content: "ï‘š"
+    content: ""
 }
 .ion-ios-loop-strong:before {
-    content: "ï‘™"
+    content: ""
 }
 .ion-ios-medical:before {
-    content: "ï‘œ"
+    content: ""
 }
 .ion-ios-medical-outline:before {
-    content: "ï‘›"
+    content: ""
 }
 .ion-ios-medkit:before {
-    content: "ï‘ž"
+    content: ""
 }
 .ion-ios-medkit-outline:before {
-    content: "ï‘"
+    content: ""
 }
 .ion-ios-mic:before {
-    content: "ï‘¡"
+    content: ""
 }
 .ion-ios-mic-off:before {
-    content: "ï‘Ÿ"
+    content: ""
 }
 .ion-ios-mic-outline:before {
-    content: "ï‘ "
+    content: ""
 }
 .ion-ios-minus:before {
-    content: "ï‘¤"
+    content: ""
 }
 .ion-ios-minus-empty:before {
-    content: "ï‘¢"
+    content: ""
 }
 .ion-ios-minus-outline:before {
-    content: "ï‘£"
+    content: ""
 }
 .ion-ios-monitor:before {
-    content: "ï‘¦"
+    content: ""
 }
 .ion-ios-monitor-outline:before {
-    content: "ï‘¥"
+    content: ""
 }
 .ion-ios-moon:before {
-    content: "ï‘¨"
+    content: ""
 }
 .ion-ios-moon-outline:before {
-    content: "ï‘§"
+    content: ""
 }
 .ion-ios-more:before {
-    content: "ï‘ª"
+    content: ""
 }
 .ion-ios-more-outline:before {
-    content: "ï‘©"
+    content: ""
 }
 .ion-ios-musical-note:before {
-    content: "ï‘«"
+    content: ""
 }
 .ion-ios-musical-notes:before {
-    content: "ï‘¬"
+    content: ""
 }
 .ion-ios-navigate:before {
-    content: "ï‘®"
+    content: ""
 }
 .ion-ios-navigate-outline:before {
-    content: "ï‘­"
+    content: ""
 }
 .ion-ios-nutrition:before {
-    content: "ï‘°"
+    content: ""
 }
 .ion-ios-nutrition-outline:before {
-    content: "ï‘¯"
+    content: ""
 }
 .ion-ios-paper:before {
-    content: "ï‘²"
+    content: ""
 }
 .ion-ios-paper-outline:before {
-    content: "ï‘±"
+    content: ""
 }
 .ion-ios-paperplane:before {
-    content: "ï‘´"
+    content: ""
 }
 .ion-ios-paperplane-outline:before {
-    content: "ï‘³"
+    content: ""
 }
 .ion-ios-partlysunny:before {
-    content: "ï‘¶"
+    content: ""
 }
 .ion-ios-partlysunny-outline:before {
-    content: "ï‘µ"
+    content: ""
 }
 .ion-ios-pause:before {
-    content: "ï‘¸"
+    content: ""
 }
 .ion-ios-pause-outline:before {
-    content: "ï‘·"
+    content: ""
 }
 .ion-ios-paw:before {
-    content: "ï‘º"
+    content: ""
 }
 .ion-ios-paw-outline:before {
-    content: "ï‘¹"
+    content: ""
 }
 .ion-ios-people:before {
-    content: "ï‘¼"
+    content: ""
 }
 .ion-ios-people-outline:before {
-    content: "ï‘»"
+    content: ""
 }
 .ion-ios-person:before {
-    content: "ï‘¾"
+    content: ""
 }
 .ion-ios-person-outline:before {
-    content: "ï‘½"
+    content: ""
 }
 .ion-ios-personadd:before {
-    content: "ï’€"
+    content: ""
 }
 .ion-ios-personadd-outline:before {
-    content: "ï‘¿"
+    content: ""
 }
 .ion-ios-photos:before {
-    content: "ï’‚"
+    content: ""
 }
 .ion-ios-photos-outline:before {
-    content: "ï’"
+    content: ""
 }
 .ion-ios-pie:before {
-    content: "ï’„"
+    content: ""
 }
 .ion-ios-pie-outline:before {
-    content: "ï’ƒ"
+    content: ""
 }
 .ion-ios-pint:before {
-    content: "ï’†"
+    content: ""
 }
 .ion-ios-pint-outline:before {
-    content: "ï’…"
+    content: ""
 }
 .ion-ios-play:before {
-    content: "ï’ˆ"
+    content: ""
 }
 .ion-ios-play-outline:before {
-    content: "ï’‡"
+    content: ""
 }
 .ion-ios-plus:before {
-    content: "ï’‹"
+    content: ""
 }
 .ion-ios-plus-empty:before {
-    content: "ï’‰"
+    content: ""
 }
 .ion-ios-plus-outline:before {
-    content: "ï’Š"
+    content: ""
 }
 .ion-ios-pricetag:before {
-    content: "ï’"
+    content: ""
 }
 .ion-ios-pricetag-outline:before {
-    content: "ï’Œ"
+    content: ""
 }
 .ion-ios-pricetags:before {
-    content: "ï’"
+    content: ""
 }
 .ion-ios-pricetags-outline:before {
-    content: "ï’Ž"
+    content: ""
 }
 .ion-ios-printer:before {
-    content: "ï’‘"
+    content: ""
 }
 .ion-ios-printer-outline:before {
-    content: "ï’"
+    content: ""
 }
 .ion-ios-pulse:before {
-    content: "ï’“"
+    content: ""
 }
 .ion-ios-pulse-strong:before {
-    content: "ï’’"
+    content: ""
 }
 .ion-ios-rainy:before {
-    content: "ï’•"
+    content: ""
 }
 .ion-ios-rainy-outline:before {
-    content: "ï’”"
+    content: ""
 }
 .ion-ios-recording:before {
-    content: "ï’—"
+    content: ""
 }
 .ion-ios-recording-outline:before {
-    content: "ï’–"
+    content: ""
 }
 .ion-ios-redo:before {
-    content: "ï’™"
+    content: ""
 }
 .ion-ios-redo-outline:before {
-    content: "ï’˜"
+    content: ""
 }
 .ion-ios-refresh:before {
-    content: "ï’œ"
+    content: ""
 }
 .ion-ios-refresh-empty:before {
-    content: "ï’š"
+    content: ""
 }
 .ion-ios-refresh-outline:before {
-    content: "ï’›"
+    content: ""
 }
 .ion-ios-reload:before {
-    content: "ï’"
+    content: ""
 }
 .ion-ios-reverse-camera:before {
-    content: "ï’Ÿ"
+    content: ""
 }
 .ion-ios-reverse-camera-outline:before {
-    content: "ï’ž"
+    content: ""
 }
 .ion-ios-rewind:before {
-    content: "ï’¡"
+    content: ""
 }
 .ion-ios-rewind-outline:before {
-    content: "ï’ "
+    content: ""
 }
 .ion-ios-rose:before {
-    content: "ï’£"
+    content: ""
 }
 .ion-ios-rose-outline:before {
-    content: "ï’¢"
+    content: ""
 }
 .ion-ios-search:before {
-    content: "ï’¥"
+    content: ""
 }
 .ion-ios-search-strong:before {
-    content: "ï’¤"
+    content: ""
 }
 .ion-ios-settings:before {
-    content: "ï’§"
+    content: ""
 }
 .ion-ios-settings-strong:before {
-    content: "ï’¦"
+    content: ""
 }
 .ion-ios-shuffle:before {
-    content: "ï’©"
+    content: ""
 }
 .ion-ios-shuffle-strong:before {
-    content: "ï’¨"
+    content: ""
 }
 .ion-ios-skipbackward:before {
-    content: "ï’«"
+    content: ""
 }
 .ion-ios-skipbackward-outline:before {
-    content: "ï’ª"
+    content: ""
 }
 .ion-ios-skipforward:before {
-    content: "ï’­"
+    content: ""
 }
 .ion-ios-skipforward-outline:before {
-    content: "ï’¬"
+    content: ""
 }
 .ion-ios-snowy:before {
-    content: "ï’®"
+    content: ""
 }
 .ion-ios-speedometer:before {
-    content: "ï’°"
+    content: ""
 }
 .ion-ios-speedometer-outline:before {
-    content: "ï’¯"
+    content: ""
 }
 .ion-ios-star:before {
-    content: "ï’³"
+    content: ""
 }
 .ion-ios-star-half:before {
-    content: "ï’±"
+    content: ""
 }
 .ion-ios-star-outline:before {
-    content: "ï’²"
+    content: ""
 }
 .ion-ios-stopwatch:before {
-    content: "ï’µ"
+    content: ""
 }
 .ion-ios-stopwatch-outline:before {
-    content: "ï’´"
+    content: ""
 }
 .ion-ios-sunny:before {
-    content: "ï’·"
+    content: ""
 }
 .ion-ios-sunny-outline:before {
-    content: "ï’¶"
+    content: ""
 }
 .ion-ios-telephone:before {
-    content: "ï’¹"
+    content: ""
 }
 .ion-ios-telephone-outline:before {
-    content: "ï’¸"
+    content: ""
 }
 .ion-ios-tennisball:before {
-    content: "ï’»"
+    content: ""
 }
 .ion-ios-tennisball-outline:before {
-    content: "ï’º"
+    content: ""
 }
 .ion-ios-thunderstorm:before {
-    content: "ï’½"
+    content: ""
 }
 .ion-ios-thunderstorm-outline:before {
-    content: "ï’¼"
+    content: ""
 }
 .ion-ios-time:before {
-    content: "ï’¿"
+    content: ""
 }
 .ion-ios-time-outline:before {
-    content: "ï’¾"
+    content: ""
 }
 .ion-ios-timer:before {
-    content: "ï“"
+    content: ""
 }
 .ion-ios-timer-outline:before {
-    content: "ï“€"
+    content: ""
 }
 .ion-ios-toggle:before {
-    content: "ï“ƒ"
+    content: ""
 }
 .ion-ios-toggle-outline:before {
-    content: "ï“‚"
+    content: ""
 }
 .ion-ios-trash:before {
-    content: "ï“…"
+    content: ""
 }
 .ion-ios-trash-outline:before {
-    content: "ï“„"
+    content: ""
 }
 .ion-ios-undo:before {
-    content: "ï“‡"
+    content: ""
 }
 .ion-ios-undo-outline:before {
-    content: "ï“†"
+    content: ""
 }
 .ion-ios-unlocked:before {
-    content: "ï“‰"
+    content: ""
 }
 .ion-ios-unlocked-outline:before {
-    content: "ï“ˆ"
+    content: ""
 }
 .ion-ios-upload:before {
-    content: "ï“‹"
+    content: ""
 }
 .ion-ios-upload-outline:before {
-    content: "ï“Š"
+    content: ""
 }
 .ion-ios-videocam:before {
-    content: "ï“"
+    content: ""
 }
 .ion-ios-videocam-outline:before {
-    content: "ï“Œ"
+    content: ""
 }
 .ion-ios-volume-high:before {
-    content: "ï“Ž"
+    content: ""
 }
 .ion-ios-volume-low:before {
-    content: "ï“"
+    content: ""
 }
 .ion-ios-wineglass:before {
-    content: "ï“‘"
+    content: ""
 }
 .ion-ios-wineglass-outline:before {
-    content: "ï“"
+    content: ""
 }
 .ion-ios-world:before {
-    content: "ï““"
+    content: ""
 }
 .ion-ios-world-outline:before {
-    content: "ï“’"
+    content: ""
 }
 .ion-ipad:before {
-    content: "ï‡¹"
+    content: ""
 }
 .ion-iphone:before {
-    content: "ï‡º"
+    content: ""
 }
 .ion-ipod:before {
-    content: "ï‡»"
+    content: ""
 }
 .ion-jet:before {
-    content: "ïŠ•"
+    content: ""
 }
 .ion-key:before {
-    content: "ïŠ–"
+    content: ""
 }
 .ion-knife:before {
-    content: "ïŠ—"
+    content: ""
 }
 .ion-laptop:before {
-    content: "ï‡¼"
+    content: ""
 }
 .ion-leaf:before {
-    content: "ï‡½"
+    content: ""
 }
 .ion-levels:before {
-    content: "ïŠ˜"
+    content: ""
 }
 .ion-lightbulb:before {
-    content: "ïŠ™"
+    content: ""
 }
 .ion-link:before {
-    content: "ï‡¾"
+    content: ""
 }
 .ion-load-a:before {
-    content: "ïŠš"
+    content: ""
 }
 .ion-load-b:before {
-    content: "ïŠ›"
+    content: ""
 }
 .ion-load-c:before {
-    content: "ïŠœ"
+    content: ""
 }
 .ion-load-d:before {
-    content: "ïŠ"
+    content: ""
 }
 .ion-location:before {
-    content: "ï‡¿"
+    content: ""
 }
 .ion-lock-combination:before {
-    content: "ï“”"
+    content: ""
 }
 .ion-locked:before {
-    content: "ïˆ€"
+    content: ""
 }
 .ion-log-in:before {
-    content: "ïŠž"
+    content: ""
 }
 .ion-log-out:before {
-    content: "ïŠŸ"
+    content: ""
 }
 .ion-loop:before {
-    content: "ïˆ"
+    content: ""
 }
 .ion-magnet:before {
-    content: "ïŠ "
+    content: ""
 }
 .ion-male:before {
-    content: "ïŠ¡"
+    content: ""
 }
 .ion-man:before {
-    content: "ïˆ‚"
+    content: ""
 }
 .ion-map:before {
-    content: "ïˆƒ"
+    content: ""
 }
 .ion-medkit:before {
-    content: "ïŠ¢"
+    content: ""
 }
 .ion-merge:before {
-    content: "ïŒ¿"
+    content: ""
 }
 .ion-mic-a:before {
-    content: "ïˆ„"
+    content: ""
 }
 .ion-mic-b:before {
-    content: "ïˆ…"
+    content: ""
 }
 .ion-mic-c:before {
-    content: "ïˆ†"
+    content: ""
 }
 .ion-minus:before {
-    content: "ïˆ‰"
+    content: ""
 }
 .ion-minus-circled:before {
-    content: "ïˆ‡"
+    content: ""
 }
 .ion-minus-round:before {
-    content: "ïˆˆ"
+    content: ""
 }
 .ion-model-s:before {
-    content: "ï‹"
+    content: ""
 }
 .ion-monitor:before {
-    content: "ïˆŠ"
+    content: ""
 }
 .ion-more:before {
-    content: "ïˆ‹"
+    content: ""
 }
 .ion-mouse:before {
-    content: "ï€"
+    content: ""
 }
 .ion-music-note:before {
-    content: "ïˆŒ"
+    content: ""
 }
 .ion-navicon:before {
-    content: "ïˆŽ"
+    content: ""
 }
 .ion-navicon-round:before {
-    content: "ïˆ"
+    content: ""
 }
 .ion-navigate:before {
-    content: "ïŠ£"
+    content: ""
 }
 .ion-network:before {
-    content: "ï"
+    content: ""
 }
 .ion-no-smoking:before {
-    content: "ï‹‚"
+    content: ""
 }
 .ion-nuclear:before {
-    content: "ïŠ¤"
+    content: ""
 }
 .ion-outlet:before {
-    content: "ï‚"
+    content: ""
 }
 .ion-paintbrush:before {
-    content: "ï“•"
+    content: ""
 }
 .ion-paintbucket:before {
-    content: "ï“–"
+    content: ""
 }
 .ion-paper-airplane:before {
-    content: "ï‹ƒ"
+    content: ""
 }
 .ion-paperclip:before {
-    content: "ïˆ"
+    content: ""
 }
 .ion-pause:before {
-    content: "ïˆ"
+    content: ""
 }
 .ion-person:before {
-    content: "ïˆ“"
+    content: ""
 }
 .ion-person-add:before {
-    content: "ïˆ‘"
+    content: ""
 }
 .ion-person-stalker:before {
-    content: "ïˆ’"
+    content: ""
 }
 .ion-pie-graph:before {
-    content: "ïŠ¥"
+    content: ""
 }
 .ion-pin:before {
-    content: "ïŠ¦"
+    content: ""
 }
 .ion-pinpoint:before {
-    content: "ïŠ§"
+    content: ""
 }
 .ion-pizza:before {
-    content: "ïŠ¨"
+    content: ""
 }
 .ion-plane:before {
-    content: "ïˆ”"
+    content: ""
 }
 .ion-planet:before {
-    content: "ïƒ"
+    content: ""
 }
 .ion-play:before {
-    content: "ïˆ•"
+    content: ""
 }
 .ion-playstation:before {
-    content: "ïŒŠ"
+    content: ""
 }
 .ion-plus:before {
-    content: "ïˆ˜"
+    content: ""
 }
 .ion-plus-circled:before {
-    content: "ïˆ–"
+    content: ""
 }
 .ion-plus-round:before {
-    content: "ïˆ—"
+    content: ""
 }
 .ion-podium:before {
-    content: "ï„"
+    content: ""
 }
 .ion-pound:before {
-    content: "ïˆ™"
+    content: ""
 }
 .ion-power:before {
-    content: "ïŠ©"
+    content: ""
 }
 .ion-pricetag:before {
-    content: "ïŠª"
+    content: ""
 }
 .ion-pricetags:before {
-    content: "ïŠ«"
+    content: ""
 }
 .ion-printer:before {
-    content: "ïˆš"
+    content: ""
 }
 .ion-pull-request:before {
-    content: "ï…"
+    content: ""
 }
 .ion-qr-scanner:before {
-    content: "ï†"
+    content: ""
 }
 .ion-quote:before {
-    content: "ï‡"
+    content: ""
 }
 .ion-radio-waves:before {
-    content: "ïŠ¬"
+    content: ""
 }
 .ion-record:before {
-    content: "ïˆ›"
+    content: ""
 }
 .ion-refresh:before {
-    content: "ïˆœ"
+    content: ""
 }
 .ion-reply:before {
-    content: "ïˆž"
+    content: ""
 }
 .ion-reply-all:before {
-    content: "ïˆ"
+    content: ""
 }
 .ion-ribbon-a:before {
-    content: "ïˆ"
+    content: ""
 }
 .ion-ribbon-b:before {
-    content: "ï‰"
+    content: ""
 }
 .ion-sad:before {
-    content: "ïŠ"
+    content: ""
 }
 .ion-sad-outline:before {
-    content: "ï“—"
+    content: ""
 }
 .ion-scissors:before {
-    content: "ï‹"
+    content: ""
 }
 .ion-search:before {
-    content: "ïˆŸ"
+    content: ""
 }
 .ion-settings:before {
-    content: "ïŠ­"
+    content: ""
 }
 .ion-share:before {
-    content: "ïˆ "
+    content: ""
 }
 .ion-shuffle:before {
-    content: "ïˆ¡"
+    content: ""
 }
 .ion-skip-backward:before {
-    content: "ïˆ¢"
+    content: ""
 }
 .ion-skip-forward:before {
-    content: "ïˆ£"
+    content: ""
 }
 .ion-social-android:before {
-    content: "ïˆ¥"
+    content: ""
 }
 .ion-social-android-outline:before {
-    content: "ïˆ¤"
+    content: ""
 }
 .ion-social-angular:before {
-    content: "ï“™"
+    content: ""
 }
 .ion-social-angular-outline:before {
-    content: "ï“˜"
+    content: ""
 }
 .ion-social-apple:before {
-    content: "ïˆ§"
+    content: ""
 }
 .ion-social-apple-outline:before {
-    content: "ïˆ¦"
+    content: ""
 }
 .ion-social-bitcoin:before {
-    content: "ïŠ¯"
+    content: ""
 }
 .ion-social-bitcoin-outline:before {
-    content: "ïŠ®"
+    content: ""
 }
 .ion-social-buffer:before {
-    content: "ïˆ©"
+    content: ""
 }
 .ion-social-buffer-outline:before {
-    content: "ïˆ¨"
+    content: ""
 }
 .ion-social-chrome:before {
-    content: "ï“›"
+    content: ""
 }
 .ion-social-chrome-outline:before {
-    content: "ï“š"
+    content: ""
 }
 .ion-social-codepen:before {
-    content: "ï“"
+    content: ""
 }
 .ion-social-codepen-outline:before {
-    content: "ï“œ"
+    content: ""
 }
 .ion-social-css3:before {
-    content: "ï“Ÿ"
+    content: ""
 }
 .ion-social-css3-outline:before {
-    content: "ï“ž"
+    content: ""
 }
 .ion-social-designernews:before {
-    content: "ïˆ«"
+    content: ""
 }
 .ion-social-designernews-outline:before {
-    content: "ïˆª"
+    content: ""
 }
 .ion-social-dribbble:before {
-    content: "ïˆ­"
+    content: ""
 }
 .ion-social-dribbble-outline:before {
-    content: "ïˆ¬"
+    content: ""
 }
 .ion-social-dropbox:before {
-    content: "ïˆ¯"
+    content: ""
 }
 .ion-social-dropbox-outline:before {
-    content: "ïˆ®"
+    content: ""
 }
 .ion-social-euro:before {
-    content: "ï“¡"
+    content: ""
 }
 .ion-social-euro-outline:before {
-    content: "ï“ "
+    content: ""
 }
 .ion-social-facebook:before {
-    content: "ïˆ±"
+    content: ""
 }
 .ion-social-facebook-outline:before {
-    content: "ïˆ°"
+    content: ""
 }
 .ion-social-foursquare:before {
-    content: "ï"
+    content: ""
 }
 .ion-social-foursquare-outline:before {
-    content: "ïŒ"
+    content: ""
 }
 .ion-social-freebsd-devil:before {
-    content: "ï‹„"
+    content: ""
 }
 .ion-social-github:before {
-    content: "ïˆ³"
+    content: ""
 }
 .ion-social-github-outline:before {
-    content: "ïˆ²"
+    content: ""
 }
 .ion-social-google:before {
-    content: "ï"
+    content: ""
 }
 .ion-social-google-outline:before {
-    content: "ïŽ"
+    content: ""
 }
 .ion-social-googleplus:before {
-    content: "ïˆµ"
+    content: ""
 }
 .ion-social-googleplus-outline:before {
-    content: "ïˆ´"
+    content: ""
 }
 .ion-social-hackernews:before {
-    content: "ïˆ·"
+    content: ""
 }
 .ion-social-hackernews-outline:before {
-    content: "ïˆ¶"
+    content: ""
 }
 .ion-social-html5:before {
-    content: "ï“£"
+    content: ""
 }
 .ion-social-html5-outline:before {
-    content: "ï“¢"
+    content: ""
 }
 .ion-social-instagram:before {
-    content: "ï‘"
+    content: ""
 }
 .ion-social-instagram-outline:before {
-    content: "ï"
+    content: ""
 }
 .ion-social-javascript:before {
-    content: "ï“¥"
+    content: ""
 }
 .ion-social-javascript-outline:before {
-    content: "ï“¤"
+    content: ""
 }
 .ion-social-linkedin:before {
-    content: "ïˆ¹"
+    content: ""
 }
 .ion-social-linkedin-outline:before {
-    content: "ïˆ¸"
+    content: ""
 }
 .ion-social-markdown:before {
-    content: "ï“¦"
+    content: ""
 }
 .ion-social-nodejs:before {
-    content: "ï“§"
+    content: ""
 }
 .ion-social-octocat:before {
-    content: "ï“¨"
+    content: ""
 }
 .ion-social-pinterest:before {
-    content: "ïŠ±"
+    content: ""
 }
 .ion-social-pinterest-outline:before {
-    content: "ïŠ°"
+    content: ""
 }
 .ion-social-python:before {
-    content: "ï“©"
+    content: ""
 }
 .ion-social-reddit:before {
-    content: "ïˆ»"
+    content: ""
 }
 .ion-social-reddit-outline:before {
-    content: "ïˆº"
+    content: ""
 }
 .ion-social-rss:before {
-    content: "ïˆ½"
+    content: ""
 }
 .ion-social-rss-outline:before {
-    content: "ïˆ¼"
+    content: ""
 }
 .ion-social-sass:before {
-    content: "ï“ª"
+    content: ""
 }
 .ion-social-skype:before {
-    content: "ïˆ¿"
+    content: ""
 }
 .ion-social-skype-outline:before {
-    content: "ïˆ¾"
+    content: ""
 }
 .ion-social-snapchat:before {
-    content: "ï“¬"
+    content: ""
 }
 .ion-social-snapchat-outline:before {
-    content: "ï“«"
+    content: ""
 }
 .ion-social-tumblr:before {
-    content: "ï‰"
+    content: ""
 }
 .ion-social-tumblr-outline:before {
-    content: "ï‰€"
+    content: ""
 }
 .ion-social-tux:before {
-    content: "ï‹…"
+    content: ""
 }
 .ion-social-twitch:before {
-    content: "ï“®"
+    content: ""
 }
 .ion-social-twitch-outline:before {
-    content: "ï“­"
+    content: ""
 }
 .ion-social-twitter:before {
-    content: "ï‰ƒ"
+    content: ""
 }
 .ion-social-twitter-outline:before {
-    content: "ï‰‚"
+    content: ""
 }
 .ion-social-usd:before {
-    content: "ï“"
+    content: ""
 }
 .ion-social-usd-outline:before {
-    content: "ï’"
+    content: ""
 }
 .ion-social-vimeo:before {
-    content: "ï‰…"
+    content: ""
 }
 .ion-social-vimeo-outline:before {
-    content: "ï‰„"
+    content: ""
 }
 .ion-social-whatsapp:before {
-    content: "ï“°"
+    content: ""
 }
 .ion-social-whatsapp-outline:before {
-    content: "ï“¯"
+    content: ""
 }
 .ion-social-windows:before {
-    content: "ï‰‡"
+    content: ""
 }
 .ion-social-windows-outline:before {
-    content: "ï‰†"
+    content: ""
 }
 .ion-social-wordpress:before {
-    content: "ï‰‰"
+    content: ""
 }
 .ion-social-wordpress-outline:before {
-    content: "ï‰ˆ"
+    content: ""
 }
 .ion-social-yahoo:before {
-    content: "ï‰‹"
+    content: ""
 }
 .ion-social-yahoo-outline:before {
-    content: "ï‰Š"
+    content: ""
 }
 .ion-social-yen:before {
-    content: "ï“²"
+    content: ""
 }
 .ion-social-yen-outline:before {
-    content: "ï“±"
+    content: ""
 }
 .ion-social-youtube:before {
-    content: "ï‰"
+    content: ""
 }
 .ion-social-youtube-outline:before {
-    content: "ï‰Œ"
+    content: ""
 }
 .ion-soup-can:before {
-    content: "ï“´"
+    content: ""
 }
 .ion-soup-can-outline:before {
-    content: "ï“³"
+    content: ""
 }
 .ion-speakerphone:before {
-    content: "ïŠ²"
+    content: ""
 }
 .ion-speedometer:before {
-    content: "ïŠ³"
+    content: ""
 }
 .ion-spoon:before {
-    content: "ïŠ´"
+    content: ""
 }
 .ion-star:before {
-    content: "ï‰Ž"
+    content: ""
 }
 .ion-stats-bars:before {
-    content: "ïŠµ"
+    content: ""
 }
 .ion-steam:before {
-    content: "ïŒ‹"
+    content: ""
 }
 .ion-stop:before {
-    content: "ï‰"
+    content: ""
 }
 .ion-thermometer:before {
-    content: "ïŠ¶"
+    content: ""
 }
 .ion-thumbsdown:before {
-    content: "ï‰"
+    content: ""
 }
 .ion-thumbsup:before {
-    content: "ï‰‘"
+    content: ""
 }
 .ion-toggle:before {
-    content: "ï•"
+    content: ""
 }
 .ion-toggle-filled:before {
-    content: "ï”"
+    content: ""
 }
 .ion-transgender:before {
-    content: "ï“µ"
+    content: ""
 }
 .ion-trash-a:before {
-    content: "ï‰’"
+    content: ""
 }
 .ion-trash-b:before {
-    content: "ï‰“"
+    content: ""
 }
 .ion-trophy:before {
-    content: "ï–"
+    content: ""
 }
 .ion-tshirt:before {
-    content: "ï“·"
+    content: ""
 }
 .ion-tshirt-outline:before {
-    content: "ï“¶"
+    content: ""
 }
 .ion-umbrella:before {
-    content: "ïŠ·"
+    content: ""
 }
 .ion-university:before {
-    content: "ï—"
+    content: ""
 }
 .ion-unlocked:before {
-    content: "ï‰”"
+    content: ""
 }
 .ion-upload:before {
-    content: "ï‰•"
+    content: ""
 }
 .ion-usb:before {
-    content: "ïŠ¸"
+    content: ""
 }
 .ion-videocamera:before {
-    content: "ï‰–"
+    content: ""
 }
 .ion-volume-high:before {
-    content: "ï‰—"
+    content: ""
 }
 .ion-volume-low:before {
-    content: "ï‰˜"
+    content: ""
 }
 .ion-volume-medium:before {
-    content: "ï‰™"
+    content: ""
 }
 .ion-volume-mute:before {
-    content: "ï‰š"
+    content: ""
 }
 .ion-wand:before {
-    content: "ï˜"
+    content: ""
 }
 .ion-waterdrop:before {
-    content: "ï‰›"
+    content: ""
 }
 .ion-wifi:before {
-    content: "ï‰œ"
+    content: ""
 }
 .ion-wineglass:before {
-    content: "ïŠ¹"
+    content: ""
 }
 .ion-woman:before {
-    content: "ï‰"
+    content: ""
 }
 .ion-wrench:before {
-    content: "ïŠº"
+    content: ""
 }
 .ion-xbox:before {
-    content: "ïŒŒ"
+    content: ""
 }
 .tooltipster-fall,
 .tooltipster-grow.tooltipster-show {
@@ -13930,7 +13932,7 @@ button.swiper-pagination-bullet {
     width: 140px;
     height: 53px;
     margin-top: 10px;
-    background: url(/img/logo.svg) no-repeat;
+    background: url(../img/logo.svg) no-repeat;
     background-size: 100%
 }
 .button {
@@ -13958,7 +13960,7 @@ button.swiper-pagination-bullet {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    background: url(/img/icon-right-arrow.png) no-repeat;
+    background: url(../img/icon-right-arrow.png) no-repeat;
     background-size: 11px 13px
 }
 .button.white {
@@ -14272,13 +14274,13 @@ button.swiper-pagination-bullet {
     background: #1d4a8c
 }
 .follow .f-social.facebook em:before {
-    content: 'ï‚š'
+    content: ''
 }
 .follow .f-social.twitter {
     background: #5289c8
 }
 .follow .f-social.twitter em:before {
-    content: 'ï‚™'
+    content: ''
 }
 @media only screen and (max-width: 1200px) {
     .item-heading-overlay {
@@ -14339,7 +14341,7 @@ nav #upper ul li p {
     color: #3e3e3e
 }
 nav #upper ul li .customSelect {
-    background: url(/img/icon-chevron-down.png) no-repeat right center;
+    background: url(../img/icon-chevron-down.png) no-repeat right center;
     background-size: 10px 6px
 }
 nav #upper ul li .customSelect .customSelectInner {
@@ -14543,7 +14545,7 @@ nav #main ul.menu-desktop li:hover>ul {
     border-right: 1px solid #c6c6c6;
     border-left: 1px solid #c6c6c6;
     outline: 0;
-    background: url(../../img/icon-search.png) #fff no-repeat 20px center;
+    background: url(../img/icon-search.png) #fff no-repeat 20px center;
     background-size: 17px 17px
 }
 #search-nav button {
@@ -14598,7 +14600,7 @@ nav #main ul.menu-desktop li:hover>ul {
 footer {
     width: 100%;
     padding-bottom: 30px;
-    background: url(/img/bg-footer.jpg) no-repeat;
+    background: url(../img/bg-footer.jpg) no-repeat;
     background-size: cover
 }
 footer .container {
@@ -15073,7 +15075,7 @@ footer .container .socials ul li .social {
     -webkit-box-sizing: border-box;
     -webkit-appearance: none;
     -webkit-border-radius: 0;
-    background-image: url(/img/icon-chevron-down.png);
+    background-image: url(../img/icon-chevron-down.png);
     background-position: 98% 50%;
     background-size: 10px 5px, 10px 5px;
     background-repeat: no-repeat
@@ -15346,11 +15348,11 @@ footer .container .socials ul li .social {
     right: 25px;
     width: 76px;
     height: 48px;
-    background: url(/img/sound_on.gif) no-repeat;
+    background: url(../img/sound_on.gif) no-repeat;
     background-size: 50%
 }
 #home header .sound.muted {
-    background: url(/img/sound_off.gif) no-repeat;
+    background: url(../img/sound_off.gif) no-repeat;
     background-size: 50%
 }
 @media screen and (max-width: 1024px) {
@@ -15366,7 +15368,7 @@ footer .container .socials ul li .social {
     color: #222;
     border: none;
     outline: 0;
-    background: url(/img/icon-search.png) #fff no-repeat 20px center;
+    background: url(../img/icon-search.png) #fff no-repeat 20px center;
     background-size: 17px 17px;
     -webkit-box-shadow: 0 0 43px 0 rgba(0, 0, 0, .26);
     -moz-box-shadow: 0 0 43px 0 rgba(0, 0, 0, .26);
@@ -15458,7 +15460,7 @@ footer .container .socials ul li .social {
     overflow: hidden
 }
 #home section .learn-more#tailwins-rewards .bg {
-    background: url(/img/bg-tailwins.jpg) no-repeat center center;
+    background: url(../img/bg-tailwins.jpg) no-repeat center center;
     background-size: cover
 }
 #home section .learn-more#tailwins-rewards img {
@@ -15470,7 +15472,7 @@ footer .container .socials ul li .social {
     height: 270px
 }
 #home section .learn-more#the-difference .bg {
-    background: url(/img/bg-the-difference.jpg) no-repeat center center;
+    background: url(../img/bg-the-difference.jpg) no-repeat center center;
     background-size: cover
 }
 #home section .learn-more.gallery .slides {
@@ -15620,7 +15622,7 @@ footer .container .socials ul li .social {
 #home .careers #sign-on {
     height: 462px;
     padding: 0;
-    background: url(/img/bg-sign-on.jpg) no-repeat left center;
+    background: url(../img/bg-sign-on.jpg) no-repeat left center;
     background-size: cover
 }
 #home .careers #sign-on h3,
@@ -15682,7 +15684,7 @@ footer .container .socials ul li .social {
 }
 #home .careers #future-meet #future {
     height: 231px;
-    background: url(/img/bg-future.jpg) no-repeat center center;
+    background: url(../img/bg-future.jpg) no-repeat center center;
     background-size: cover
 }
 #home .careers #future-meet #future h3 {
@@ -15700,7 +15702,7 @@ footer .container .socials ul li .social {
 }
 #home .careers #future-meet #meet {
     height: 231px;
-    background: url(/img/bg-mike.jpg) no-repeat center center;
+    background: url(../img/bg-mike.jpg) no-repeat center center;
     background-size: cover
 }
 #home .careers #future-meet #meet h3 {
@@ -16215,7 +16217,7 @@ footer .container .socials ul li .social {
 }
 .opportunities-whitebar-color-fix {
      color: #134382;
-     font-size: 2rem;
+     font-size: 2rem;   
 }
 .opportunities-intro-heading {
     font-size: 48px;
@@ -16510,8 +16512,8 @@ footer .container .socials ul li .social {
     }
     .opportunities-whitebar-color-fix {
      color: #134382;
-     font-size: 1.5rem;
-}
+     font-size: 1.5rem;   
+}    
 }
 @media only screen and (max-width: 480px) {
     .opportunities-intro-heading {
@@ -16529,7 +16531,7 @@ footer .container .socials ul li .social {
     }
     .opportunities-whitebar-color-fix {
      color: #134382;
-     font-size: 1.35rem;
+     font-size: 1.35rem;   
 }
 }
 .resources-link-col {
@@ -16599,7 +16601,7 @@ footer .container .socials ul li .social {
     }
     .opportunities-whitebar-color-fix {
      color: #134382;
-     font-size: 1.75rem;
+     font-size: 1.75rem;   
 }
 }
 @media only screen and (max-width: 480px) {
@@ -16611,7 +16613,7 @@ footer .container .socials ul li .social {
     }
     .opportunities-whitebar-color-fix {
      color: #134382;
-     font-size: 1.5rem;
+     font-size: 1.5rem;   
 }
 }
 .growth-header {
@@ -16804,7 +16806,7 @@ footer .container .socials ul li .social {
     letter-spacing: 0
 }
 .benefits-home-header {
-
+    
 }
 .culture-values-message {
     font-family: "effra", effra, sans-serif;
@@ -17150,7 +17152,7 @@ footer .container .socials ul li .social {
 /*
     width: 20px;
     height: 20px
-*/
+*/    
 }
 .mobile-selection-icons {
     margin-top: 30px
@@ -17219,7 +17221,7 @@ footer .container .socials ul li .social {
     }
 }
 
-    /* Extra Small Devices, Phones */
+    /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
     .featured-roles-carousel #carousel-indicators {
         bottom: 10%;
@@ -17233,7 +17235,7 @@ footer .container .socials ul li .social {
     }
 }
 
-    /* Custom, iPhone Retina */
+    /* Custom, iPhone Retina */ 
     @media only screen and (max-width : 320px) {
     .featured-roles-carousel #carousel-indicators {
         bottom: 7%;
@@ -17247,5 +17249,3 @@ footer .container .socials ul li .social {
     }
 }
 /*# sourceMappingURL=maps/main.css.map */
-@font-face{font-family:effra;src:url(https://use.typekit.net/af/c4225a/00000000000000000001787b/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/c4225a/00000000000000000001787b/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/c4225a/00000000000000000001787b/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:effra;src:url(https://use.typekit.net/af/4cb2be/00000000000000000001787c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff2"),url(https://use.typekit.net/af/4cb2be/00000000000000000001787c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff"),url(https://use.typekit.net/af/4cb2be/00000000000000000001787c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("opentype");font-weight:400;font-style:italic;}@font-face{font-family:effra;src:url(https://use.typekit.net/af/c5926e/00000000000000000001787f/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/c5926e/00000000000000000001787f/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/c5926e/00000000000000000001787f/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:effra;src:url(https://use.typekit.net/af/d2ce11/000000000000000000017879/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/d2ce11/000000000000000000017879/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/d2ce11/000000000000000000017879/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;}@font-face{font-family:effra;src:url(https://use.typekit.net/af/77ff86/00000000000000000001787a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3) format("woff2"),url(https://use.typekit.net/af/77ff86/00000000000000000001787a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3) format("woff"),url(https://use.typekit.net/af/77ff86/00000000000000000001787a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3) format("opentype");font-weight:300;font-style:italic;}@font-face{font-family:effra;src:url(https://use.typekit.net/af/3fda9d/00000000000000000001787d/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3) format("woff2"),url(https://use.typekit.net/af/3fda9d/00000000000000000001787d/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3) format("woff"),url(https://use.typekit.net/af/3fda9d/00000000000000000001787d/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3) format("opentype");font-weight:500;font-style:normal;}@font-face{font-family:effra;src:url(https://use.typekit.net/af/b1a449/00000000000000000001787e/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3) format("woff2"),url(https://use.typekit.net/af/b1a449/00000000000000000001787e/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3) format("woff"),url(https://use.typekit.net/af/b1a449/00000000000000000001787e/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3) format("opentype");font-weight:500;font-style:italic;}
-@font-face{font-family:tk-effra-n4;src:url(https://use.typekit.net/af/c4225a/00000000000000000001787b/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/c4225a/00000000000000000001787b/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/c4225a/00000000000000000001787b/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:tk-effra-i4;src:url(https://use.typekit.net/af/4cb2be/00000000000000000001787c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff2"),url(https://use.typekit.net/af/4cb2be/00000000000000000001787c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff"),url(https://use.typekit.net/af/4cb2be/00000000000000000001787c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("opentype");font-weight:400;font-style:italic;}@font-face{font-family:tk-effra-n7;src:url(https://use.typekit.net/af/c5926e/00000000000000000001787f/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/c5926e/00000000000000000001787f/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/c5926e/00000000000000000001787f/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:tk-effra-n3;src:url(https://use.typekit.net/af/d2ce11/000000000000000000017879/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/d2ce11/000000000000000000017879/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/d2ce11/000000000000000000017879/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;}@font-face{font-family:tk-effra-i3;src:url(https://use.typekit.net/af/77ff86/00000000000000000001787a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3) format("woff2"),url(https://use.typekit.net/af/77ff86/00000000000000000001787a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3) format("woff"),url(https://use.typekit.net/af/77ff86/00000000000000000001787a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3) format("opentype");font-weight:300;font-style:italic;}@font-face{font-family:tk-effra-n5;src:url(https://use.typekit.net/af/3fda9d/00000000000000000001787d/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3) format("woff2"),url(https://use.typekit.net/af/3fda9d/00000000000000000001787d/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3) format("woff"),url(https://use.typekit.net/af/3fda9d/00000000000000000001787d/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3) format("opentype");font-weight:500;font-style:normal;}@font-face{font-family:tk-effra-i5;src:url(https://use.typekit.net/af/b1a449/00000000000000000001787e/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3) format("woff2"),url(https://use.typekit.net/af/b1a449/00000000000000000001787e/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3) format("woff"),url(https://use.typekit.net/af/b1a449/00000000000000000001787e/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3) format("opentype");font-weight:500;font-style:italic;}
