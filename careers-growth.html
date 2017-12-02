@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
+<head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
@@ -27,8 +27,9 @@
       <meta name="msapplication-square150x150logo" content="/fav/mstile-150x150.png">
       <meta name="msapplication-wide310x150logo" content="/fav/mstile-310x150.png">
       <meta name="msapplication-square310x310logo" content="/fav/mstile-310x310.png">
-      <script src="https://use.typekit.net/rno5nbt.js"></script><script>try { Typekit.load({ async: true }) } catch(e){}</script>
-      <link type="text/css" rel="stylesheet" href="css/main.css">
+      <script src="https://use.typekit.net/rno5nbt.js"></script><style type="text/css">.tk-effra{font-family:"effra",sans-serif;}</style><script>try { Typekit.load({ async: true }) } catch(e){}</script>
+      <link type="text/css" rel="stylesheet" href="/css/main.css">
+      <link type="text/css" rel="stylesheet" href="/fix_mobile.css">
    </head>
    <body id="careers-growth" data-spy="scroll" data-target=".careers-nav-container" data-offset="45">
       <nav>
@@ -38,12 +39,12 @@
                   <li><a href="careers-growth.html#" class="loyalty">Loyalty <strong>Sign In</strong></a></li>
                   <li>
                      <p>Language:</p>
-                     <select class="language">
+                     <select class="language hasCustomSelect" style="width: 0px; position: absolute; opacity: 0; height: 0px; font-size: 14px;">
                         <option>English</option>
                         <option>Spanish</option>
                         <option>French</option>
                         <option>Japanese</option>
-                     </select>
+                     </select><span class="customSelect language" style="display: inline-block;"><span class="customSelectInner" style="width: 0px; display: inline-block;">English</span></span>
                   </li>
                </ul>
             </div>
@@ -100,7 +101,7 @@
                   </li>
                   <li class="dropdown item-no-link">
                      <a class="aspNetDisabled">Events</a>
-                     <ul>
+                     <ul style="left: -180px;">
                         <li><a href="http://signature.thegocostaging.com/events/Palm-Beach-TFR">Palm Beach Temporary Flight Restrictions (TFR)</a></li>
                         <li><a href="http://signature.thegocostaging.com/events/shannon-airport-runway-closure">Shannon Airport Runway Closure</a></li>
                         <li><a href="http://signature.thegocostaging.com/events/boston-ramp-congestion">Boston Ramp Congestion</a></li>
@@ -132,86 +133,86 @@
       </nav>
       <div id="search-nav">
          <div class="container">
-            <div class="row"><input id="sew_searchBox" class="searchBoxMobile" type="text" placeholder="Search website"> <button type="submit" class="button blue" onclick="keyotiSearchBox.doSearch(); return false;">Search</button></div>
+            <div class="row"><input id="sew_searchBox" class="searchBoxMobile" placeholder="Search website" type="text"> <button type="submit" class="button blue" onclick="keyotiSearchBox.doSearch(); return false;">Search</button></div>
          </div>
       </div>
       <div id="mobile-nav">
          <div class="visible-xs visible-sm">
             <div id="LoginDiv" class="text-center" style="display: none">Welcome Back&nbsp;&nbsp;<span id="NameDisplayMobile"></span><br>Signature TailWins® Points:&nbsp;<span id="PointsDisplayMobile"></span><br><a href="https://loyalty.signatureflight.com/" target="_blank">View Profile</a></div>
          </div>
-         <div class="container">
-            <ul class="">
-               <li class="dropdown item-no-link level-1">
-                  <a class="aspNetDisabled">Locations</a><img class="chevron-down" src="img/mobile-menu/down-chevron.svg">
-                  <ul>
-                     <li><a href="http://signature.thegocostaging.com/locations/united-states">United States</a></li>
-                     <li><a href="http://signature.thegocostaging.com/locations/canada">Canada</a></li>
-                     <li><a href="http://signature.thegocostaging.com/locations/carribean">Caribbean</a></li>
-                     <li><a href="http://signature.thegocostaging.com/locations/south-central-america">South / Central America</a></li>
-                     <li><a href="http://signature.thegocostaging.com/locations/europe">Europe</a></li>
-                     <li><a href="http://signature.thegocostaging.com/locations/africa">Africa</a></li>
-                     <li><a href="http://signature.thegocostaging.com/locations/asia">Asia</a></li>
-                  </ul>
-               </li>
-               <li class="dropdown item-no-link level-1">
-                  <a class="aspNetDisabled">Programs</a><img class="chevron-down" src="img/mobile-menu/down-chevron.svg">
-                  <ul>
-                     <li><a href="http://signature.thegocostaging.com/programs/signature-tailwins">Signature TailWins®</a></li>
-                     <li><a href="http://signature.thegocostaging.com/programs/signature-status">Signature Status®</a></li>
-                     <li><a href="http://signature.thegocostaging.com/programs/signature-select">Signature Select®</a></li>
-                     <li><a href="http://signature.thegocostaging.com/programs/aviation-card">Aviation Card</a></li>
-                     <li><a href="http://signature.thegocostaging.com/programs/national-car-rental">National® Car Rental</a></li>
-                     <li><a href="http://signature.thegocostaging.com/programs/the-exotic-car-collection-by-enterprise">The Exotic Car Collection by Enterprise</a></li>
-                     <li><a href="http://signature.thegocostaging.com/programs/dassp-dca-access-program">DASSP DCA Access Program</a></li>
-                  </ul>
-               </li>
-               <li class="dropdown item-no-link level-1">
-                  <a class="aspNetDisabled">Services</a><img class="chevron-down" src="img/mobile-menu/down-chevron.svg">
-                  <ul>
-                     <li><a href="http://signature.thegocostaging.com/services/technicair">TECHNICAir Aircraft Maintenance</a></li>
-                     <li><a href="http://signature.thegocostaging.com/services/signature-elite-class">Signature ELITE Class</a></li>
-                     <li><a href="http://signature.thegocostaging.com/services/real-estate">Real Estate</a></li>
-                     <li><a href="http://signature.thegocostaging.com/services/general-aviation">General Aviation</a></li>
-                     <li><a href="http://signature.thegocostaging.com/services/photo-and-video-shoots">Video and Photo Shoots</a></li>
-                  </ul>
-               </li>
-               <li class="dropdown item-no-link level-1">
-                  <a class="aspNetDisabled">About</a><img class="chevron-down" src="img/mobile-menu/down-chevron.svg">
-                  <ul>
-                     <li><a href="http://signature.thegocostaging.com/about/about">About Us</a></li>
-                     <li><a href="http://signature.thegocostaging.com/about/newsroom">Newsroom</a></li>
-                     <li><a href="http://signature.thegocostaging.com/about/social-responsibility">Corporate Responsibility</a></li>
-                     <li><a href="http://signature.thegocostaging.com/about/leadership">Leadership</a></li>
-                     <li><a href="http://signature.thegocostaging.com/about/bba-aviation">BBA Aviation</a></li>
-                     <li><a href="http://signature.thegocostaging.com/about/the-signature-difference">The Signature Difference</a></li>
-                  </ul>
-               </li>
-               <li class="dropdown item-no-link level-1">
-                  <a class="aspNetDisabled">Events</a><img class="chevron-down" src="img/mobile-menu/down-chevron.svg">
-                  <ul>
-                     <li><a href="http://signature.thegocostaging.com/events/Palm-Beach-TFR">Palm Beach Temporary Flight Restrictions (TFR)</a></li>
-                     <li><a href="http://signature.thegocostaging.com/events/shannon-airport-runway-closure">Shannon Airport Runway Closure</a></li>
-                     <li><a href="http://signature.thegocostaging.com/events/boston-ramp-congestion">Boston Ramp Congestion</a></li>
-                     <li><a href="http://signature.thegocostaging.com/events/greece-slot-restrictions">Greece Slot Restrictions</a></li>
-                     <li><a href="http://signature.thegocostaging.com/events/high-traffic-fights-las-vegas">High Traffic Fights in Las Vegas</a></li>
-                     <li><a href="http://signature.thegocostaging.com/events/hurricane-closures">Hurricane Closures</a></li>
-                  </ul>
-               </li>
-               <li class="dropdown level-1">
-                  <a class="aspNetDisabled">Careers</a><img class="chevron-down" src="img/mobile-menu/down-chevron.svg">
-                  <ul>
-                     <li><a href="http://signature.thegocostaging.com/events/Palm-Beach-TFR">Palm Beach Temporary Flight Restrictions (TFR)</a></li>
-                     <li><a href="http://signature.thegocostaging.com/events/shannon-airport-runway-closure">Shannon Airport Runway Closure</a></li>
-                     <li><a href="http://signature.thegocostaging.com/events/boston-ramp-congestion">Boston Ramp Congestion</a></li>
-                     <li><a href="http://signature.thegocostaging.com/events/greece-slot-restrictions">Greece Slot Restrictions</a></li>
-                     <li><a href="http://signature.thegocostaging.com/events/high-traffic-fights-las-vegas">High Traffic Fights in Las Vegas</a></li>
-                     <li><a href="http://signature.thegocostaging.com/events/hurricane-closures">Hurricane Closures</a></li>
-                  </ul>
-               </li>
-               <li class="visible-xs visible-sm level-1"><a style="font-size:22px" href="http://signature.thegocostaging.com/sitemap">Sitemap</a></li>
-               <li class="visible-xs visible-sm level-1"><a style="font-size:22px" href="http://signature.thegocostaging.com/search-results">Search</a></li>
-            </ul>
-         </div>
+         <div class="container"><ul class="">
+                  <li class="dropdown item-no-link level-1">
+                     <a class="aspNetDisabled">Locations</a><img class="chevron-down" src="img/mobile-menu/down-chevron.svg">
+                     <ul>
+                        <li><a href="http://signature.thegocostaging.com/locations/united-states">United States</a></li>
+                        <li><a href="http://signature.thegocostaging.com/locations/canada">Canada</a></li>
+                        <li><a href="http://signature.thegocostaging.com/locations/carribean">Caribbean</a></li>
+                        <li><a href="http://signature.thegocostaging.com/locations/south-central-america">South / Central America</a></li>
+                        <li><a href="http://signature.thegocostaging.com/locations/europe">Europe</a></li>
+                        <li><a href="http://signature.thegocostaging.com/locations/africa">Africa</a></li>
+                        <li><a href="http://signature.thegocostaging.com/locations/asia">Asia</a></li>
+                     </ul>
+                  </li>
+                  <li class="dropdown item-no-link level-1">
+                     <a class="aspNetDisabled">Programs</a><img class="chevron-down" src="img/mobile-menu/down-chevron.svg">
+                     <ul>
+                        <li><a href="http://signature.thegocostaging.com/programs/signature-tailwins">Signature TailWins®</a></li>
+                        <li><a href="http://signature.thegocostaging.com/programs/signature-status">Signature Status®</a></li>
+                        <li><a href="http://signature.thegocostaging.com/programs/signature-select">Signature Select®</a></li>
+                        <li><a href="http://signature.thegocostaging.com/programs/aviation-card">Aviation Card</a></li>
+                        <li><a href="http://signature.thegocostaging.com/programs/national-car-rental">National® Car Rental</a></li>
+                        <li><a href="http://signature.thegocostaging.com/programs/the-exotic-car-collection-by-enterprise">The Exotic Car Collection by Enterprise</a></li>
+                        <li><a href="http://signature.thegocostaging.com/programs/dassp-dca-access-program">DASSP DCA Access Program</a></li>
+                     </ul>
+                  </li>
+                  <li class="dropdown item-no-link level-1">
+                     <a class="aspNetDisabled">Services</a><img class="chevron-down" src="img/mobile-menu/down-chevron.svg">
+                     <ul>
+                        <li><a href="http://signature.thegocostaging.com/services/technicair">TECHNICAir Aircraft Maintenance</a></li>
+                        <li><a href="http://signature.thegocostaging.com/services/signature-elite-class">Signature ELITE Class</a></li>
+                        <li><a href="http://signature.thegocostaging.com/services/real-estate">Real Estate</a></li>
+                        <li><a href="http://signature.thegocostaging.com/services/general-aviation">General Aviation</a></li>
+                        <li><a href="http://signature.thegocostaging.com/services/photo-and-video-shoots">Video and Photo Shoots</a></li>
+                     </ul>
+                  </li>
+                  <li class="dropdown item-no-link level-1">
+                     <a class="aspNetDisabled">About</a><img class="chevron-down" src="img/mobile-menu/down-chevron.svg">
+                     <ul>
+                        <li><a href="http://signature.thegocostaging.com/about/about">About Us</a></li>
+                        <li><a href="http://signature.thegocostaging.com/about/newsroom">Newsroom</a></li>
+                        <li><a href="http://signature.thegocostaging.com/about/social-responsibility">Corporate Responsibility</a></li>
+                        <li><a href="http://signature.thegocostaging.com/about/leadership">Leadership</a></li>
+                        <li><a href="http://signature.thegocostaging.com/about/bba-aviation">BBA Aviation</a></li>
+                        <li><a href="http://signature.thegocostaging.com/about/the-signature-difference">The Signature Difference</a></li>
+                     </ul>
+                  </li>
+                  <li class="dropdown item-no-link level-1">
+                     <a class="aspNetDisabled">Events</a><img class="chevron-down" src="img/mobile-menu/down-chevron.svg">
+                     <ul>
+                        <li><a href="http://signature.thegocostaging.com/events/Palm-Beach-TFR">Palm Beach Temporary Flight Restrictions (TFR)</a></li>
+                        <li><a href="http://signature.thegocostaging.com/events/shannon-airport-runway-closure">Shannon Airport Runway Closure</a></li>
+                        <li><a href="http://signature.thegocostaging.com/events/boston-ramp-congestion">Boston Ramp Congestion</a></li>
+                        <li><a href="http://signature.thegocostaging.com/events/greece-slot-restrictions">Greece Slot Restrictions</a></li>
+                        <li><a href="http://signature.thegocostaging.com/events/high-traffic-fights-las-vegas">High Traffic Fights in Las Vegas</a></li>
+                        <li><a href="http://signature.thegocostaging.com/events/hurricane-closures">Hurricane Closures</a></li>
+                     </ul>
+                  </li>
+                  <li class="dropdown item-no-link level-1">
+                     <a class="aspNetDisabled">Careers</a><img class="chevron-down" src="img/mobile-menu/down-chevron.svg">
+                     <ul>
+                        <li><a href="careers.html">Careers Home</a></li>
+                        <li><a href="careers-featured.html">Featured Roles</a></li>
+                        <li><a href="careers-resources.html">Resources</a></li>
+                        <li><a href="careers-growth.html">Career Growth</a></li>
+                        <li><a href="careers-culture.html">Our Culture</a></li>
+                        <li><a href="careers-benefits.html">Benefits</a></li>
+                        <li><a href="careers-growth.html#">Blog</a></li>
+                     </ul>
+                  </li>
+                  <li class="visible-xs level-1"><a style="font-size:22px" href="http://signature.thegocostaging.com/sitemap">Sitemap</a></li>
+                  <li class="visible-xs level-1"><a style="font-size:22px" href="http://signature.thegocostaging.com/search-results">Search</a></li>
+
+               </ul></div>
       </div>
       <div class="careers-nav hidden-xs hidden-sm">
          <div class="careers-nav-container" data-spy="affix" data-offset-top="108">
@@ -222,7 +223,7 @@
                         <li><a href="careers.html">Careers Home</a></li>
                         <li><a href="careers-featured.html">Featured Roles</a></li>
                         <li><a href="careers-resources.html">Resources</a></li>
-                        <li><a href="careers-growth.html">Career Growth</a></li>
+                        <li><a class="submenu-active" href="careers-growth.html">Career Growth</a></li>
                         <li><a href="careers-culture.html">Our Culture</a></li>
                         <li><a href="careers-benefits.html">Benefits</a></li>
                         <li><a href="careers-growth.html#">Blog</a></li>
@@ -269,7 +270,7 @@
          <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                   <h4 class="modal-title" id="modal-title">First Alerts</h4>
                   <div class="row">
                      <div class="col-xs-8 col-xs-offset-2">
@@ -280,12 +281,12 @@
                <div class="modal-body">
                   <form>
                      <div class="row">
-                        <div class="col-sm-12 col-md-4 col-md-offset-2 modal-body-form-col"><label for="form-first">First Name*</label><input id="form-first" name="first_name" type="text" class="form-control modal-form-field" required></div>
-                        <div class="col-sm-12 col-md-4 modal-body-form-col"><label for="form-last">Last Name*</label><input id="form-last" name="last_name" type="text" class="form-control modal-form-field" required></div>
+                        <div class="col-sm-12 col-md-4 col-md-offset-2 modal-body-form-col"><label for="form-first">First Name*</label><input id="form-first" name="first_name" class="form-control modal-form-field" required="" type="text"></div>
+                        <div class="col-sm-12 col-md-4 modal-body-form-col"><label for="form-last">Last Name*</label><input id="form-last" name="last_name" class="form-control modal-form-field" required="" type="text"></div>
                      </div>
                      <div class="row">
-                        <div class="col-sm-12 col-md-4 col-md-offset-2 modal-body-form-col"><label for="form-mobile">Mobile</label><input id="form-mobile" name="mobile" type="tel" pattern="^\d{3}-\d{3}-\d{4}$" class="form-control modal-form-field"></div>
-                        <div class="col-sm-12 col-md-4 modal-body-form-col"><label for="form-email">Email Address*</label><input id="form-email" name="email" type="email" class="form-control modal-form-field" required></div>
+                        <div class="col-sm-12 col-md-4 col-md-offset-2 modal-body-form-col"><label for="form-mobile">Mobile</label><input id="form-mobile" name="mobile" pattern="^\d{3}-\d{3}-\d{4}$" class="form-control modal-form-field" type="tel"></div>
+                        <div class="col-sm-12 col-md-4 modal-body-form-col"><label for="form-email">Email Address*</label><input id="form-email" name="email" class="form-control modal-form-field" required="" type="email"></div>
                         <div class="col-sm-12 text-center"><button type="submit" class="btn btn-primary">Sign up</button></div>
                      </div>
                   </form>
@@ -306,177 +307,120 @@
             </div>
          </div>
       </section>
-      <section class="careers-growth-chart" style="background-image:url(img/careers/careers-growth/career-growth-header-bkg-alt.png)">
-         <div class="mobile-chart-overlay hidden-sm hidden-md hidden-lg"></div>
+      <section class="careers-growth-chart" style="background-image:url(/img/careers/careers-growth/career-growth-header-bkg-alt.png)">
+         <div class="mobile-chart-overlay hidden-sm hidden-md hidden-lg" style="opacity: 0;"></div>
          <div class="container-fluid">
             <div class="row">
                <div class="col-xs-12 text-center">
-                  <svg class="growth-chart-graphic hidden-xs" viewBox="0 0 1024 480" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                     <desc>Signature Flight Support career growth chart.</desc>
-                     <defs></defs>
-                     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                        <g transform="translate(-94.000000, -388.000000)">
-                           <g transform="translate(-1.000000, 249.000000)">
-                              <text class="growth-chart-graphic-text__bolder">
-                                 <tspan x="787.36" y="206">Area / Regional Leadership</tspan>
-                              </text>
-                              <g transform="translate(527.000000, 169.000000)">
-                                 <text class="growth-chart-graphic-text">
-                                    <tspan x="84.28" y="19">Area Director</tspan>
-                                    <tspan x="0.04" y="43">Regional Vice President</tspan>
-                                 </text>
-                                 <g transform="translate(232.500000, 27.500000) scale(-1, 1) translate(-232.500000, -27.500000) translate(213.000000, 0.000000)" stroke="#94C948" stroke-linecap="square">
-                                    <path d="M0.5,28.5 L36.5,28.5"></path>
-                                    <path d="M37,0.497668732 L37,54.1177312"></path>
-                                 </g>
-                              </g>
-                              <text class="growth-chart-graphic-text__bolder">
-                                 <tspan x="807.23" y="305">FBO Management</tspan>
-                              </text>
-                              <g transform="translate(591.000000, 259.000000)">
-                                 <text class="growth-chart-graphic-text">
-                                    <tspan x="26.42" y="19">Duty Manager</tspan>
-                                    <tspan x="6.2" y="43">Station Manager</tspan>
-                                    <tspan x="0.64" y="67">General Manager</tspan>
-                                 </text>
-                                 <g transform="translate(183.000000, 39.500000) scale(-1, 1) translate(-183.000000, -39.500000) translate(163.000000, 2.000000)" stroke="#94C948" stroke-linecap="square">
-                                    <path d="M0.5,36.5 L37.5,36.5" transform="translate(19.000000, 36.500000) scale(-1, 1) translate(-19.000000, -36.500000) "></path>
-                                    <path d="M38,0.497971397 L38,74.5016891" transform="translate(38.500000, 37.500000) scale(-1, 1) translate(-38.500000, -37.500000) "></path>
-                                 </g>
-                              </g>
-                              <text class="growth-chart-graphic-text__bolder">
-                                 <tspan x="745.48" y="395">Base Supervision</tspan>
-                              </text>
-                              <g transform="translate(95.000000, 116.000000)">
-                                 <g>
-                                    <rect fill="#00263D" opacity="0.52839319" x="0" y="23" width="368" height="372"></rect>
-                                    <text font-family="Effra-Light, Effra" font-size="15" font-weight="300" fill="#FFFFFF">
-                                       <tspan x="20" y="46">If you begin with Signature in professional, technical</tspan>
-                                       <tspan x="20" y="64">or maintenance positions you can achieve career</tspan>
-                                       <tspan x="20" y="82">growth as a Base Supervisor then move up.</tspan>
-                                    </text>
-                                    <path d="M313.5,112.5 L334.629945,112.5" stroke="#94C948" stroke-linecap="square"></path>
-                                    <path d="M313.405559,216.5 L334.629945,216.5" stroke="#94C948" stroke-linecap="square"></path>
-                                    <path d="M313.5,320.5 L334.629945,320.5" stroke="#94C948" stroke-linecap="square"></path>
-                                    <path d="M335,113.5 L335,319.5" stroke="#94C948" stroke-linecap="square"></path>
-                                    <rect fill="#498BC9" x="20" y="97" width="297" height="30"></rect>
-                                    <text font-family="Effra-Medium, Effra" font-size="18" font-weight="400" fill="#FFFFFF">
-                                       <tspan x="30" y="118">Professional</tspan>
-                                    </text>
-                                    <text font-family="Effra-Light, Effra" font-size="18" font-weight="300" fill="#FFFFFF">
-                                       <tspan x="36" y="146">Accounting</tspan>
-                                       <tspan x="36" y="168">Finance</tspan>
-                                       <tspan x="36" y="190">HR</tspan>
-                                    </text>
-                                    <text font-family="Effra-Light, Effra" font-size="18" font-weight="300" fill="#FFFFFF">
-                                       <tspan x="149" y="146">Safety</tspan>
-                                       <tspan x="149" y="168">Marketing</tspan>
-                                       <tspan x="149" y="190">Sales</tspan>
-                                    </text>
-                                    <rect fill="#8D9092" x="20" y="200" width="297" height="30"></rect>
-                                    <text font-family="Effra-Medium, Effra" font-size="18" font-weight="400" fill="#FFFFFF">
-                                       <tspan x="29" y="221">Technical</tspan>
-                                    </text>
-                                    <text font-family="Effra-Light, Effra" font-size="18" font-weight="300" fill="#FFFFFF">
-                                       <tspan x="36" y="250">Facility Maintenance</tspan>
-                                       <tspan x="36" y="272">Ground Support</tspan>
-                                       <tspan x="36" y="294">Equipment Mechanic</tspan>
-                                    </text>
-                                    <rect fill="#94C948" x="20" y="305" width="297" height="30"></rect>
-                                    <text font-family="Effra-Medium, Effra" font-size="18" font-weight="400" fill="#FFFFFF">
-                                       <tspan x="30" y="326">TECHNICAir</tspan>
-                                       <tspan x="132.87" y="326" font-family="Effra-Regular, Effra" font-weight="normal">(Aircraft Maintenance)</tspan>
-                                       <tspan x="306.552" y="326"></tspan>
-                                    </text>
-                                    <text font-family="Effra-Light, Effra" font-size="18" font-weight="300" fill="#FFFFFF">
-                                       <tspan x="36" y="355">Airframe &amp; Power Plant Mechanic</tspan>
-                                       <tspan x="36" y="377">Avionics</tspan>
-                                    </text>
-                                 </g>
-                                 <g id="lines" transform="translate(489.500000, 228.500000) scale(-1, 1) translate(-489.500000, -228.500000) translate(335.000000, 183.000000)" stroke="#94C948" stroke-linecap="square">
-                                    <path d="M0.380769231,90 L197.627581,90" id="Line-2"></path>
-                                    <path d="M198.24409,2 L308.591912,2" id="Line-2"></path>
-                                    <path d="M197.666667,3.19958848 L197.666667,90.7777778" id="Line-2"></path>
-                                 </g>
-                              </g>
-                              <text class="growth-chart-graphic-text__bolder">
-                                 <tspan x="689.15" y="488">FBO Supervisor</tspan>
-                              </text>
-                              <g transform="translate(492.000000, 469.000000)">
-                                 <text class="growth-chart-graphic-text">
-                                    <tspan x="0" y="19">Shift Supervisor</tspan>
-                                 </text>
-                                 <g transform="translate(166.000000, 14.000000) scale(-1, 1) translate(-166.000000, -14.000000) translate(147.000000, 0.000000)" stroke="#94C948" stroke-linecap="square">
-                                    <path d="M0.5,14.5 L35.5,14.5"></path>
-                                    <path d="M36,0.472312174 L36,27.5046245"></path>
-                                 </g>
-                              </g>
-                              <text class="growth-chart-graphic-text__bolder">
-                                 <tspan x="622.45" y="588">FBO Front Line</tspan>
-                              </text>
-                              <g transform="translate(269.000000, 546.000000)">
-                                 <text class="growth-chart-graphic-text">
-                                    <tspan x="98.14" y="19">Line Service Technician</tspan>
-                                    <tspan x="0.36" y="43">Customer Service Representative</tspan>
-                                    <tspan x="170.36" y="67">Air Concierge</tspan>
-                                 </text>
-                                 <g transform="translate(324.000000, 38.500000) scale(-1, 1) translate(-324.000000, -38.500000) translate(304.000000, 1.000000)" stroke="#94C948" stroke-linecap="square">
-                                    <path d="M0.5,36.5 L37.5,36.5" id="Line-2" transform="translate(19.000000, 36.500000) scale(-1, 1) translate(-19.000000, -36.500000) "></path>
-                                    <path d="M38,0.497971397 L38,74.5016891" id="Line-2" transform="translate(38.500000, 37.500000) scale(-1, 1) translate(-38.500000, -37.500000) "></path>
-                                 </g>
-                              </g>
-                              <polyline stroke="#FFFFFF" transform="translate(949.000000, 376.500000) scale(-1, 1) translate(-949.000000, -376.500000)" points="772 162 840.626854 162 840.626854 252.188226 913.333453 252.188226 913.333453 343.582098 984.03713 343.582098 984.03713 429.055511 1056.23918 429.055511 1056.23918 519.292639 1126 519.292639 1126 591"></polyline>
-                              <g transform="translate(1003.500000, 445.000000) scale(-1, 1) rotate(14.000000) translate(-1003.500000, -445.000000) translate(855.000000, 328.000000)">
-                                 <path d="M119.652611,94.3046666 L0,0" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
-                                 <path d="M0,0 L6.62515922,9.04141943 L10.3391923,4.32909957 L0,0 Z" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
-                                 <path d="M197,156 L297,234" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
-                                 <text transform="translate(154.712313, 126.746539) scale(-1, 1) rotate(14.000000) translate(-154.712313, -126.746539)" font-family="Effra-Medium, Effra" font-size="24" font-weight="400" line-spacing="25" fill="#FFFFFF">
-                                    <tspan x="110.712313" y="123.746539">CAREER</tspan>
-                                    <tspan x="123.708313" y="148.746539">PATH</tspan>
-                                 </text>
-                              </g>
-                           </g>
-                        </g>
-                     </g>
-                  </svg>
+                 <svg class="growth-chart-graphic hidden-xs" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1024 480">
+                    <desc>Signature Flight Support career growth chart.</desc>
+                    <defs></defs>
+                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                       <g transform="translate(-94.000000, -388.000000)">
+                          <g transform="translate(-1.000000, 249.000000)">
+                             <text class="growth-chart-graphic-text__bolder">
+                                <tspan y="240" x="450.36">Area / Regional Leader</tspan>
+                             </text>
+
+                             <text class="growth-chart-graphic-text__bolder">
+                                <tspan x="400.23" y="355">Location Manager</tspan>
+                             </text>
+
+                             <text class="growth-chart-graphic-text__bolder">
+                                <tspan x="280" y="460">Operations Supervisor</tspan>
+                             </text>
+                             <g transform="translate(800.000000, 240.000000)">
+                                <g>
+                                   <rect fill="#00263D" opacity="0.52839319" x="0" y="23" height="350" width="340"></rect>
+                                   <text font-family="Effra-Light, Effra" font-size="15" fill="#FFFFFF" font-weight="500">
+                                      <tspan x="20" y="50">In additions to our operations career</tspan>
+                                      <tspan x="20" y="70">paths, we also offer career paths in </tspan>
+                                      <tspan x="20" y="90">professional and technical roles such as:</tspan>
+                                   </text>
+                                   <rect fill="#498BC9" x="20" height="30" width="275" y="110"></rect>
+                                   <text font-family="Effra-Medium, Effra" font-size="18" fill="#FFFFFF" font-weight="500">
+                                      <tspan x="30" y="130">Professional</tspan>
+                                   </text>
+                                   <text font-family="Effra-Light, Effra" font-size="18" fill="#FFFFFF" font-weight="400">
+                                      <tspan x="36" y="170">Accounting</tspan>
+                                      <tspan x="36" y="190">Finance</tspan>
+                                      <tspan x="36" y="210">HR</tspan>
+                                   </text>
+                                   <text font-family="Effra-Light, Effra" font-size="18" fill="#FFFFFF" font-weight="400">
+                                      <tspan x="149" y="170">Safety</tspan>
+                                      <tspan x="149" y="190">Marketing</tspan>
+                                      <tspan x="149" y="210">Sales</tspan>
+                                   </text>
+                                   <rect fill="#8D9092" x="20" height="30" width="275" y="230"></rect>
+                                   <text font-family="Effra-Medium, Effra" font-size="18" fill="#FFFFFF" font-weight="500">
+                                      <tspan x="29" y="251">Technical</tspan>
+                                   </text>
+                                   <text font-family="Effra-Light, Effra" font-size="18" fill="#FFFFFF" font-weight="400">
+                                      <tspan x="36" y="290">Aircraft Maintenance:</tspan>
+                                      <tspan x="45" y="310">A&amp;P Mechanic</tspan><tspan x="45" y="330">Avionics Technician</tspan>
+                                      <tspan x="36" y="350">GSE Mechanic</tspan>
+                                   </text>
+                                </g>
+                             </g>
+                             <text class="growth-chart-graphic-text__bolder">
+                                <tspan x="196.15" y="540">Line Service Technitian</tspan><tspan x="100.15" y="570">Customer Service Representative</tspan><tspan x="276.15" y="600">Air Concierge</tspan>
+                             </text>
+
+                             <text fill="#FFFFFF" line-spacing="40" font-family="Effra-Light, Effra" font-weight="100" font-size="38">
+                                <tspan x="95.000" y="170">Sample Operations Career Path</tspan>
+                             </text>
+
+                             <polyline stroke="#FFFFFF" points="772 162 840.626854 162 840.626854 252.188226 913.333453 252.188226 913.333453 343.582098 984.03713 343.582098 984.03713 429.055511 1056.23918 429.055511 1056.23918 519.292639 1126 519.292639" transform="translate(550.000000, 445.500000) scale(-1.2, 1.2) translate(-949.000000, -376.500000)"></polyline>
+                             <g transform="translate(660.500000, 465.000000) scale(-1, 1) rotate(14.000000) translate(-1003.500000, -445.000000) translate(855.000000, 328.000000)">
+                                <path d="M119.652611,94.3046666 L0,0" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
+                                <path d="M0,0 L6.62515922,9.04141943 L10.3391923,4.32909957 L0,0 Z" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
+                                <path d="M197,156 L297,234" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
+                                <text transform="translate(154.712313, 126.746539) scale(-1, 1) rotate(14.000000) translate(-154.712313, -126.746539)" font-family="Effra-Medium, Effra" font-size="24" font-weight="400" line-spacing="25" fill="#FFFFFF">
+                                   <tspan x="110.712313" y="123.746539">CAREER</tspan>
+                                   <tspan x="123.708313" y="148.746539">PATH</tspan>
+                                </text>
+                             </g>
+                          </g>
+                       </g>
+                    </g>
+                 </svg>
                   <section class="hidden-sm hidden-md hidden-lg">
-                     <p class="growth-svg-header">Tap the steps below to see how your career will grow at Signature.</p>
-                     <svg class="growth-chart-graphic-mobile" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 355 460">
+                    <br>
+                    <br>
+                     <p class="growth-svg-header">Sample Operations Career Path</p>
+                     <svg class="growth-chart-graphic-mobile" xmlns="http://www.w3.org/2000/svg" viewBox="0 50 355 460" transform="translate(0,20)">
                         <title>Careers Growth Mobile Chart</title>
                         <g>
+
                            <g class="path-arrow-text">
-                              <path d="M270,509.68l56.38-71.25" transform="translate(1 -197.66)" style="fill: none;stroke: #fff;stroke-linecap: square;stroke-width: 0.75px"/>
-                              <path d="M326.39,438.43,322,448.76,317.34,445Z" transform="translate(1 -197.66)" style="fill: #fff;stroke: #fff;stroke-linecap: square;stroke-width: 0.75px"/>
-                              <path d="M224.08,561.45,186,608.68" transform="translate(1 -197.66)" style="fill: none;stroke: #fff;stroke-linecap: square;stroke-width: 0.75px"/>
+                              <path d="M270,509.68l56.38-71.25" style="fill: none;stroke: #fff;stroke-linecap: square;stroke-width: 0.75px" transform="translate(1 -247.66)"></path>
+                              <path d="M326.39,438.43,322,448.76,317.34,445Z" style="fill: #fff;stroke: #fff;stroke-linecap: square;stroke-width: 0.75px" transform="translate(1 -247.66)"></path>
+                              <path d="M224.08,561.45,186,608.68" style="fill: none;stroke: #fff;stroke-linecap: square;stroke-width: 0.75px" transform="translate(1 -247.66)"></path>
+
                               <g>
-                                 <text transform="translate(220.61 339.82)" style="isolation: isolate;font-size: 18px;fill: #fff;font-family: Effra-Medium, Effra">CAREER</text>
-                                 <text transform="translate(230.36 358.57)" style="isolation: isolate;font-size: 18px;fill: #fff;font-family: Effra-Medium, Effra;letter-spacing: -0.07999674479166667em">PATH</text>
-                              </g>
-                              <polyline points="351 118.34 316.61 118.34 316.61 179.51 269.57 179.51 269.57 241.51 223.84 241.51 223.84 299.49 177.13 299.49 177.13 360.7 132 360.7 132 409.34" style="fill: none;stroke: #fff"/>
+
+                                 <text class="growth-chart-mobile-text" transform="translate(230.36 308.57)">PATH</text>
+                              <text class="growth-chart-mobile-text" transform="translate(220.61 289.82)">CAREER</text></g><polyline style="fill: none;stroke: #fff" points="351 80.34 316.61 80.34 316.61 141.51 269.57 141.51 269.57 203.51 223.84 203.51 223.84 261.49 177.13 261.49 177.13 322.7 132 322.7 100"></polyline>
+                           </g><g data-index="5" class="growth-chart-step" transform="translate(50,0)">
+                              <text transform="translate(90.36 99.34)" class="growth-chart-mobile-text">Area / Regional</text><text transform="translate(90.36 99.34)" class="growth-chart-mobile-text" x="40" y="20">Leader</text>
+
                            </g>
-                           <g class="growth-chart-step" data-index="5">
-                              <text transform="translate(90.36 99.34)" class="growth-chart-mobile-text">Area / Regional Leadership</text>
-                              <text transform="translate(73.1 99.34)" class="growth-chart-mobile-text">+</text>
+                           <g data-index="4" class="growth-chart-step" transform="translate(10,0)">
+                              <text transform="translate(140.23 160.34)" class="growth-chart-mobile-text">Location</text><text transform="translate(140.23 160.34)" class="growth-chart-mobile-text" x="0" y="20">Manager</text>
+
                            </g>
-                           <g class="growth-chart-step" data-index="4">
-                              <text transform="translate(140.23 160.34)" class="growth-chart-mobile-text">FBO Management</text>
-                              <text transform="translate(121.1 161.34)" class="growth-chart-mobile-text">+</text>
+
+                           <g data-index="2" class="growth-chart-step" transform="translate(20,-55)">
+                              <text transform="translate(69.15 281.34)" class="growth-chart-mobile-text">Operations</text><text transform="translate(69.15 281.34)" class="growth-chart-mobile-text" y="20" x="0">Supervisor</text>
+
                            </g>
-                           <g class="growth-chart-step" data-index="3">
-                              <text transform="translate(102.48 223.34)" class="growth-chart-mobile-text">Base Supervision</text>
-                              <text transform="translate(83.1 223.34)" class="growth-chart-mobile-text">+</text>
-                           </g>
-                           <g class="growth-chart-step" data-index="2">
-                              <text transform="translate(69.15 281.34)" class="growth-chart-mobile-text">FBO Supervisor</text>
-                              <text transform="translate(50.1 281.34)" class="growth-chart-mobile-text">+</text>
-                           </g>
-                           <g class="growth-chart-step" data-index="1">
-                              <text transform="translate(30.45 341.34)" class="growth-chart-mobile-text">FBO Front Line</text>
-                              <text transform="translate(11.1 340.34)" class="growth-chart-mobile-text">+</text>
+                           <g data-index="1" class="growth-chart-step" transform="translate(-25,10)">
+                              <text class="growth-chart-mobile-text" transform="translate(35, 341.34)">Line Service Tech</text><text x="30" class="growth-chart-mobile-text" transform="translate(0 341.34)" y="20">Customer Service</text><text transform="translate(30.45 341.34)" class="growth-chart-mobile-text" y="40" x="25">Representative</text><text transform="translate(30.45 341.34)" class="growth-chart-mobile-text" x="40" y="60">Air Concierge</text>
+
                            </g>
                         </g>
-                        <g data-index="3" class="chart-details-popup">
-                           <rect x="1" y="3.34" width="350.5" height="411" style="fill: #fff;opacity: 0.99113804101944;isolation: isolate"/>
+                        <g data-index="3" class="chart-details-popup" style="display: none;">
+                           <rect x="1" y="3.34" width="350.5" height="411" style="fill: #fff;opacity: 0.99113804101944;isolation: isolate"></rect>
                            <g style="isolation: isolate">
                               <text transform="translate(198 148.34)" style="isolation: isolate;font-size: 18px;fill: #383838;font-family: Effra-Light, Effra">
                                  Sa
@@ -551,14 +495,14 @@
                                  <tspan x="232.45" y="0" style="letter-spacing: 0.000030517578125em">.</tspan>
                               </text>
                            </g>
-                           <rect x="1" y="205.34" width="352" height="30" style="fill: #8d9092"/>
+                           <rect x="1" y="205.34" width="352" height="30" style="fill: #8d9092"></rect>
                            <g style="isolation: isolate">
                               <text transform="translate(136.43 226.34)" style="isolation: isolate;font-size: 18px;fill: #fff;font-family: Effra-Medium, Effra">
                                  <tspan style="letter-spacing: -0.14000108506944445em">T</tspan>
                                  <tspan x="8.71" y="0">echnical</tspan>
                               </text>
                            </g>
-                           <rect data-name="Rectangle-4" y="94.34" width="352" height="30" style="fill: #498bc9"/>
+                           <rect data-name="Rectangle-4" y="94.34" width="352" height="30" style="fill: #498bc9"></rect>
                            <g style="isolation: isolate">
                               <text transform="translate(126.87 115.34)" style="isolation: isolate;font-size: 18px;fill: #fff;font-family: Effra-Medium, Effra">
                                  <tspan style="letter-spacing: -0.019992404513888888em">P</tspan>
@@ -568,7 +512,7 @@
                                  <tspan x="32.54" y="0">essional</tspan>
                               </text>
                            </g>
-                           <rect data-name="Rectangle-4" x="1" y="324.34" width="350" height="30" style="fill: #94c948"/>
+                           <rect data-name="Rectangle-4" x="1" y="324.34" width="350" height="30" style="fill: #94c948"></rect>
                            <g data-name="TECHNICAir-(Aircraft" style="isolation: isolate">
                               <text transform="translate(38.72 345.34)" style="isolation: isolate;font-size: 18px;fill: #fff;font-family: Effra-Medium, Effra">
                                  T
@@ -648,7 +592,7 @@
                               </g>
                            </g>
                         </g>
-                        <g data-index="5" class="chart-details-popup">
+                        <g data-index="5" class="chart-details-popup" style="display: none;">
                            <g style="isolation: isolate">
                               <text transform="translate(90.36 99.67)" style="isolation: isolate;font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra">
                                  A
@@ -660,9 +604,9 @@
                                  <tspan x="196.64" y="0">ship</tspan>
                               </text>
                            </g>
-                           <path data-name="Line-2" d="M196,277.33v-21" transform="translate(1 -197.66)" style="fill: none;stroke: #94c948;stroke-linecap: square;stroke-width: 2px"/>
-                           <polyline data-name="Path-2" points="317.01 180.02 316.88 117.86 351 117.86" style="fill: none;stroke: #94c948;stroke-width: 2.01081846192974px"/>
-                           <rect data-name="Rectangle" x="58" y="2.67" width="276" height="55" style="fill: #498bc9"/>
+                           <path data-name="Line-2" d="M196,277.33v-21" transform="translate(1 -197.66)" style="fill: none;stroke: #94c948;stroke-linecap: square;stroke-width: 2px"></path>
+                           <polyline data-name="Path-2" points="317.01 180.02 316.88 117.86 351 117.86" style="fill: none;stroke: #94c948;stroke-width: 2.01081846192974px"></polyline>
+                           <rect data-name="Rectangle" x="58" y="2.67" width="276" height="55" style="fill: #498bc9"></rect>
                            <g style="isolation: isolate">
                               <text transform="translate(80 25.67)" style="isolation: isolate;font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra">
                                  A
@@ -691,13 +635,13 @@
                               <text transform="translate(75.18 99.67)" style="isolation: isolate;font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra">-</text>
                            </g>
                         </g>
-                        <g data-index="4" class="chart-details-popup">
-                           <rect data-name="Rectangle" x="101" y="5.34" width="215" height="99" style="fill: #498bc9"/>
+                        <g data-index="4" class="chart-details-popup" style="display: none;">
+                           <rect data-name="Rectangle" x="101" y="5.34" width="215" height="99" style="fill: #498bc9"></rect>
                            <g data-name="FBO-Management" style="isolation: isolate">
                               <text transform="translate(140.23 160.34)" style="isolation: isolate;font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra">FBO Management</text>
                            </g>
-                           <path data-name="Line-2" d="M209,337V303" transform="translate(1 -197.66)" style="fill: none;stroke: #94c948;stroke-linecap: square;stroke-width: 2px"/>
-                           <polyline data-name="Path-2" points="269.63 242.02 269.63 179.71 317.11 179.71" style="fill: none;stroke: #94c948;stroke-width: 2.01877709030188px"/>
+                           <path data-name="Line-2" d="M209,337V303" transform="translate(1 -197.66)" style="fill: none;stroke: #94c948;stroke-linecap: square;stroke-width: 2px"></path>
+                           <polyline data-name="Path-2" points="269.63 242.02 269.63 179.71 317.11 179.71" style="fill: none;stroke: #94c948;stroke-width: 2.01877709030188px"></polyline>
                            <g style="isolation: isolate">
                               <text transform="translate(136 33.34)" style="isolation: isolate;font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra">
                                  Du
@@ -723,8 +667,8 @@
                               <text transform="translate(124.18 159.34)" style="isolation: isolate;font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra">-</text>
                            </g>
                         </g>
-                        <g data-index="2" class="chart-details-popup">
-                           <rect data-name="Rectangle" x="22.33" y="141.34" width="186" height="54" style="fill: #498bc9"/>
+                        <g data-index="2" class="chart-details-popup" style="display: none;">
+                           <rect data-name="Rectangle" x="22.33" y="141.34" width="186" height="54" style="fill: #498bc9"></rect>
                            <g data-name="FBO-Supervisor" style="isolation: isolate">
                               <text transform="translate(69.48 281.34)" style="isolation: isolate;font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra">
                                  FBO
@@ -739,8 +683,8 @@
                                  <tspan x="51.91" y="0">upervisor</tspan>
                               </text>
                            </g>
-                           <path data-name="Line-2" d="M96.33,455.5V394" transform="translate(1 -197.66)" style="fill: none;stroke: #94c948;stroke-linecap: square;stroke-width: 2px"/>
-                           <polyline data-name="Path-2" points="177.42 361.25 177.42 300 224.34 300" style="fill: none;stroke: #94c948;stroke-width: 2.02416821339478px"/>
+                           <path data-name="Line-2" d="M96.33,455.5V394" transform="translate(1 -197.66)" style="fill: none;stroke: #94c948;stroke-linecap: square;stroke-width: 2px"></path>
+                           <polyline data-name="Path-2" points="177.42 361.25 177.42 300 224.34 300" style="fill: none;stroke: #94c948;stroke-width: 2.02416821339478px"></polyline>
                            <g style="isolation: isolate">
                               <text transform="translate(192.19 156.34)" style="isolation: isolate;font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra">x</text>
                            </g>
@@ -748,8 +692,8 @@
                               <text transform="translate(52.51 281.34)" style="isolation: isolate;font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra">-</text>
                            </g>
                         </g>
-                        <g data-index="1" class="chart-details-popup">
-                           <rect x="22.08" y="159.42" width="312" height="99" style="fill: #498bc9"/>
+                        <g data-index="1" class="chart-details-popup" style="display: none;">
+                           <rect x="22.08" y="159.42" width="312" height="99" style="fill: #498bc9"></rect>
                            <g style="isolation: isolate">
                               <text transform="translate(30.53 341.42)" style="isolation: isolate;font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra">FBO Front Line</text>
                            </g>
@@ -785,51 +729,59 @@
                                  <tspan x="88.45" y="0" style="letter-spacing: 0.00002712673611111111em">ge</tspan>
                               </text>
                            </g>
-                           <path d="M96.08,518.58v-61.5" transform="translate(1 -197.66)" style="fill: none;stroke: #94c948;stroke-linecap: square;stroke-width: 2px"/>
-                           <polyline points="131.67 409.67 131.67 360.92 177.67 360.92" style="fill: none;stroke: #94c948;stroke-width: 2px"/>
+                           <path d="M96.08,518.58v-61.5" transform="translate(1 -197.66)" style="fill: none;stroke: #94c948;stroke-linecap: square;stroke-width: 2px"></path>
+                           <polyline points="131.67 409.67 131.67 360.92 177.67 360.92" style="fill: none;stroke: #94c948;stroke-width: 2px"></polyline>
                            <g data-name="-" style="isolation: isolate">
                               <text transform="translate(13.26 340.42)" style="isolation: isolate;font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra">-</text>
                            </g>
                            <g data-name="Line-Service-Techici" style="isolation: isolate">
                               <g style="isolation: isolate">
-                                 <path d="M323.45,365.48l-3.26-4.11h2.33l2.13,2.78,2.05-2.78h2.1l-3.14,4.07,3.5,4.44h-2.33l-2.36-3.1-2.33,3.1h-2.1Z" transform="translate(1 -197.66)" style="fill: #fff"/>
+                                 <path d="M323.45,365.48l-3.26-4.11h2.33l2.13,2.78,2.05-2.78h2.1l-3.14,4.07,3.5,4.44h-2.33l-2.36-3.1-2.33,3.1h-2.1Z" transform="translate(1 -197.66)" style="fill: #fff"></path>
                               </g>
                            </g>
                         </g>
                      </svg>
+
+          <svg class="growth-chart-graphic-mobile" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 360">
+                     <g transform="translate(0.000000, -20.000000)">
+                                 <g>
+                                    <rect fill="#00253E" opacity="1" x="0" y="0" height="380" width="340"></rect>
+                                    <text font-family="Effra-Light, Effra" font-size="13" fill="#FFFFFF" font-weight="500">
+                                       <tspan x="20" y="50">In additions to our operations career</tspan>
+                                       <tspan x="20" y="70">paths, we also offer career paths in </tspan>
+                                       <tspan x="20" y="90">professional and technical roles such as:</tspan>
+                                    </text>
+                                    <rect fill="#498BC9" x="20" height="30" width="275" y="110"></rect>
+                                    <text font-family="Effra-Medium, Effra" font-size="18" fill="#FFFFFF" font-weight="500">
+                                       <tspan x="30" y="130">Professional</tspan>
+                                    </text>
+                                    <text font-family="Effra-Light, Effra" font-size="18" fill="#FFFFFF" font-weight="400">
+                                       <tspan x="36" y="170">Accounting</tspan>
+                                       <tspan x="36" y="190">Finance</tspan>
+                                       <tspan x="36" y="210">HR</tspan>
+                                    </text>
+                                    <text font-family="Effra-Light, Effra" font-size="18" fill="#FFFFFF" font-weight="400">
+                                       <tspan x="149" y="170">Safety</tspan>
+                                       <tspan x="149" y="190">Marketing</tspan>
+                                       <tspan x="149" y="210">Sales</tspan>
+                                    </text>
+                                    <rect fill="#8D9092" x="20" height="30" width="275" y="230"></rect>
+                                    <text font-family="Effra-Medium, Effra" font-size="18" fill="#FFFFFF" font-weight="500">
+                                       <tspan x="29" y="251">Technical</tspan>
+                                    </text>
+                                    <text font-family="Effra-Light, Effra" font-size="18" fill="#FFFFFF" font-weight="400">
+                                       <tspan x="36" y="290">Aircraft Maintenance:</tspan>
+                                       <tspan x="45" y="310">A&amp;P Mechanic</tspan><tspan x="45" y="330">Avionics Technician</tspan>
+                                       <tspan x="36" y="350">GSE Mechanic</tspan>
+                                    </text>
+                                 </g>
+                              </g>
+                            </svg>
+
+
+
                   </section>
-                  <svg class="growth-chart-indicators hidden-sm hidden-md hidden-lg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 275.79 24.81">
-                     <title>Signature Flight Support Career Growth Paths</title>
-                     <g class="step-indicator-group" data-index="0">
-                        <ellipse class="step-fill" cx="12.98" cy="12.93" rx="5.48" ry="5.43"></ellipse>
-                        <ellipse class="step-outline" cx="12.52" cy="12.4" rx="12.02" ry="11.9"></ellipse>
-                     </g>
-                     <path d="M25.4,14.81H51.47" transform="translate(-0.5 -0.5)" class="step-indicator-line"></path>
-                     <g class="step-indicator-group" data-index="1">
-                        <ellipse class="step-fill" cx="63.98" cy="12.93" rx="5.48" ry="5.43"></ellipse>
-                        <ellipse class="step-outline" cx="63.52" cy="12.4" rx="12.02" ry="11.9"></ellipse>
-                     </g>
-                     <path d="M76.69,14.81h25.67" transform="translate(-0.5 -0.5)" class="step-indicator-line"></path>
-                     <g class="step-indicator-group" data-index="2">
-                        <ellipse class="step-fill" cx="114.98" cy="12.93" rx="5.48" ry="5.43"></ellipse>
-                        <ellipse class="step-outline" cx="114.52" cy="12.4" rx="12.02" ry="11.9"></ellipse>
-                     </g>
-                     <path d="M127.75,14.81h24.06" transform="translate(-0.5 -0.5)" class="step-indicator-line"></path>
-                     <g class="step-indicator-group" data-index="3">
-                        <ellipse class="step-fill" cx="162.98" cy="12.93" rx="5.48" ry="5.43"></ellipse>
-                        <ellipse class="step-outline" cx="163.4" cy="12.4" rx="12.02" ry="11.9"></ellipse>
-                     </g>
-                     <path d="M176.28,14.81h26" transform="translate(-0.5 -0.5)" class="step-indicator-line"></path>
-                     <g class="step-indicator-group" data-index="4">
-                        <ellipse class="step-fill" cx="213.98" cy="12.93" rx="5.48" ry="5.43"></ellipse>
-                        <ellipse class="step-outline" cx="214.4" cy="12.4" rx="12.02" ry="11.9"></ellipse>
-                     </g>
-                     <path d="M227.63,14.81h24.06" transform="translate(-0.5 -0.5)" class="step-indicator-line"></path>
-                     <g class="step-indicator-group" data-index="5">
-                        <ellipse class="step-fill" cx="262.98" cy="12.93" rx="5.48" ry="5.43"></ellipse>
-                        <ellipse class="step-outline" cx="263.27" cy="12.4" rx="12.02" ry="11.9"></ellipse>
-                     </g>
-                  </svg>
+
                </div>
             </div>
          </div>
@@ -839,25 +791,25 @@
             <div class="row">
                <div class="visual-nav-col visual-nav-col__tall col-xs-12 col-sm-3 col-md-3 col-lg-3">
                   <div class="visual-nav-item">
-                     <a class="visual-nav-item-link" href="careers-growth.html#" style="background-image:url(img/careers/careers-growth/eric-hietala-wideshot.png);background-position:center center" data-toggle="modal" data-target="#your-signature-modal"></a>
+                     <a class="visual-nav-item-link" href="careers-growth.html#" style="background-image:url(/img/careers/careers-growth/eric-hietala-wideshot.png);background-position:center center" data-toggle="modal" data-target="#your-signature-modal"></a>
                      <div class="item-heading-overlay"><span>Eric Hietala</span></div>
                   </div>
                </div>
                <div class="visual-nav-col visual-nav-col__tall col-xs-12 col-sm-3 col-md-3 col-lg-3">
                   <div class="visual-nav-item">
-                     <a class="visual-nav-item-link" href="careers-growth.html#" style="background-image:url(img/careers/careers-growth/andrea_hopkins.jpg);background-position:center" data-toggle="modal" data-target="#where-to-start-modal"></a>
+                     <a class="visual-nav-item-link" href="careers-growth.html#" style="background-image:url(/img/careers/careers-growth/andrea_hopkins.jpg);background-position:center" data-toggle="modal" data-target="#where-to-start-modal"></a>
                      <div class="item-heading-overlay"><span>Andrea Hopkins</span></div>
                   </div>
                </div>
                <div class="visual-nav-col visual-nav-col__tall col-xs-12 col-sm-3 col-md-3 col-lg-3">
                   <div class="visual-nav-item">
-                     <a class="visual-nav-item-link" href="careers-growth.html#" style="background-image:url(img/careers/careers-growth/isaac_lee.jpg);background-position:center top" data-toggle="modal" data-target="#learn-teach-modal"></a>
+                     <a class="visual-nav-item-link" href="careers-growth.html#" style="background-image:url(/img/careers/careers-growth/isaac_lee.jpg);background-position:center top" data-toggle="modal" data-target="#learn-teach-modal"></a>
                      <div class="item-heading-overlay"><span>Isaac Lee</span></div>
                   </div>
                </div>
                <div class="visual-nav-col visual-nav-col__tall col-xs-12 col-sm-3 col-md-3 col-lg-3">
                   <div class="visual-nav-item">
-                     <a class="visual-nav-item-link" href="careers-growth.html#" style="background-image:url(img/careers/careers-growth/rita_carrillo.jpg);background-position:center" data-toggle="modal" data-target="#getting-there-modal"></a>
+                     <a class="visual-nav-item-link" href="careers-growth.html#" style="background-image:url(/img/careers/careers-growth/rita_carrillo.jpg);background-position:center" data-toggle="modal" data-target="#getting-there-modal"></a>
                      <div class="item-heading-overlay"><span>Rita Carrillo</span></div>
                   </div>
                </div>
@@ -868,8 +820,8 @@
          <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                <div class="modal-header">
-                  <div class="row"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
-                  <img class="img-responsive" src="img/careers/careers-growth/eric-hietala-close.png" alt="Your Signature">
+                  <div class="row"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                  <img class="img-responsive" src="/img/careers/careers-growth/eric-hietala-close.png" alt="Your Signature">
                   <h4 class="modal-title" id="your-signature-modal-heading">Eric Hietala  |  Regional Vice President</h4>
                </div>
                <div class="modal-body">
@@ -888,19 +840,19 @@
          <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                <div class="modal-header">
-                  <div class="row"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
-                  <img class="img-responsive" src="img/careers/careers-growth/andrea_hopkins.jpg" alt="Where to Start?">
+                  <div class="row"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                  <img class="img-responsive" src="/img/careers/careers-growth/andrea_hopkins.jpg" alt="Where to Start?">
                   <h4 class="modal-title" id="where-to-start-modal-heading">Andrea Hopkins | Signature Flight Support</h4>
                </div>
                <div class="modal-body">
-                  <p>Nearly 17 years ago, Andrea Hopkins answered a newspaper ad for a bilingual customer service representative with Signature Flight Support. At the time, she didn’t have any experience in the aviation industry but she recalls her interviewer (and then Station Manager), Tracy Gates, painting an exciting picture of the career opportunity and environment at the South Hampton Fixed Based Operation (FBO). Andrea got the job and spent the next two years developing her skills and knowledge in the industry. She worked three days on and three days off meeting exciting people stepping off private jets. Applying a &ldquo;never say no to a new opportunity&rdquo; mindset, Andrea began climbing the SFS ladder first as a Supervisor where for 10 months she gained valuable management experience. She was then promoted to Station Manager and began overseeing profit and loss statements, invoices, reporting, training, and safety management. After two years, Andrea’s hard work and willingness to take on additional responsibilities paid off in the form of another promotion to General Manager for South Hampton and Bournemouth FBOs. She led these teams for over six years before relocating to Nice to serve as the General Manager for NCE. </p>
-                  <p>Andrea says, &ldquo;If you want to get on and up with SFS a willingness to be mobile is key as the next step may not be at the current location you are working.&rdquo; Following 18 months in Nice, Andrea accepted the General Manager position at London’s Luton Airport in 2010. The 120-member team and the busiest location in the EMEA portfolio made Andrea feel like the &ldquo;conductor of the orchestra.&rdquo;</p>
-                  <p><strong>&ldquo;I had a really good management team,&rdquo; she said, &ldquo;with strong department heads and a really dedicated team across all departments.&rdquo; Going into her two-year run at Luton, Andrea remembers thinking, &ldquo;Can I do this?&rdquo; </strong></p>
-                  <p>&ldquo;It was such a big location,&rdquo; she said, &ldquo;I quickly learned the importance of team work, that it’s ok to rely on others, and that it’s ok to ask questions when you don’t understand something.&rdquo; Andrea credits much of her success to surrounding herself with people she could rely on and trust. &ldquo;If you have a strong team,&rdquo; she says, &ldquo;you can’t fail.&rdquo; &ldquo;They’ll be there for you in even on the most challenging days.&rdquo; <p>
-                  <p>In 2012 Andrea assumed the role of Sales Manager for Europe and began working with pilots and partners to grow Signature’s network in the European market. After early success in her first sales position, Andrea was promoted to Senior Sales Manager in 2014 and then Director of Sales in 2016. In early 2017, she then became the Area Director for Italy and France in addition to her role as Director of the European Sales Team. Andrea travels weekly to visit Signature’s European FBOs and clients. She manages big fleet accounts, researches potential new customers, approves sales team negotiations and oversees her regions operationally ensuring service and safety are met at all times.</p>
-                  <p>Andrea recognized that her early directors became her mentors who encouraged her to develop her skill set and knowledge to grow her career. She shared that her current manager, Evie Freeman, Managing Director of Signature Flight Support EMEA is a true inspirational leader &ldquo;she’s the best!&rdquo;</p>
-                  <p>Andrea’s advice to current Signature team members looking for career growth: &ldquo;Don’t hold back, make it known that you want to grow your career. If you don’t say it, how will your manager know?&rdquo; Andrea notes that &ldquo;All of my team members know that I will not hold them back – its rewarding to see them grow and further their career within Signature.&rdquo; &ldquo;If you work hard, you’ll move on and up,&rdquo; she says. </p>
-                  <p>Andrea encourages those seeking a fun, fast-moving, exciting place to work to consider a career with Signature Flight Support. She wants potential new team members to know that one of the best things about being a part of the Signature family is that, &ldquo;No two days are the same, it really is an exciting place to work.&rdquo; &ldquo;I love having fun at work,&rdquo; she says. &ldquo;It’s a challenging job but you can still have fun and enjoy what you’re doing.&rdquo;</p>
+                  <p>Nearly 17 years ago, Andrea Hopkins answered a newspaper ad for a bilingual customer service representative with Signature Flight Support. At the time, she didn’t have any experience in the aviation industry but she recalls her interviewer (and then Station Manager), Tracy Gates, painting an exciting picture of the career opportunity and environment at the South Hampton Fixed Based Operation (FBO). Andrea got the job and spent the next two years developing her skills and knowledge in the industry. She worked three days on and three days off meeting exciting people stepping off private jets. Applying a “never say no to a new opportunity” mindset, Andrea began climbing the SFS ladder first as a Supervisor where for 10 months she gained valuable management experience. She was then promoted to Station Manager and began overseeing profit and loss statements, invoices, reporting, training, and safety management. After two years, Andrea’s hard work and willingness to take on additional responsibilities paid off in the form of another promotion to General Manager for South Hampton and Bournemouth FBOs. She led these teams for over six years before relocating to Nice to serve as the General Manager for NCE. </p>
+                  <p>Andrea says, “If you want to get on and up with SFS a willingness to be mobile is key as the next step may not be at the current location you are working.” Following 18 months in Nice, Andrea accepted the General Manager position at London’s Luton Airport in 2010. The 120-member team and the busiest location in the EMEA portfolio made Andrea feel like the “conductor of the orchestra.”</p>
+                  <p><strong>“I had a really good management team,” she said, “with strong department heads and a really dedicated team across all departments.” Going into her two-year run at Luton, Andrea remembers thinking, “Can I do this?” </strong></p>
+                  <p>“It was such a big location,” she said, “I quickly learned the importance of team work, that it’s ok to rely on others, and that it’s ok to ask questions when you don’t understand something.” Andrea credits much of her success to surrounding herself with people she could rely on and trust. “If you have a strong team,” she says, “you can’t fail.” “They’ll be there for you in even on the most challenging days.” </p><p>
+                  </p><p>In 2012 Andrea assumed the role of Sales Manager for Europe and began working with pilots and partners to grow Signature’s network in the European market. After early success in her first sales position, Andrea was promoted to Senior Sales Manager in 2014 and then Director of Sales in 2016. In early 2017, she then became the Area Director for Italy and France in addition to her role as Director of the European Sales Team. Andrea travels weekly to visit Signature’s European FBOs and clients. She manages big fleet accounts, researches potential new customers, approves sales team negotiations and oversees her regions operationally ensuring service and safety are met at all times.</p>
+                  <p>Andrea recognized that her early directors became her mentors who encouraged her to develop her skill set and knowledge to grow her career. She shared that her current manager, Evie Freeman, Managing Director of Signature Flight Support EMEA is a true inspirational leader “she’s the best!”</p>
+                  <p>Andrea’s advice to current Signature team members looking for career growth: “Don’t hold back, make it known that you want to grow your career. If you don’t say it, how will your manager know?” Andrea notes that “All of my team members know that I will not hold them back – its rewarding to see them grow and further their career within Signature.” “If you work hard, you’ll move on and up,” she says. </p>
+                  <p>Andrea encourages those seeking a fun, fast-moving, exciting place to work to consider a career with Signature Flight Support. She wants potential new team members to know that one of the best things about being a part of the Signature family is that, “No two days are the same, it really is an exciting place to work.” “I love having fun at work,” she says. “It’s a challenging job but you can still have fun and enjoy what you’re doing.”</p>
                   <p>f you’re ready to find a career that you love, that you get excited about every day, then take the first step toward joining the Signature Flight Support team by applying for one of our featured roles at <a href="http://signature.thegocostaging.com/signatureflight.com/careers">signatureflight.com/careers</a></p>
                   </div>
             </div>
@@ -910,19 +862,19 @@
          <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                <div class="modal-header">
-                  <div class="row"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
-                  <img class="img-responsive" src="img/careers/careers-growth/isaac_lee.jpg" alt="Learn it, try it, teach it.">
+                  <div class="row"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                  <img class="img-responsive" src="/img/careers/careers-growth/isaac_lee.jpg" alt="Learn it, try it, teach it.">
                   <h4 class="modal-title" id="learn-teach-modal-heading">Isaac Lee | Operations Manager</h4>
                </div>
                <div class="modal-body">
-                  <p>In 1988, Isaac Lee joined the military and served as an active U. S. Naval aviator for six years. After transitioning to the Naval Reserves in 1994, he wanted to continue to work in the aviation industry. His first job in the civilian world was as a ramp supervisor with Piedmont Aviation Services. After only a year at his new role in Norfolk, Virginia, Isaac was promoted to Airline Operations Manager based on his knowledge in airline ground handling, fueling and his management talents. For two years Isaac managed the operations at Norfolk before continuing his career growth as an Airline Services Manager overseeing all airline contracts and audits for ground handling and interplane operations. Within 24 months, Isaac would receive another promotion and add the Operations Manager title and responsibilities to his repertoire. In 1996, Isaac was promoted to the position of Operations Manager for the entire Piedmont Aviation Services Norfolk Fixed Based Operation.</p>
-                  <p>Isaac knew from the start that he wanted to gain industry knowledge and explore its career advancement opportunities, but he says he didn’t always go out of his way to make his career aspirations known. Isaac recalls, &ldquo;I was so in to what I was doing...I just tried to do the very best job I could every day.&rdquo; During the next four years he focused on building a solid foundation of general aviation knowledge and skills. He credits company leaders, customers and associates for sharing and helping him reach higher levels.</p>
-                  <p>As his responsibilities expanded to general aviation operations, Isaac learned about line services, towing, fueling, customer service, accounting, scheduling, maintenance, human resources, and more. When a General Manager position became available in Charlottesville, Virginia in 1999, Isaac was ready with the experience needed to transition to this new level of leadership. Isaac says, &ldquo;All training is important. It helped me get where I am now. I’m a &ldquo;will do and can do person…&rdquo; I’m not a desk person. My team knows that I am a hands on leader. I always want to help my team, and they know I can do whatever I ask others to do. I’ve been a GM for 15 years now and I still love receiving new training. It’s important to me to know what my team knows so I can determine what the customer wants before they ask ... I think the team respects that.&rdquo;</p>
+                  <p>In 1988, Isaac Lee joined the military and served as an active U. S. Naval aviator for six years. After transitioning to the Naval Reserves in 1994, he wanted to continue to work in the aviation industry. His first job in the civilian world was as a ramp supervisor with Piedmont Aviation Services. After only a year at his new role in Norfolk, Virginia, Isaac was promoted to Airline Operations Manager based on his knowledge in airline ground handling, fueling and his management talents. For two years Isaac managed the operations at Norfolk before continuing his career growth as an Airline Services Manager overseeing all airline contracts&nbsp;and audits for ground handling and interplane operations. Within 24 months, Isaac would receive another promotion and add the Operations Manager title and responsibilities to his repertoire.&nbsp;In 1996, Isaac was promoted to the position of Operations Manager for the entire Piedmont Aviation Services Norfolk Fixed Based Operation.</p>
+                  <p>Isaac knew from the start that he wanted to gain industry knowledge and explore its career advancement opportunities, but he says he didn’t always go out of his way to make his career aspirations known. Isaac recalls, “I was so in to what I was doing...I just tried to do the very best job I could every day.” During the next four years he focused on building a solid foundation of general aviation knowledge and skills. He credits company leaders, customers and associates for sharing and helping him reach higher levels.</p>
+                  <p>As his responsibilities expanded to general aviation operations, Isaac learned about line services, towing, fueling, customer service, accounting, scheduling, maintenance, human resources, and more. When a General Manager position became available in Charlottesville, Virginia in 1999, Isaac was ready with the experience needed to transition to this new level of leadership. Isaac says, “All training is important. It helped me get where I am now. I’m a “will do and can do person…” I’m not a desk person. My team knows that I am a hands on leader. I always want to help my team, and they know I can do whatever I ask others to do. I’ve been a GM for 15 years now and I still love receiving new training. It’s important to me to know what my team knows so I can determine what the customer wants before they ask ... I think the team respects that.”</p>
                   <p>After 3 years in Charlottesville, Isaac returned to Norfolk as its next General Manager.  After 8 successful years in Norfolk, the company (now Landmark Aviation) promoted Isaac to run the largest FBO in its network, Miami. Isaac left his home state of Virginia to make his mark on the Sunshine State and he’s been an integral part of the South Florida team for 6 years now. In 2016, Signature Flight Support acquired Landmark Aviation forming the world’s largest FBO network.</p>
-                  <p>saac’s advice for potential new team members: &ldquo;Signature offers lots of different career avenues within aviation, from human resources, to finance, customer service, MRO, or charter...identify your goals and your experience with Signature can help you reach them. You can learn so much from the people you’re working with. Just work hard, follow procedures, put safety first, and your career will advance.&rdquo; Isaac is also a huge advocate for higher education. He works with team members whenever possible to build their work schedules around school so they can have additional options for advancing their careers.</p>
-                  <p><strong>After 21 years in the industry, Isaac still uses the same mantra, &ldquo;One Band, One Sound.&rdquo;
-&ldquo;If one person in the band sounds bad, the whole band sounds bad,&rdquo; he says. &ldquo;This concept gets everyone working together.&rdquo;</strong></p>
-                  <p>His words of wisdom to leaders of a band &ldquo;Advocate for your employees. If we take care of our employees, they will take care of our customers and everyone wins when that happens.&rdquo; Isaac says that through his years of career growth he learned that fostering a diverse team culture where different backgrounds and experiences are celebrated is one of the best ways to create camaraderie within an FBO. </p>
+                  <p>saac’s advice for potential new team members: “Signature offers lots of different career avenues within aviation, from human resources, to finance, customer service, MRO, or charter...identify your goals and your experience with Signature can help you reach them. You can learn so much from the people you’re working with. Just work hard, follow procedures, put safety first, and your career will advance.” Isaac is also a huge advocate for higher education. He works with team members whenever possible to build their work schedules around school so they can have additional options for advancing their careers.</p>
+                  <p><strong>After 21 years in the industry, Isaac still uses the same mantra, “One Band, One Sound.”
+“If one person in the band sounds bad, the whole band sounds bad,” he says. “This concept gets everyone working together.”</strong></p>
+                  <p>His words of wisdom to leaders of a band “Advocate for your employees. If we take care of our employees, they will take care of our customers and everyone wins when that happens.” Isaac says that through his years of career growth he learned that fostering a diverse team culture where different backgrounds and experiences are celebrated is one of the best ways to create camaraderie within an FBO. </p>
                   <p>If you’re ready to join a winning team like Isaac’s view Signature Flight Support’s featured job opportunities <a href="http://signature.thegocostaging.com/signatureflight.com/careers">signatureflight.com/careers</a></p>
               </div>
             </div>
@@ -932,15 +884,15 @@
          <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                <div class="modal-header">
-                  <div class="row"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
-                  <img class="img-responsive" src="img/careers/careers-growth/rita_carrillo.jpg" alt="Rita Carrillo">
+                  <div class="row"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                  <img class="img-responsive" src="/img/careers/careers-growth/rita_carrillo.jpg" alt="Rita Carrillo">
                   <h4 class="modal-title" id="getting-there-modal-heading">Rita Carrillo | Area General Manager</h4>
                </div>
                <div class="modal-body">
                   <p>Meet Rita! She’s been a Signature Flight Support (SFS) team members for over 30 years. Rita knew she wanted a career in the aviation industry so when she applied for a position with SFS and didn’t receive the job, she kept exploring opportunities to join the team. She was selected for the next position she applied for and began her SFS career as a Red Carpet Hostess. The role was similar to Signature’s current Air Concierge position and included greeting guests on the ramp and providing outstanding customer service.</p>
                   <p>Rita credits persistence and perseverance for helping her grow in subsequent lead and supervisor roles. After just 6 months Rita was promoted to a lead position and 12 months later she became a supervisor. Rita values Signature Flight Support’s customer focus and ability to adapt in an ever-changing industry. Her most memorable moments with Signature include each time she welcomed Air Force One to her fixed base operation (FBO). </p>
                   <p>Now as an Area General Manager, Rita puts her years of experience in the field to work guiding a whole new group of team members. Rita says her strong support team makes her feel invincible. Rita’s advice for those just starting out:</p>
-                  <p><strong>&ldquo;Love what you’re doing and your passion will flow from there. Be enthusiastic and you’ll be noticed.&rdquo;</strong></p>
+                  <p><strong>“Love what you’re doing and your passion will flow from there. Be enthusiastic and you’ll be noticed.”</strong></p>
               </div>
             </div>
          </div>
@@ -948,7 +900,7 @@
       <section class="featured-links">
          <div class="container-fluid">
             <div class="row">
-               <div class="featured-link-item col-xs-12 col-sm-12 col-md-6 col-lg-6" style="background-image:url(img/careers/careers-home/career-growth-bkg.jpg)">
+               <div class="featured-link-item col-xs-12 col-sm-12 col-md-6 col-lg-6" style="background-image:url(/img/careers/careers-home/career-growth-bkg.jpg)">
                   <a class="play videos" href="https://vimeo.com/199872458">
                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 93 93">
                         <title>icon-play</title>
@@ -958,7 +910,7 @@
                   </a>
                   <div class="item-heading-overlay"><span>Build a Career</span></div>
                </div>
-               <div class="featured-link-item col-xs-12 col-sm-12 col-md-6 col-lg-6" style="background-image:url(img/careers/careers-home/meet-team-bkg.jpg)">
+               <div class="featured-link-item col-xs-12 col-sm-12 col-md-6 col-lg-6" style="background-image:url(/img/careers/careers-home/meet-team-bkg.jpg)">
                   <a class="play videos" href="https://vimeo.com/199872458">
                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 93 93">
                         <title>icon-play</title>
@@ -1053,7 +1005,7 @@
                         <a class="logo" href="careers-growth.html#"></a>
                         <div class="socials">
                            <ul>
-                              <li class="bba"><a href="http://www.bbaaviation.com/"><img alt="" src="img/icon-bba-aviation.png"></a></li>
+                              <li class="bba"><a href="http://www.bbaaviation.com/"><img alt="" src="/img/icon-bba-aviation.png"></a></li>
                               <li><a class="social" href="http://www.facebook.com/signatureflightsupport" target="_blank"><em class="fa fa-facebook" aria-hidden="true"></em></a></li>
                               <li><a class="social" href="http://www.twitter.com/SignatureFBO" target="_blank"><em class="fa fa-twitter" aria-hidden="true"></em></a></li>
                               <li><a class="social" href="http://www.linkedin.com/company/signature-flight-support" target="_blank"><em class="fa fa-linkedin" aria-hidden="true"></em></a></li>
@@ -1066,1077 +1018,9 @@
             </div>
          </div>
       </footer>
-      <script type="text/javascript" charset="UTF-8" src="https://translate.googleapis.com/element/TE_20170814_01/e/js/element/element_main.js"></script><script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script><script src="js/plugins/jquery.customSelect.min.js"></script><script src="js/plugins/jquery.magnific-popup.min.js"></script><script src="js/plugins/bootstrap.min.js"></script><script src="js/signature/careers.js"></script><script src="js/signature/signature.js"></script><script type="text/javascript" src="js/signature/careers-growth.js"></script>
-   </body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-      <meta name="author" content="Signature Flight Support">
-      <meta name="description" content="Business jet and avgas fueling, aviation ground handling and support, aircraft hangars, and VIP terminals across the largest FBO network in the world.">
-      <title>Signature Flights | Career growth page title here.</title>
-      <link rel="apple-touch-icon-precomposed" sizes="57x57" href="fav/apple-touch-icon-57x57.png">
-      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="fav/apple-touch-icon-114x114.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="fav/apple-touch-icon-72x72.png">
-      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="fav/apple-touch-icon-144x144.png">
-      <link rel="apple-touch-icon-precomposed" sizes="60x60" href="fav/apple-touch-icon-60x60.png">
-      <link rel="apple-touch-icon-precomposed" sizes="120x120" href="fav/apple-touch-icon-120x120.png">
-      <link rel="apple-touch-icon-precomposed" sizes="76x76" href="fav/apple-touch-icon-76x76.png">
-      <link rel="apple-touch-icon-precomposed" sizes="152x152" href="fav/apple-touch-icon-152x152.png">
-      <link rel="icon" type="image/png" href="fav/favicon-196x196.png" sizes="196x196">
-      <link rel="icon" type="image/png" href="fav/favicon-96x96.png" sizes="96x96">
-      <link rel="icon" type="image/png" href="fav/favicon-32x32.png" sizes="32x32">
-      <link rel="icon" type="image/png" href="fav/favicon-16x16.png" sizes="16x16">
-      <link rel="icon" type="image/png" href="fav/favicon-128.png" sizes="128x128">
-      <meta name="application-name" content="Signature Flight">
-      <meta name="msapplication-TileColor" content="#FFFFFF">
-      <meta name="msapplication-TileImage" content="/fav/mstile-144x144.png">
-      <meta name="msapplication-square70x70logo" content="/fav/mstile-70x70.png">
-      <meta name="msapplication-square150x150logo" content="/fav/mstile-150x150.png">
-      <meta name="msapplication-wide310x150logo" content="/fav/mstile-310x150.png">
-      <meta name="msapplication-square310x310logo" content="/fav/mstile-310x310.png">
-      <script src="https://use.typekit.net/rno5nbt.js"></script><script>try { Typekit.load({ async: true }) } catch(e){}</script>
-      <link type="text/css" rel="stylesheet" href="css/main.css">
-   </head>
-   <body id="careers-growth" data-spy="scroll" data-target=".careers-nav-container" data-offset="45">
-      <nav>
-         <div id="upper">
-            <div class="container">
-               <ul>
-                  <li><a href="careers-growth.html#" class="loyalty">Loyalty <strong>Sign In</strong></a></li>
-                  <li>
-                     <p>Language:</p>
-                     <select class="language">
-                        <option>English</option>
-                        <option>Spanish</option>
-                        <option>French</option>
-                        <option>Japanese</option>
-                     </select>
-                  </li>
-               </ul>
-            </div>
-         </div>
-         <div id="main">
-            <div class="container">
-               <div id="nav-icon2" class="hamburger"><span></span> <span></span> <span></span> <span></span> <span></span> <span></span></div>
-               <a href="index.html" class="logo"></a>
-               <ul class="menu-desktop">
-                  <li class="dropdown item-no-link">
-                     <a class="aspNetDisabled">Locations</a>
-                     <ul>
-                        <li><a href="http://signature.thegocostaging.com/locations/united-states">United States</a></li>
-                        <li><a href="http://signature.thegocostaging.com/locations/canada">Canada</a></li>
-                        <li><a href="http://signature.thegocostaging.com/locations/carribean">Caribbean</a></li>
-                        <li><a href="http://signature.thegocostaging.com/locations/south-central-america">South / Central America</a></li>
-                        <li><a href="http://signature.thegocostaging.com/locations/europe">Europe</a></li>
-                        <li><a href="http://signature.thegocostaging.com/locations/africa">Africa</a></li>
-                        <li><a href="http://signature.thegocostaging.com/locations/asia">Asia</a></li>
-                     </ul>
-                  </li>
-                  <li class="dropdown item-no-link">
-                     <a class="aspNetDisabled">Programs</a>
-                     <ul>
-                        <li><a href="http://signature.thegocostaging.com/programs/signature-tailwins">Signature TailWins®</a></li>
-                        <li><a href="http://signature.thegocostaging.com/programs/signature-status">Signature Status®</a></li>
-                        <li><a href="http://signature.thegocostaging.com/programs/signature-select">Signature Select®</a></li>
-                        <li><a href="http://signature.thegocostaging.com/programs/aviation-card">Aviation Card</a></li>
-                        <li><a href="http://signature.thegocostaging.com/programs/national-car-rental">National® Car Rental</a></li>
-                        <li><a href="http://signature.thegocostaging.com/programs/the-exotic-car-collection-by-enterprise">The Exotic Car Collection by Enterprise</a></li>
-                        <li><a href="http://signature.thegocostaging.com/programs/dassp-dca-access-program">DASSP DCA Access Program</a></li>
-                     </ul>
-                  </li>
-                  <li class="dropdown item-no-link">
-                     <a class="aspNetDisabled">Services</a>
-                     <ul>
-                        <li><a href="http://signature.thegocostaging.com/services/technicair">TECHNICAir Aircraft Maintenance</a></li>
-                        <li><a href="http://signature.thegocostaging.com/services/signature-elite-class">Signature ELITE Class</a></li>
-                        <li><a href="http://signature.thegocostaging.com/services/real-estate">Real Estate</a></li>
-                        <li><a href="http://signature.thegocostaging.com/services/general-aviation">General Aviation</a></li>
-                        <li><a href="http://signature.thegocostaging.com/services/photo-and-video-shoots">Video and Photo Shoots</a></li>
-                     </ul>
-                  </li>
-                  <li class="dropdown item-no-link">
-                     <a class="aspNetDisabled">About</a>
-                     <ul>
-                        <li><a href="http://signature.thegocostaging.com/about/about">About Us</a></li>
-                        <li><a href="http://signature.thegocostaging.com/about/newsroom">Newsroom</a></li>
-                        <li><a href="http://signature.thegocostaging.com/about/social-responsibility">Corporate Responsibility</a></li>
-                        <li><a href="http://signature.thegocostaging.com/about/leadership">Leadership</a></li>
-                        <li><a href="http://signature.thegocostaging.com/about/bba-aviation">BBA Aviation</a></li>
-                        <li><a href="http://signature.thegocostaging.com/about/the-signature-difference">The Signature Difference</a></li>
-                     </ul>
-                  </li>
-                  <li class="dropdown item-no-link">
-                     <a class="aspNetDisabled">Events</a>
-                     <ul>
-                        <li><a href="http://signature.thegocostaging.com/events/Palm-Beach-TFR">Palm Beach Temporary Flight Restrictions (TFR)</a></li>
-                        <li><a href="http://signature.thegocostaging.com/events/shannon-airport-runway-closure">Shannon Airport Runway Closure</a></li>
-                        <li><a href="http://signature.thegocostaging.com/events/boston-ramp-congestion">Boston Ramp Congestion</a></li>
-                        <li><a href="http://signature.thegocostaging.com/events/greece-slot-restrictions">Greece Slot Restrictions</a></li>
-                        <li><a href="http://signature.thegocostaging.com/events/high-traffic-fights-las-vegas">High Traffic Fights in Las Vegas</a></li>
-                        <li><a href="http://signature.thegocostaging.com/events/hurricane-closures">Hurricane Closures</a></li>
-                     </ul>
-                  </li>
-                  <li class="dropdown item-no-link">
-                     <a class="aspNetDisabled">Careers</a>
-                     <ul>
-                        <li><a href="careers.html">Careers Home</a></li>
-                        <li><a href="careers-featured.html">Featured Roles</a></li>
-                        <li><a href="careers-resources.html">Resources</a></li>
-                        <li><a href="careers-growth.html">Career Growth</a></li>
-                        <li><a href="careers-culture.html">Our Culture</a></li>
-                        <li><a href="careers-benefits.html">Benefits</a></li>
-                        <li><a href="careers-growth.html#">Blog</a></li>
-                     </ul>
-                  </li>
-                  <li class="visible-xs"><a style="font-size:22px" href="http://signature.thegocostaging.com/sitemap">Sitemap</a></li>
-                  <li class="visible-xs"><a style="font-size:22px" href="http://signature.thegocostaging.com/search-results">Search</a></li>
-                  <li id="search-locations"><a href="careers-growth.html#search"><i class="ion-ios-search" aria-hidden="true"></i></a></li>
-               </ul>
-               <div id="mobileLoginContainer" data-toggle="modal" data-target="#myModal"><a href="careers-growth.html#" class="signin">Sign In</a></div>
-               <div id="mobileLogOutContainer" style="display:none"><a href="careers-growth.html#" id="signOutButton" class="signOut" style="display:none">Sign Out</a></div>
-            </div>
-         </div>
-      </nav>
-      <div id="search-nav">
-         <div class="container">
-            <div class="row"><input id="sew_searchBox" class="searchBoxMobile" type="text" placeholder="Search website"> <button type="submit" class="button blue" onclick="keyotiSearchBox.doSearch(); return false;">Search</button></div>
-         </div>
-      </div>
-      <div id="mobile-nav">
-         <div class="visible-xs visible-sm">
-            <div id="LoginDiv" class="text-center" style="display: none">Welcome Back&nbsp;&nbsp;<span id="NameDisplayMobile"></span><br>Signature TailWins® Points:&nbsp;<span id="PointsDisplayMobile"></span><br><a href="https://loyalty.signatureflight.com/" target="_blank">View Profile</a></div>
-         </div>
-         <div class="container">
-            <ul class="">
-               <li class="dropdown item-no-link level-1">
-                  <a class="aspNetDisabled">Locations</a><img class="chevron-down" src="img/mobile-menu/down-chevron.svg">
-                  <ul>
-                     <li><a href="http://signature.thegocostaging.com/locations/united-states">United States</a></li>
-                     <li><a href="http://signature.thegocostaging.com/locations/canada">Canada</a></li>
-                     <li><a href="http://signature.thegocostaging.com/locations/carribean">Caribbean</a></li>
-                     <li><a href="http://signature.thegocostaging.com/locations/south-central-america">South / Central America</a></li>
-                     <li><a href="http://signature.thegocostaging.com/locations/europe">Europe</a></li>
-                     <li><a href="http://signature.thegocostaging.com/locations/africa">Africa</a></li>
-                     <li><a href="http://signature.thegocostaging.com/locations/asia">Asia</a></li>
-                  </ul>
-               </li>
-               <li class="dropdown item-no-link level-1">
-                  <a class="aspNetDisabled">Programs</a><img class="chevron-down" src="img/mobile-menu/down-chevron.svg">
-                  <ul>
-                     <li><a href="http://signature.thegocostaging.com/programs/signature-tailwins">Signature TailWins®</a></li>
-                     <li><a href="http://signature.thegocostaging.com/programs/signature-status">Signature Status®</a></li>
-                     <li><a href="http://signature.thegocostaging.com/programs/signature-select">Signature Select®</a></li>
-                     <li><a href="http://signature.thegocostaging.com/programs/aviation-card">Aviation Card</a></li>
-                     <li><a href="http://signature.thegocostaging.com/programs/national-car-rental">National® Car Rental</a></li>
-                     <li><a href="http://signature.thegocostaging.com/programs/the-exotic-car-collection-by-enterprise">The Exotic Car Collection by Enterprise</a></li>
-                     <li><a href="http://signature.thegocostaging.com/programs/dassp-dca-access-program">DASSP DCA Access Program</a></li>
-                  </ul>
-               </li>
-               <li class="dropdown item-no-link level-1">
-                  <a class="aspNetDisabled">Services</a><img class="chevron-down" src="img/mobile-menu/down-chevron.svg">
-                  <ul>
-                     <li><a href="http://signature.thegocostaging.com/services/technicair">TECHNICAir Aircraft Maintenance</a></li>
-                     <li><a href="http://signature.thegocostaging.com/services/signature-elite-class">Signature ELITE Class</a></li>
-                     <li><a href="http://signature.thegocostaging.com/services/real-estate">Real Estate</a></li>
-                     <li><a href="http://signature.thegocostaging.com/services/general-aviation">General Aviation</a></li>
-                     <li><a href="http://signature.thegocostaging.com/services/photo-and-video-shoots">Video and Photo Shoots</a></li>
-                  </ul>
-               </li>
-               <li class="dropdown item-no-link level-1">
-                  <a class="aspNetDisabled">About</a><img class="chevron-down" src="img/mobile-menu/down-chevron.svg">
-                  <ul>
-                     <li><a href="http://signature.thegocostaging.com/about/about">About Us</a></li>
-                     <li><a href="http://signature.thegocostaging.com/about/newsroom">Newsroom</a></li>
-                     <li><a href="http://signature.thegocostaging.com/about/social-responsibility">Corporate Responsibility</a></li>
-                     <li><a href="http://signature.thegocostaging.com/about/leadership">Leadership</a></li>
-                     <li><a href="http://signature.thegocostaging.com/about/bba-aviation">BBA Aviation</a></li>
-                     <li><a href="http://signature.thegocostaging.com/about/the-signature-difference">The Signature Difference</a></li>
-                  </ul>
-               </li>
-               <li class="dropdown item-no-link level-1">
-                  <a class="aspNetDisabled">Events</a><img class="chevron-down" src="img/mobile-menu/down-chevron.svg">
-                  <ul>
-                     <li><a href="http://signature.thegocostaging.com/events/Palm-Beach-TFR">Palm Beach Temporary Flight Restrictions (TFR)</a></li>
-                     <li><a href="http://signature.thegocostaging.com/events/shannon-airport-runway-closure">Shannon Airport Runway Closure</a></li>
-                     <li><a href="http://signature.thegocostaging.com/events/boston-ramp-congestion">Boston Ramp Congestion</a></li>
-                     <li><a href="http://signature.thegocostaging.com/events/greece-slot-restrictions">Greece Slot Restrictions</a></li>
-                     <li><a href="http://signature.thegocostaging.com/events/high-traffic-fights-las-vegas">High Traffic Fights in Las Vegas</a></li>
-                     <li><a href="http://signature.thegocostaging.com/events/hurricane-closures">Hurricane Closures</a></li>
-                  </ul>
-               </li>
-               <li class="dropdown level-1">
-                  <a class="aspNetDisabled">Careers</a><img class="chevron-down" src="img/mobile-menu/down-chevron.svg">
-                  <ul>
-                     <li><a href="http://signature.thegocostaging.com/events/Palm-Beach-TFR">Palm Beach Temporary Flight Restrictions (TFR)</a></li>
-                     <li><a href="http://signature.thegocostaging.com/events/shannon-airport-runway-closure">Shannon Airport Runway Closure</a></li>
-                     <li><a href="http://signature.thegocostaging.com/events/boston-ramp-congestion">Boston Ramp Congestion</a></li>
-                     <li><a href="http://signature.thegocostaging.com/events/greece-slot-restrictions">Greece Slot Restrictions</a></li>
-                     <li><a href="http://signature.thegocostaging.com/events/high-traffic-fights-las-vegas">High Traffic Fights in Las Vegas</a></li>
-                     <li><a href="http://signature.thegocostaging.com/events/hurricane-closures">Hurricane Closures</a></li>
-                  </ul>
-               </li>
-               <li class="visible-xs visible-sm level-1"><a style="font-size:22px" href="http://signature.thegocostaging.com/sitemap">Sitemap</a></li>
-               <li class="visible-xs visible-sm level-1"><a style="font-size:22px" href="http://signature.thegocostaging.com/search-results">Search</a></li>
-            </ul>
-         </div>
-      </div>
-      <div class="careers-nav hidden-xs hidden-sm">
-         <div class="careers-nav-container" data-spy="affix" data-offset-top="108">
-            <div class="container">
-               <div class="row">
-                  <nav>
-                     <ul class="careers-nav-list">
-                        <li><a href="careers.html">Careers Home</a></li>
-                        <li><a href="careers-featured.html">Featured Roles</a></li>
-                        <li><a href="careers-resources.html">Resources</a></li>
-                        <li><a href="careers-growth.html">Career Growth</a></li>
-                        <li><a href="careers-culture.html">Our Culture</a></li>
-                        <li><a href="careers-benefits.html">Benefits</a></li>
-                        <li><a href="careers-growth.html#">Blog</a></li>
-                        <li class="job-alerts-link"><button type="button" class="btn" data-toggle="modal" data-target="#job-alert-modal">Get Job Alerts</button></li>
-                     </ul>
-                  </nav>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="container-fluid nav-links-container hidden-xs hidden-sm"></div>
-      <div class="container careers-search-container hidden-xs hidden-sm">
-         <div class="row center-block">
-            <form class="form-inline job-search-form clearfix" action="careers-employment.html">
-               <span>Find a Job</span>
-               <select title="category" name="job_category" id="job-category">
-                  <option selected="selected" disabled="disabled">Job Category</option>
-                  <option value="1">FBO Front Line</option>
-                  <option value="2">FBO Supervisor</option>
-                  <option value="3">Base Supervision</option>
-                  <option value="4">FBO Management</option>
-                  <option value="5">Leadership</option>
-               </select>
-               <select title="location" name="job_location" id="job-location">
-                  <option selected="selected" disabled="disabled">Location</option>
-                  <option value="1">United States</option>
-                  <option value="2">Canada</option>
-                  <option value="3">South/Central America</option>
-                  <option value="4">Europe</option>
-                  <option value="5">Africa</option>
-                  <option value="6">Asia</option>
-               </select>
-               <button type="submit" class="btn job-search-btn">Apply Now</button>
-            </form>
-         </div>
-      </div>
-      <div class="container-fluid careers-mobile-nav hidden-md hidden-lg">
-         <div class="row mobile-nav__item"><button type="button" class="btn" data-toggle="modal" data-target="#job-alert-modal">Get Job Alerts</button></div>
-         <div class="row mobile-nav__item search-jobs">
-            <div class="col-xs-12 col-sm-12"><a href="careers-employment.html" class="mobile-nav__btn"><span>Search Jobs</span></a></div>
-         </div>
-      </div>
-      <div class="modal fade" id="job-alert-modal" tabindex="-1" role="dialog" aria-labelledby="modal-title">
-         <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-               <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                  <h4 class="modal-title" id="modal-title">First Alerts</h4>
-                  <div class="row">
-                     <div class="col-xs-8 col-xs-offset-2">
-                        <p class="modal-title-sub">Get First Alerts when new jobs or career events are posted that match your criteria.</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="modal-body">
-                  <form>
-                     <div class="row">
-                        <div class="col-sm-12 col-md-4 col-md-offset-2 modal-body-form-col"><label for="form-first">First Name*</label><input id="form-first" name="first_name" type="text" class="form-control modal-form-field" required></div>
-                        <div class="col-sm-12 col-md-4 modal-body-form-col"><label for="form-last">Last Name*</label><input id="form-last" name="last_name" type="text" class="form-control modal-form-field" required></div>
-                     </div>
-                     <div class="row">
-                        <div class="col-sm-12 col-md-4 col-md-offset-2 modal-body-form-col"><label for="form-mobile">Mobile</label><input id="form-mobile" name="mobile" type="tel" pattern="^\d{3}-\d{3}-\d{4}$" class="form-control modal-form-field"></div>
-                        <div class="col-sm-12 col-md-4 modal-body-form-col"><label for="form-email">Email Address*</label><input id="form-email" name="email" type="email" class="form-control modal-form-field" required></div>
-                        <div class="col-sm-12 text-center"><button type="submit" class="btn btn-primary">Sign up</button></div>
-                     </div>
-                  </form>
-               </div>
-               <div class="modal-footer">
-                  <p>Already a Signature Flight Support Team Member? <a href="careers-employment.html">Click here</a> to browse jobs.</p>
-               </div>
-            </div>
-         </div>
-      </div>
-      <section class="growth-header">
-         <div class="container">
-            <div class="row">
-               <div class="col-xs-12">
-                  <h1 class="growth-header-heading">Career Growth</h1>
-                  <p class="growth-header-subheading">No matter where you start your career with Signature, there's a path for professional growth.</p>
-               </div>
-            </div>
-         </div>
-      </section>
-      <section class="careers-growth-chart" style="background-image:url(img/careers/careers-growth/career-growth-header-bkg-alt.png)">
-         <div class="mobile-chart-overlay hidden-sm hidden-md hidden-lg"></div>
-         <div class="container-fluid">
-            <div class="row">
-               <div class="col-xs-12 text-center">
-                  <svg class="growth-chart-graphic hidden-xs" viewBox="0 0 1024 480" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                     <desc>Signature Flight Support career growth chart.</desc>
-                     <defs></defs>
-                     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                        <g transform="translate(-94.000000, -388.000000)">
-                           <g transform="translate(-1.000000, 249.000000)">
-                              <text class="growth-chart-graphic-text__bolder">
-                                 <tspan x="787.36" y="206">Area / Regional Leadership</tspan>
-                              </text>
-                              <g transform="translate(527.000000, 169.000000)">
-                                 <text class="growth-chart-graphic-text">
-                                    <tspan x="84.28" y="19">Area Director</tspan>
-                                    <tspan x="0.04" y="43">Regional Vice President</tspan>
-                                 </text>
-                                 <g transform="translate(232.500000, 27.500000) scale(-1, 1) translate(-232.500000, -27.500000) translate(213.000000, 0.000000)" stroke="#94C948" stroke-linecap="square">
-                                    <path d="M0.5,28.5 L36.5,28.5"></path>
-                                    <path d="M37,0.497668732 L37,54.1177312"></path>
-                                 </g>
-                              </g>
-                              <text class="growth-chart-graphic-text__bolder">
-                                 <tspan x="807.23" y="305">FBO Management</tspan>
-                              </text>
-                              <g transform="translate(591.000000, 259.000000)">
-                                 <text class="growth-chart-graphic-text">
-                                    <tspan x="26.42" y="19">Duty Manager</tspan>
-                                    <tspan x="6.2" y="43">Station Manager</tspan>
-                                    <tspan x="0.64" y="67">General Manager</tspan>
-                                 </text>
-                                 <g transform="translate(183.000000, 39.500000) scale(-1, 1) translate(-183.000000, -39.500000) translate(163.000000, 2.000000)" stroke="#94C948" stroke-linecap="square">
-                                    <path d="M0.5,36.5 L37.5,36.5" transform="translate(19.000000, 36.500000) scale(-1, 1) translate(-19.000000, -36.500000) "></path>
-                                    <path d="M38,0.497971397 L38,74.5016891" transform="translate(38.500000, 37.500000) scale(-1, 1) translate(-38.500000, -37.500000) "></path>
-                                 </g>
-                              </g>
-                              <text class="growth-chart-graphic-text__bolder">
-                                 <tspan x="745.48" y="395">Base Supervision</tspan>
-                              </text>
-                              <g transform="translate(95.000000, 116.000000)">
-                                 <g>
-                                    <rect fill="#00263D" opacity="0.52839319" x="0" y="23" width="368" height="372"></rect>
-                                    <text font-family="Effra-Light, Effra" font-size="15" font-weight="300" fill="#FFFFFF">
-                                       <tspan x="20" y="46">If you begin with Signature in professional, technical</tspan>
-                                       <tspan x="20" y="64">or maintenance positions you can achieve career</tspan>
-                                       <tspan x="20" y="82">growth as a Base Supervisor then move up.</tspan>
-                                    </text>
-                                    <path d="M313.5,112.5 L334.629945,112.5" stroke="#94C948" stroke-linecap="square"></path>
-                                    <path d="M313.405559,216.5 L334.629945,216.5" stroke="#94C948" stroke-linecap="square"></path>
-                                    <path d="M313.5,320.5 L334.629945,320.5" stroke="#94C948" stroke-linecap="square"></path>
-                                    <path d="M335,113.5 L335,319.5" stroke="#94C948" stroke-linecap="square"></path>
-                                    <rect fill="#498BC9" x="20" y="97" width="297" height="30"></rect>
-                                    <text font-family="Effra-Medium, Effra" font-size="18" font-weight="400" fill="#FFFFFF">
-                                       <tspan x="30" y="118">Professional</tspan>
-                                    </text>
-                                    <text font-family="Effra-Light, Effra" font-size="18" font-weight="300" fill="#FFFFFF">
-                                       <tspan x="36" y="146">Accounting</tspan>
-                                       <tspan x="36" y="168">Finance</tspan>
-                                       <tspan x="36" y="190">HR</tspan>
-                                    </text>
-                                    <text font-family="Effra-Light, Effra" font-size="18" font-weight="300" fill="#FFFFFF">
-                                       <tspan x="149" y="146">Safety</tspan>
-                                       <tspan x="149" y="168">Marketing</tspan>
-                                       <tspan x="149" y="190">Sales</tspan>
-                                    </text>
-                                    <rect fill="#8D9092" x="20" y="200" width="297" height="30"></rect>
-                                    <text font-family="Effra-Medium, Effra" font-size="18" font-weight="400" fill="#FFFFFF">
-                                       <tspan x="29" y="221">Technical</tspan>
-                                    </text>
-                                    <text font-family="Effra-Light, Effra" font-size="18" font-weight="300" fill="#FFFFFF">
-                                       <tspan x="36" y="250">Facility Maintenance</tspan>
-                                       <tspan x="36" y="272">Ground Support</tspan>
-                                       <tspan x="36" y="294">Equipment Mechanic</tspan>
-                                    </text>
-                                    <rect fill="#94C948" x="20" y="305" width="297" height="30"></rect>
-                                    <text font-family="Effra-Medium, Effra" font-size="18" font-weight="400" fill="#FFFFFF">
-                                       <tspan x="30" y="326">TECHNICAir</tspan>
-                                       <tspan x="132.87" y="326" font-family="Effra-Regular, Effra" font-weight="normal">(Aircraft Maintenance)</tspan>
-                                       <tspan x="306.552" y="326"></tspan>
-                                    </text>
-                                    <text font-family="Effra-Light, Effra" font-size="18" font-weight="300" fill="#FFFFFF">
-                                       <tspan x="36" y="355">Airframe &amp; Power Plant Mechanic</tspan>
-                                       <tspan x="36" y="377">Avionics</tspan>
-                                    </text>
-                                 </g>
-                                 <g id="lines" transform="translate(489.500000, 228.500000) scale(-1, 1) translate(-489.500000, -228.500000) translate(335.000000, 183.000000)" stroke="#94C948" stroke-linecap="square">
-                                    <path d="M0.380769231,90 L197.627581,90" id="Line-2"></path>
-                                    <path d="M198.24409,2 L308.591912,2" id="Line-2"></path>
-                                    <path d="M197.666667,3.19958848 L197.666667,90.7777778" id="Line-2"></path>
-                                 </g>
-                              </g>
-                              <text class="growth-chart-graphic-text__bolder">
-                                 <tspan x="689.15" y="488">FBO Supervisor</tspan>
-                              </text>
-                              <g transform="translate(492.000000, 469.000000)">
-                                 <text class="growth-chart-graphic-text">
-                                    <tspan x="0" y="19">Shift Supervisor</tspan>
-                                 </text>
-                                 <g transform="translate(166.000000, 14.000000) scale(-1, 1) translate(-166.000000, -14.000000) translate(147.000000, 0.000000)" stroke="#94C948" stroke-linecap="square">
-                                    <path d="M0.5,14.5 L35.5,14.5"></path>
-                                    <path d="M36,0.472312174 L36,27.5046245"></path>
-                                 </g>
-                              </g>
-                              <text class="growth-chart-graphic-text__bolder">
-                                 <tspan x="622.45" y="588">FBO Front Line</tspan>
-                              </text>
-                              <g transform="translate(269.000000, 546.000000)">
-                                 <text class="growth-chart-graphic-text">
-                                    <tspan x="98.14" y="19">Line Service Technician</tspan>
-                                    <tspan x="0.36" y="43">Customer Service Representative</tspan>
-                                    <tspan x="170.36" y="67">Air Concierge</tspan>
-                                 </text>
-                                 <g transform="translate(324.000000, 38.500000) scale(-1, 1) translate(-324.000000, -38.500000) translate(304.000000, 1.000000)" stroke="#94C948" stroke-linecap="square">
-                                    <path d="M0.5,36.5 L37.5,36.5" id="Line-2" transform="translate(19.000000, 36.500000) scale(-1, 1) translate(-19.000000, -36.500000) "></path>
-                                    <path d="M38,0.497971397 L38,74.5016891" id="Line-2" transform="translate(38.500000, 37.500000) scale(-1, 1) translate(-38.500000, -37.500000) "></path>
-                                 </g>
-                              </g>
-                              <polyline stroke="#FFFFFF" transform="translate(949.000000, 376.500000) scale(-1, 1) translate(-949.000000, -376.500000)" points="772 162 840.626854 162 840.626854 252.188226 913.333453 252.188226 913.333453 343.582098 984.03713 343.582098 984.03713 429.055511 1056.23918 429.055511 1056.23918 519.292639 1126 519.292639 1126 591"></polyline>
-                              <g transform="translate(1003.500000, 445.000000) scale(-1, 1) rotate(14.000000) translate(-1003.500000, -445.000000) translate(855.000000, 328.000000)">
-                                 <path d="M119.652611,94.3046666 L0,0" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
-                                 <path d="M0,0 L6.62515922,9.04141943 L10.3391923,4.32909957 L0,0 Z" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
-                                 <path d="M197,156 L297,234" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
-                                 <text transform="translate(154.712313, 126.746539) scale(-1, 1) rotate(14.000000) translate(-154.712313, -126.746539)" font-family="Effra-Medium, Effra" font-size="24" font-weight="400" line-spacing="25" fill="#FFFFFF">
-                                    <tspan x="110.712313" y="123.746539">CAREER</tspan>
-                                    <tspan x="123.708313" y="148.746539">PATH</tspan>
-                                 </text>
-                              </g>
-                           </g>
-                        </g>
-                     </g>
-                  </svg>
-                  <section class="hidden-sm hidden-md hidden-lg">
-                     <p class="growth-svg-header">Tap the steps below to see how your career will grow at Signature.</p>
-                     <svg class="growth-chart-graphic-mobile" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 355 460">
-                        <title>Careers Growth Mobile Chart</title>
-                        <g>
-                           <g class="path-arrow-text">
-                              <path d="M270,509.68l56.38-71.25" transform="translate(1 -197.66)" style="fill: none;stroke: #fff;stroke-linecap: square;stroke-width: 0.75px"/>
-                              <path d="M326.39,438.43,322,448.76,317.34,445Z" transform="translate(1 -197.66)" style="fill: #fff;stroke: #fff;stroke-linecap: square;stroke-width: 0.75px"/>
-                              <path d="M224.08,561.45,186,608.68" transform="translate(1 -197.66)" style="fill: none;stroke: #fff;stroke-linecap: square;stroke-width: 0.75px"/>
-                              <g>
-                                 <text transform="translate(220.61 339.82)" style="isolation: isolate;font-size: 18px;fill: #fff;font-family: Effra-Medium, Effra">CAREER</text>
-                                 <text transform="translate(230.36 358.57)" style="isolation: isolate;font-size: 18px;fill: #fff;font-family: Effra-Medium, Effra;letter-spacing: -0.07999674479166667em">PATH</text>
-                              </g>
-                              <polyline points="351 118.34 316.61 118.34 316.61 179.51 269.57 179.51 269.57 241.51 223.84 241.51 223.84 299.49 177.13 299.49 177.13 360.7 132 360.7 132 409.34" style="fill: none;stroke: #fff"/>
-                           </g>
-                           <g class="growth-chart-step" data-index="5">
-                              <text transform="translate(90.36 99.34)" class="growth-chart-mobile-text">Area / Regional Leadership</text>
-                              <text transform="translate(73.1 99.34)" class="growth-chart-mobile-text">+</text>
-                           </g>
-                           <g class="growth-chart-step" data-index="4">
-                              <text transform="translate(140.23 160.34)" class="growth-chart-mobile-text">FBO Management</text>
-                              <text transform="translate(121.1 161.34)" class="growth-chart-mobile-text">+</text>
-                           </g>
-                           <g class="growth-chart-step" data-index="3">
-                              <text transform="translate(102.48 223.34)" class="growth-chart-mobile-text">Base Supervision</text>
-                              <text transform="translate(83.1 223.34)" class="growth-chart-mobile-text">+</text>
-                           </g>
-                           <g class="growth-chart-step" data-index="2">
-                              <text transform="translate(69.15 281.34)" class="growth-chart-mobile-text">FBO Supervisor</text>
-                              <text transform="translate(50.1 281.34)" class="growth-chart-mobile-text">+</text>
-                           </g>
-                           <g class="growth-chart-step" data-index="1">
-                              <text transform="translate(30.45 341.34)" class="growth-chart-mobile-text">FBO Front Line</text>
-                              <text transform="translate(11.1 340.34)" class="growth-chart-mobile-text">+</text>
-                           </g>
-                        </g>
-                        <g data-index="3" class="chart-details-popup">
-                           <rect x="1" y="3.34" width="350.5" height="411" style="fill: #fff;opacity: 0.99113804101944;isolation: isolate"/>
-                           <g style="isolation: isolate">
-                              <text transform="translate(198 148.34)" style="isolation: isolate;font-size: 18px;fill: #383838;font-family: Effra-Light, Effra">
-                                 Sa
-                                 <tspan x="19.01" y="0" style="letter-spacing: -0.019992404513888888em">f</tspan>
-                                 <tspan x="24.32" y="0">ety</tspan>
-                              </text>
-                              <text transform="translate(246.64 148.34)" style="font-size: 18px;fill: #383838;font-family: Effra-Light, Effra"></text>
-                              <text transform="translate(198 170.34)" style="isolation: isolate;font-size: 18px;fill: #383838;font-family: Effra-Light, Effra">
-                                 <tspan style="letter-spacing: -0.015001085069444444em">M</tspan>
-                                 <tspan x="13.82" y="0">ar</tspan>
-                                 <tspan x="28.75" y="0" style="letter-spacing: -0.030002170138888888em">k</tspan>
-                                 <tspan x="36.38" y="0">eting</tspan>
-                              </text>
-                              <text transform="translate(272.97 170.34)" style="font-size: 18px;fill: #383838;font-family: Effra-Light, Effra"></text>
-                              <text transform="translate(198 192.34)" style="isolation: isolate;font-size: 18px;fill: #383838;font-family: Effra-Light, Effra">Sales</text>
-                           </g>
-                           <g style="isolation: isolate">
-                              <text transform="translate(85 148.34)" style="isolation: isolate;font-size: 18px;fill: #383838;font-family: Effra-Light, Effra;letter-spacing: -0.015001085069444444em">
-                                 A
-                                 <tspan x="11.14" y="0" style="letter-spacing: -0.029975043402777776em">cc</tspan>
-                                 <tspan x="27.88" y="0" style="letter-spacing: -0.00002712673611111111em">ounting</tspan>
-                              </text>
-                              <text transform="translate(171.17 148.34)" style="font-size: 18px;fill: #383838;font-family: Effra-Light, Effra"></text>
-                              <text transform="translate(85 170.34)" style="isolation: isolate;font-size: 18px;fill: #383838;font-family: Effra-Light, Effra">
-                                 Finan
-                                 <tspan x="40.84" y="0" style="letter-spacing: -0.029975043402777776em">c</tspan>
-                                 <tspan x="49.21" y="0">e</tspan>
-                              </text>
-                              <text transform="translate(143.82 170.34)" style="font-size: 18px;fill: #383838;font-family: Effra-Light, Effra"></text>
-                              <text transform="translate(85 192.34)" style="isolation: isolate;font-size: 18px;fill: #383838;font-family: Effra-Light, Effra">HR</text>
-                           </g>
-                           <g style="isolation: isolate">
-                              <text transform="translate(81.61 23.34)" style="isolation: isolate;font-size: 16px;fill: #383838;font-family: Effra-Light, Effra">
-                                 If
-                                 <tspan x="11.46" y="0" style="letter-spacing: -0.02001953125em">y</tspan>
-                                 <tspan x="18.53" y="0" style="letter-spacing: 0.000030517578125em">ou begin with Signatu</tspan>
-                                 <tspan x="161.09" y="0" style="letter-spacing: -0.029998779296875em">r</tspan>
-                                 <tspan x="166" y="0">e in</tspan>
-                              </text>
-                              <text transform="translate(47.02 42.34)" style="isolation: isolate;font-size: 16px;fill: #383838;font-family: Effra-Light, Effra">
-                                 p
-                                 <tspan x="8.61" y="0" style="letter-spacing: -0.030029296875em">r</tspan>
-                                 <tspan x="13.52" y="0" style="letter-spacing: 0.000030517578125em">o</tspan>
-                                 <tspan x="22.58" y="0" style="letter-spacing: -0.019989013671875em">f</tspan>
-                                 <tspan x="27.3" y="0">essional,</tspan>
-                                 <tspan x="88.4" y="0" style="letter-spacing: -0.02496337890625em">t</tspan>
-                                 <tspan x="93.68" y="0">echnical or main</tspan>
-                                 <tspan x="202.11" y="0" style="letter-spacing: -0.02496337890625em">t</tspan>
-                                 <tspan x="207.39" y="0">enan</tspan>
-                                 <tspan x="240.89" y="0" style="letter-spacing: -0.029998779296875em">c</tspan>
-                                 <tspan x="248.33" y="0">e</tspan>
-                              </text>
-                              <text transform="translate(46.3 61.34)" style="isolation: isolate;font-size: 16px;fill: #383838;font-family: Effra-Light, Effra">
-                                 positions
-                                 <tspan x="64.61" y="0" style="letter-spacing: -0.02001953125em">y</tspan>
-                                 <tspan x="71.68" y="0" style="letter-spacing: 0.000030517578125em">ou can achi</tspan>
-                                 <tspan x="146.61" y="0" style="letter-spacing: -0.02001953125em">v</tspan>
-                                 <tspan x="153.69" y="0">e ca</tspan>
-                                 <tspan x="180.93" y="0" style="letter-spacing: -0.029998779296875em">r</tspan>
-                                 <tspan x="185.84" y="0">eer g</tspan>
-                                 <tspan x="219.76" y="0" style="letter-spacing: -0.029998779296875em">r</tspan>
-                                 <tspan x="224.67" y="0" style="letter-spacing: -0.0150146484375em">o</tspan>
-                                 <tspan x="233.49" y="0">wth</tspan>
-                              </text>
-                              <text transform="translate(58.37 80.34)" style="isolation: isolate;font-size: 16px;fill: #383838;font-family: Effra-Light, Effra">
-                                 as a Base Supe
-                                 <tspan x="99.55" y="0" style="letter-spacing: 0.03497314453125em">r</tspan>
-                                 <tspan x="105.5" y="0" style="letter-spacing: -0.000030517578125em">visor then m</tspan>
-                                 <tspan x="188.37" y="0" style="letter-spacing: -0.019989013671875em">ov</tspan>
-                                 <tspan x="204.19" y="0">e u</tspan>
-                                 <tspan x="224.08" y="0" style="letter-spacing: -0.0150146484375em">p</tspan>
-                                 <tspan x="232.45" y="0" style="letter-spacing: 0.000030517578125em">.</tspan>
-                              </text>
-                           </g>
-                           <rect x="1" y="205.34" width="352" height="30" style="fill: #8d9092"/>
-                           <g style="isolation: isolate">
-                              <text transform="translate(136.43 226.34)" style="isolation: isolate;font-size: 18px;fill: #fff;font-family: Effra-Medium, Effra">
-                                 <tspan style="letter-spacing: -0.14000108506944445em">T</tspan>
-                                 <tspan x="8.71" y="0">echnical</tspan>
-                              </text>
-                           </g>
-                           <rect data-name="Rectangle-4" y="94.34" width="352" height="30" style="fill: #498bc9"/>
-                           <g style="isolation: isolate">
-                              <text transform="translate(126.87 115.34)" style="isolation: isolate;font-size: 18px;fill: #fff;font-family: Effra-Medium, Effra">
-                                 <tspan style="letter-spacing: -0.019992404513888888em">P</tspan>
-                                 <tspan x="9.68" y="0" style="letter-spacing: -0.010009765625em">r</tspan>
-                                 <tspan x="16.38" y="0" style="letter-spacing: 0.00002712673611111111em">o</tspan>
-                                 <tspan x="26.75" y="0" style="letter-spacing: -0.018012152777777776em">f</tspan>
-                                 <tspan x="32.54" y="0">essional</tspan>
-                              </text>
-                           </g>
-                           <rect data-name="Rectangle-4" x="1" y="324.34" width="350" height="30" style="fill: #94c948"/>
-                           <g data-name="TECHNICAir-(Aircraft" style="isolation: isolate">
-                              <text transform="translate(38.72 345.34)" style="isolation: isolate;font-size: 18px;fill: #fff;font-family: Effra-Medium, Effra">
-                                 T
-                                 <tspan x="11.23" y="0" style="letter-spacing: -0.04001193576388889em">E</tspan>
-                                 <tspan x="20.74" y="0">CHNICAir</tspan>
-                              </text>
-                              <text transform="translate(141.59 345.34)" style="isolation: isolate;font-size: 18px;fill: #fff;font-family: Effra-Regular, Effra">
-                                 (Ai
-                                 <tspan x="20.81" y="0" style="letter-spacing: -0.024983723958333332em">r</tspan>
-                                 <tspan x="26.91" y="0">c</tspan>
-                                 <tspan x="35.78" y="0" style="letter-spacing: -0.015001085069444444em">r</tspan>
-                                 <tspan x="42.07" y="0">aft</tspan>
-                                 <tspan x="67.16" y="0" style="letter-spacing: -0.010009765625em">M</tspan>
-                                 <tspan x="81.14" y="0">ain</tspan>
-                                 <tspan x="103.91" y="0" style="letter-spacing: -0.029975043402777776em">t</tspan>
-                                 <tspan x="110.28" y="0">enan</tspan>
-                                 <tspan x="148.5" y="0" style="letter-spacing: -0.027994791666666668em">c</tspan>
-                                 <tspan x="156.87" y="0">e)</tspan>
-                              </text>
-                           </g>
-                           <g data-name="Airframe-&amp;-Power-Pla" style="isolation: isolate">
-                              <text transform="translate(50.21 378.34)" style="isolation: isolate;font-size: 18px;fill: #383838;font-family: Effra-Light, Effra">
-                                 Airf
-                                 <tspan x="26.51" y="0" style="letter-spacing: -0.030002170138888888em">r</tspan>
-                                 <tspan x="32.04" y="0">ame &amp;</tspan>
-                                 <tspan x="83.48" y="0" style="letter-spacing: -0.039984809027777776em">P</tspan>
-                                 <tspan x="93.18" y="0" style="letter-spacing: -0.015001085069444444em">ow</tspan>
-                                 <tspan x="115.07" y="0">er Plant</tspan>
-                                 <tspan x="175.84" y="0" style="letter-spacing: -0.015001085069444444em">M</tspan>
-                                 <tspan x="189.66" y="0" style="letter-spacing: 0.00002712673611111111em">echanic</tspan>
-                              </text>
-                              <text transform="translate(298.72 378.34)" style="font-size: 18px;fill: #383838;font-family: Effra-Light, Effra"></text>
-                              <text transform="translate(143.75 400.34)" style="isolation: isolate;font-size: 18px;fill: #383838;font-family: Effra-Light, Effra">
-                                 <tspan style="letter-spacing: -0.039984809027777776em">A</tspan>
-                                 <tspan x="10.69" y="0">vionics</tspan>
-                              </text>
-                           </g>
-                           <g style="isolation: isolate">
-                              <text transform="translate(98.66 261.34)" style="isolation: isolate;font-size: 18px;fill: #383838;font-family: Effra-Light, Effra">
-                                 <tspan style="letter-spacing: -0.07500542534722222em">F</tspan>
-                                 <tspan x="8.05" y="0">acility</tspan>
-                                 <tspan x="53.8" y="0" style="letter-spacing: -0.015001085069444444em">M</tspan>
-                                 <tspan x="67.63" y="0">ain</tspan>
-                                 <tspan x="89.46" y="0" style="letter-spacing: -0.025010850694444444em">t</tspan>
-                                 <tspan x="95.4" y="0" style="letter-spacing: 0.00002712673611111111em">enan</tspan>
-                                 <tspan x="133.09" y="0" style="letter-spacing: -0.030002170138888888em">c</tspan>
-                                 <tspan x="141.46" y="0">e</tspan>
-                              </text>
-                              <text transform="translate(249.73 261.34)" style="font-size: 18px;fill: #383838;font-family: Effra-Light, Effra"></text>
-                              <text transform="translate(114.06 283.34)" style="isolation: isolate;font-size: 18px;fill: #383838;font-family: Effra-Light, Effra">
-                                 G
-                                 <tspan x="12.91" y="0" style="letter-spacing: -0.030002170138888888em">r</tspan>
-                                 <tspan x="18.43" y="0">ound Support</tspan>
-                              </text>
-                              <text transform="translate(236.4 283.34)" style="font-size: 18px;fill: #383838;font-family: Effra-Light, Effra"></text>
-                              <text transform="translate(95.86 305.34)" style="isolation: isolate;font-size: 18px;fill: #383838;font-family: Effra-Light, Effra">
-                                 <tspan style="letter-spacing: -0.034993489583333336em">E</tspan>
-                                 <tspan x="9.4" y="0">quipment</tspan>
-                                 <tspan x="85.72" y="0" style="letter-spacing: -0.015001085069444444em">M</tspan>
-                                 <tspan x="99.54" y="0">echanic</tspan>
-                              </text>
-                           </g>
-                           <g>
-                              <g>
-                                 <g>
-                                    <g data-name="Base-Supervision" style="isolation: isolate">
-                                       <text transform="translate(106.98 445.84)" style="isolation: isolate;font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra">
-                                          Base
-                                          <tspan x="45.94" y="0" style="letter-spacing: -0.0199951171875em">S</tspan>
-                                          <tspan x="57.4" y="0">upervision</tspan>
-                                       </text>
-                                    </g>
-                                    <g data-name="-" style="isolation: isolate">
-                                       <text transform="translate(93.68 445.84)" style="isolation: isolate;font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra">-</text>
-                                    </g>
-                                 </g>
-                              </g>
-                           </g>
-                        </g>
-                        <g data-index="5" class="chart-details-popup">
-                           <g style="isolation: isolate">
-                              <text transform="translate(90.36 99.67)" style="isolation: isolate;font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra">
-                                 A
-                                 <tspan x="13.08" y="0" style="letter-spacing: -0.010009765625em">r</tspan>
-                                 <tspan x="20.52" y="0" style="letter-spacing: 0.0000244140625em">ea /</tspan>
-                                 <tspan x="57.12" y="0" style="letter-spacing: -0.0400146484375em">R</tspan>
-                                 <tspan x="68.04" y="0">egional Leade</tspan>
-                                 <tspan x="189.5" y="0" style="letter-spacing: -0.025em">r</tspan>
-                                 <tspan x="196.64" y="0">ship</tspan>
-                              </text>
-                           </g>
-                           <path data-name="Line-2" d="M196,277.33v-21" transform="translate(1 -197.66)" style="fill: none;stroke: #94c948;stroke-linecap: square;stroke-width: 2px"/>
-                           <polyline data-name="Path-2" points="317.01 180.02 316.88 117.86 351 117.86" style="fill: none;stroke: #94c948;stroke-width: 2.01081846192974px"/>
-                           <rect data-name="Rectangle" x="58" y="2.67" width="276" height="55" style="fill: #498bc9"/>
-                           <g style="isolation: isolate">
-                              <text transform="translate(80 25.67)" style="isolation: isolate;font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra">
-                                 A
-                                 <tspan x="13.08" y="0" style="letter-spacing: -0.010009765625em">r</tspan>
-                                 <tspan x="20.52" y="0" style="letter-spacing: 0.0000244140625em">ea Di</tspan>
-                                 <tspan x="64.2" y="0" style="letter-spacing: -0.0099853515625em">r</tspan>
-                                 <tspan x="71.64" y="0">ec</tspan>
-                                 <tspan x="92.24" y="0" style="letter-spacing: -0.0199951171875em">t</tspan>
-                                 <tspan x="99.88" y="0">or</tspan>
-                              </text>
-                              <text transform="translate(199.04 25.67)" style="font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra"></text>
-                              <text transform="translate(80 49.67)" style="isolation: isolate;font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra">
-                                 <tspan style="letter-spacing: -0.039990234375em">R</tspan>
-                                 <tspan x="10.92" y="0" style="letter-spacing: 0.0000244140625em">egional Vi</tspan>
-                                 <tspan x="96.34" y="0" style="letter-spacing: -0.0150146484375em">c</tspan>
-                                 <tspan x="105.88" y="0" style="letter-spacing: 0.0000244140625em">e</tspan>
-                                 <tspan x="120.26" y="0" style="letter-spacing: -0.0199951171875em">P</tspan>
-                                 <tspan x="131.02" y="0" style="letter-spacing: -0.0099853515625em">r</tspan>
-                                 <tspan x="138.46" y="0">esident</tspan>
-                              </text>
-                           </g>
-                           <g data-name="x" style="isolation: isolate">
-                              <text transform="translate(319.86 16.67)" style="isolation: isolate;font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra">x</text>
-                           </g>
-                           <g data-name="-" style="isolation: isolate">
-                              <text transform="translate(75.18 99.67)" style="isolation: isolate;font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra">-</text>
-                           </g>
-                        </g>
-                        <g data-index="4" class="chart-details-popup">
-                           <rect data-name="Rectangle" x="101" y="5.34" width="215" height="99" style="fill: #498bc9"/>
-                           <g data-name="FBO-Management" style="isolation: isolate">
-                              <text transform="translate(140.23 160.34)" style="isolation: isolate;font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra">FBO Management</text>
-                           </g>
-                           <path data-name="Line-2" d="M209,337V303" transform="translate(1 -197.66)" style="fill: none;stroke: #94c948;stroke-linecap: square;stroke-width: 2px"/>
-                           <polyline data-name="Path-2" points="269.63 242.02 269.63 179.71 317.11 179.71" style="fill: none;stroke: #94c948;stroke-width: 2.01877709030188px"/>
-                           <g style="isolation: isolate">
-                              <text transform="translate(136 33.34)" style="isolation: isolate;font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra">
-                                 Du
-                                 <tspan x="25.36" y="0" style="letter-spacing: -0.0199951171875em">t</tspan>
-                                 <tspan x="33" y="0" style="letter-spacing: -0.0000244140625em">y Manager</tspan>
-                              </text>
-                              <text transform="translate(259.62 33.34)" style="font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra"></text>
-                              <text transform="translate(136 57.34)" style="isolation: isolate;font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra;letter-spacing: -0.0349853515625em">
-                                 S
-                                 <tspan x="11.16" y="0" style="letter-spacing: -0.0000244140625em">tation Manager</tspan>
-                              </text>
-                              <text transform="translate(280.82 57.34)" style="font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra"></text>
-                              <text transform="translate(136 81.34)" style="isolation: isolate;font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra">
-                                 Gene
-                                 <tspan x="47" y="0" style="letter-spacing: -0.0099853515625em">r</tspan>
-                                 <tspan x="54.44" y="0">al Manager</tspan>
-                              </text>
-                           </g>
-                           <g data-name="x" style="isolation: isolate">
-                              <text transform="translate(299.86 20.34)" style="isolation: isolate;font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra">x</text>
-                           </g>
-                           <g data-name="-" style="isolation: isolate">
-                              <text transform="translate(124.18 159.34)" style="isolation: isolate;font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra">-</text>
-                           </g>
-                        </g>
-                        <g data-index="2" class="chart-details-popup">
-                           <rect data-name="Rectangle" x="22.33" y="141.34" width="186" height="54" style="fill: #498bc9"/>
-                           <g data-name="FBO-Supervisor" style="isolation: isolate">
-                              <text transform="translate(69.48 281.34)" style="isolation: isolate;font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra">
-                                 FBO
-                                 <tspan x="41.86" y="0" style="letter-spacing: -0.0199951171875em">S</tspan>
-                                 <tspan x="53.32" y="0">upervisor</tspan>
-                              </text>
-                           </g>
-                           <g style="isolation: isolate">
-                              <text transform="translate(45.33 174.34)" style="isolation: isolate;font-size: 18px;fill: #fff;font-family: Effra-Medium, Effra">
-                                 Shift
-                                 <tspan x="41.6" y="0" style="letter-spacing: -0.019992404513888888em">S</tspan>
-                                 <tspan x="51.91" y="0">upervisor</tspan>
-                              </text>
-                           </g>
-                           <path data-name="Line-2" d="M96.33,455.5V394" transform="translate(1 -197.66)" style="fill: none;stroke: #94c948;stroke-linecap: square;stroke-width: 2px"/>
-                           <polyline data-name="Path-2" points="177.42 361.25 177.42 300 224.34 300" style="fill: none;stroke: #94c948;stroke-width: 2.02416821339478px"/>
-                           <g style="isolation: isolate">
-                              <text transform="translate(192.19 156.34)" style="isolation: isolate;font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra">x</text>
-                           </g>
-                           <g data-name="-" style="isolation: isolate">
-                              <text transform="translate(52.51 281.34)" style="isolation: isolate;font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra">-</text>
-                           </g>
-                        </g>
-                        <g data-index="1" class="chart-details-popup">
-                           <rect x="22.08" y="159.42" width="312" height="99" style="fill: #498bc9"/>
-                           <g style="isolation: isolate">
-                              <text transform="translate(30.53 341.42)" style="isolation: isolate;font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra">FBO Front Line</text>
-                           </g>
-                           <g style="isolation: isolate">
-                              <text transform="translate(42.08 191.42)" style="isolation: isolate;font-size: 18px;fill: #fff;font-family: Effra-Medium, Effra">
-                                 Line
-                                 <tspan x="37.21" y="0" style="letter-spacing: -0.010009765625em">S</tspan>
-                                 <tspan x="47.7" y="0">ervi</tspan>
-                                 <tspan x="78.14" y="0" style="letter-spacing: -0.015001085069444444em">c</tspan>
-                                 <tspan x="86.72" y="0" style="letter-spacing: -0.00002712673611111111em">e</tspan>
-                                 <tspan x="99.66" y="0" style="letter-spacing: -0.14000108506944445em">T</tspan>
-                                 <tspan x="108.38" y="0" style="letter-spacing: -0.00002712673611111111em">echician</tspan>
-                              </text>
-                              <text transform="translate(42.08 213.42)" style="isolation: isolate;font-size: 18px;fill: #fff;font-family: Effra-Medium, Effra">
-                                 Cus
-                                 <tspan x="30.76" y="0" style="letter-spacing: -0.019992404513888888em">t</tspan>
-                                 <tspan x="37.64" y="0">omer</tspan>
-                                 <tspan x="83.16" y="0" style="letter-spacing: -0.010009765625em">S</tspan>
-                                 <tspan x="93.65" y="0">ervi</tspan>
-                                 <tspan x="124.09" y="0" style="letter-spacing: -0.015001085069444444em">c</tspan>
-                                 <tspan x="132.68" y="0" style="letter-spacing: -0.00002712673611111111em">e</tspan>
-                                 <tspan x="145.62" y="0" style="letter-spacing: -0.039984809027777776em">R</tspan>
-                                 <tspan x="155.45" y="0" style="letter-spacing: -0.00002712673611111111em">ep</tspan>
-                                 <tspan x="175.41" y="0" style="letter-spacing: -0.010009765625em">r</tspan>
-                                 <tspan x="182.1" y="0" style="letter-spacing: -0.00002712673611111111em">esentati</tspan>
-                                 <tspan x="247.93" y="0" style="letter-spacing: -0.019992404513888888em">v</tspan>
-                                 <tspan x="257.06" y="0" style="letter-spacing: -0.00002712673611111111em">e</tspan>
-                              </text>
-                              <text transform="translate(308.82 213.42)" style="font-size: 18px;fill: #fff;font-family: Effra-Medium, Effra"></text>
-                              <text transform="translate(42.08 235.42)" style="isolation: isolate;font-size: 18px;fill: #fff;font-family: Effra-Medium, Effra">
-                                 Air Concie
-                                 <tspan x="81.75" y="0" style="letter-spacing: -0.010009765625em">r</tspan>
-                                 <tspan x="88.45" y="0" style="letter-spacing: 0.00002712673611111111em">ge</tspan>
-                              </text>
-                           </g>
-                           <path d="M96.08,518.58v-61.5" transform="translate(1 -197.66)" style="fill: none;stroke: #94c948;stroke-linecap: square;stroke-width: 2px"/>
-                           <polyline points="131.67 409.67 131.67 360.92 177.67 360.92" style="fill: none;stroke: #94c948;stroke-width: 2px"/>
-                           <g data-name="-" style="isolation: isolate">
-                              <text transform="translate(13.26 340.42)" style="isolation: isolate;font-size: 20px;fill: #fff;font-family: Effra-Medium, Effra">-</text>
-                           </g>
-                           <g data-name="Line-Service-Techici" style="isolation: isolate">
-                              <g style="isolation: isolate">
-                                 <path d="M323.45,365.48l-3.26-4.11h2.33l2.13,2.78,2.05-2.78h2.1l-3.14,4.07,3.5,4.44h-2.33l-2.36-3.1-2.33,3.1h-2.1Z" transform="translate(1 -197.66)" style="fill: #fff"/>
-                              </g>
-                           </g>
-                        </g>
-                     </svg>
-                  </section>
-                  <svg class="growth-chart-indicators hidden-sm hidden-md hidden-lg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 275.79 24.81">
-                     <title>Signature Flight Support Career Growth Paths</title>
-                     <g class="step-indicator-group" data-index="0">
-                        <ellipse class="step-fill" cx="12.98" cy="12.93" rx="5.48" ry="5.43"></ellipse>
-                        <ellipse class="step-outline" cx="12.52" cy="12.4" rx="12.02" ry="11.9"></ellipse>
-                     </g>
-                     <path d="M25.4,14.81H51.47" transform="translate(-0.5 -0.5)" class="step-indicator-line"></path>
-                     <g class="step-indicator-group" data-index="1">
-                        <ellipse class="step-fill" cx="63.98" cy="12.93" rx="5.48" ry="5.43"></ellipse>
-                        <ellipse class="step-outline" cx="63.52" cy="12.4" rx="12.02" ry="11.9"></ellipse>
-                     </g>
-                     <path d="M76.69,14.81h25.67" transform="translate(-0.5 -0.5)" class="step-indicator-line"></path>
-                     <g class="step-indicator-group" data-index="2">
-                        <ellipse class="step-fill" cx="114.98" cy="12.93" rx="5.48" ry="5.43"></ellipse>
-                        <ellipse class="step-outline" cx="114.52" cy="12.4" rx="12.02" ry="11.9"></ellipse>
-                     </g>
-                     <path d="M127.75,14.81h24.06" transform="translate(-0.5 -0.5)" class="step-indicator-line"></path>
-                     <g class="step-indicator-group" data-index="3">
-                        <ellipse class="step-fill" cx="162.98" cy="12.93" rx="5.48" ry="5.43"></ellipse>
-                        <ellipse class="step-outline" cx="163.4" cy="12.4" rx="12.02" ry="11.9"></ellipse>
-                     </g>
-                     <path d="M176.28,14.81h26" transform="translate(-0.5 -0.5)" class="step-indicator-line"></path>
-                     <g class="step-indicator-group" data-index="4">
-                        <ellipse class="step-fill" cx="213.98" cy="12.93" rx="5.48" ry="5.43"></ellipse>
-                        <ellipse class="step-outline" cx="214.4" cy="12.4" rx="12.02" ry="11.9"></ellipse>
-                     </g>
-                     <path d="M227.63,14.81h24.06" transform="translate(-0.5 -0.5)" class="step-indicator-line"></path>
-                     <g class="step-indicator-group" data-index="5">
-                        <ellipse class="step-fill" cx="262.98" cy="12.93" rx="5.48" ry="5.43"></ellipse>
-                        <ellipse class="step-outline" cx="263.27" cy="12.4" rx="12.02" ry="11.9"></ellipse>
-                     </g>
-                  </svg>
-               </div>
-            </div>
-         </div>
-      </section>
-      <section class="visual-nav">
-         <div class="container-fluid">
-            <div class="row">
-               <div class="visual-nav-col visual-nav-col__tall col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                  <div class="visual-nav-item">
-                     <a class="visual-nav-item-link" href="careers-growth.html#" style="background-image:url(img/careers/careers-growth/eric-hietala-wideshot.png);background-position:center center" data-toggle="modal" data-target="#your-signature-modal"></a>
-                     <div class="item-heading-overlay"><span>Eric Hietala</span></div>
-                  </div>
-               </div>
-               <div class="visual-nav-col visual-nav-col__tall col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                  <div class="visual-nav-item">
-                     <a class="visual-nav-item-link" href="careers-growth.html#" style="background-image:url(img/careers/careers-growth/andrea_hopkins.jpg);background-position:center" data-toggle="modal" data-target="#where-to-start-modal"></a>
-                     <div class="item-heading-overlay"><span>Andrea Hopkins</span></div>
-                  </div>
-               </div>
-               <div class="visual-nav-col visual-nav-col__tall col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                  <div class="visual-nav-item">
-                     <a class="visual-nav-item-link" href="careers-growth.html#" style="background-image:url(img/careers/careers-growth/isaac_lee.jpg);background-position:center top" data-toggle="modal" data-target="#learn-teach-modal"></a>
-                     <div class="item-heading-overlay"><span>Isaac Lee</span></div>
-                  </div>
-               </div>
-               <div class="visual-nav-col visual-nav-col__tall col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                  <div class="visual-nav-item">
-                     <a class="visual-nav-item-link" href="careers-growth.html#" style="background-image:url(img/careers/careers-growth/rita_carrillo.jpg);background-position:center" data-toggle="modal" data-target="#getting-there-modal"></a>
-                     <div class="item-heading-overlay"><span>Rita Carrillo</span></div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <div class="modal fade signature-modal" id="your-signature-modal" tabindex="-1" role="dialog" aria-labelledby="your-signature-modal-heading">
-         <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-               <div class="modal-header">
-                  <div class="row"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
-                  <img class="img-responsive" src="img/careers/careers-growth/eric-hietala-close.png" alt="Your Signature">
-                  <h4 class="modal-title" id="your-signature-modal-heading">Eric Hietala  |  Regional Vice President</h4>
-               </div>
-               <div class="modal-body">
-                  <p>It was a cub scout trip to San Francisco International Airport that prompted Eric Hietala to pursue a career in aviation. Fast forward to 1986 and his first job in the industry: throwing mail five nights a week, four hours a night for Butler Aviation. His part-time role helped offset his tuition at San Francisco State University and soon he progressed into a Line Service Technician position. Eric was learning the ropes, from health, safety, and environmental standards, to fueling, to quality control. Before long, Eric decided to continue expanding his knowledge and he accepted a position as a Customer Service Representative with Butler. In 1989, Eric graduated from San Francisco State and subsequently began attending law school at night, still managing his operations supervisor position during the day. In 1992, when Butler Aviation merged with Page AvJet to form Signature Flight Support under parent company BBA Aviation, Eric was officially a Signature Flight Support team member and he welcomed the transition and what it would mean for the future of fixed base operators.</p>
-                  <p>In 1996 Eric passed the California state bar and parted ways with his aviation roots with every intention of continuing on to a life-long career in law but there was something disconcerting about Eric’s career endeavor. In his new field, people were constantly at odds and Eric missed the close-knit aviation community that prided itself on building relationships that strengthen a network. After just two years as a practicing lawyer, Eric reached out to a Signature Flight Support colleague to see if there were any openings in operations. </p>
-                  <p>It turned out Washington National Airport needed a manager but that was a long way from home. If he accepted the job, Eric would be the first member of his family to ever leave the San Francisco Bay area. He weighed the decision carefully knowing that Washington National Airport was the big leagues. “Everyday at DCA was like Super Bowl Sunday,” Eric said when asked about the daily arrivals he oversaw. But the way he saw it, “It’s never too late to change (careers).” he said when asked if he was nervous about starting over with a cross-country move. He went on to note that,</p>
-                  <p><strong>“You have to do what you love, if you truly do what you love, success will follow. Life is pretty short not to do something you truly love.” (Eric’s love of airplanes led him to become a private pilot as well.)</strong></p>
-                  <p>In 2000, Eric became the General Manager (GM) at Washington National. At the time, the FBO was rated number one in the country with close to 110 arrivals per day. Then came the tragedies of September 11th. Eric was forever changed by witnessing the destructive power of aviation and the aftermath of the attacks but he and his team worked tirelessly to reopen Washington National. Eventually, Eric would take on the GM role at Dulles International where he replicated the success that the Washington National team experienced. Eric’s industry knowledge, relationships, and reputation as a leader earned him an invitation to early TSA meetings where he explained how business aviation worked and how this new department could best provide oversight for aviation security. </p>
-                  <p>Eric remained onboard at Dulles until 2007 when he accepted his current position as Western Regional Vice President. Eric relocated to Las Vegas, where he oversaw operations for both Signature and ASIG (Signature’s former sister company) from Seattle to Phoenix. A highlight in this new role was being awarded the lease at San Francisco in 2007. When asked “Why Signature over other employers in the industry?” Eric said, “I have the best job. PERIOD. Not just in aviation. I get to travel, see interesting places and meet incredible people. You don’t have that exposure anywhere else. I’ve met Jack Welch, Mr. Rogers, and Mother Teresa to name a few...no day is like any other.”</p>
-                  <p>To those considering a career in aviation Eric’s insight is that the industry offers dynamic career options, “You can’t replicate what we do.” he says, “Each base is relatively small, so they offer a fun, family-oriented environment.” Eric also has encouraging words for those just starting their career in aviation, “I see more opportunities now than ever before.” he shared during his commencement ceremony address to San Jose State’s Aviation degree graduates. When it comes to advice on Signature careers, Eric says, “Signature Flight Support (SFS) offers a stable opportunity to grow. With over 200 locations, you can find a place to make your mark. More locations mean SFS will need future well-qualified leaders with drive and dedication. Distinguish yourself, deliver on your daily job, figure out how you can be a subject matter expert, become an innovator, become a person others look to.” Eric credits much of his success to his mentor Steve True who hired Eric when he was first starting out in the industry. Eric says Steve taught him how to conduct himself as a team member and as a manager, and that you always think of the team. Eric developed leadership skills like building relationships by making time for his team, lending an ear, and offering advice when someone asks for guidance. Today, Eric is in a unique position to mentor others just embarking on their Signature career paths and he looks forward to watching the next generation of leaders emerge. </p>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="modal fade signature-modal" id="where-to-start-modal" tabindex="-1" role="dialog" aria-labelledby="where-to-start-modal-heading">
-         <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-               <div class="modal-header">
-                  <div class="row"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
-                  <img class="img-responsive" src="img/careers/careers-growth/andrea_hopkins.jpg" alt="Where to Start?">
-                  <h4 class="modal-title" id="where-to-start-modal-heading">Andrea Hopkins | Signature Flight Support</h4>
-               </div>
-               <div class="modal-body">
-                  <p>Nearly 17 years ago, Andrea Hopkins answered a newspaper ad for a bilingual customer service representative with Signature Flight Support. At the time, she didn’t have any experience in the aviation industry but she recalls her interviewer (and then Station Manager), Tracy Gates, painting an exciting picture of the career opportunity and environment at the South Hampton Fixed Based Operation (FBO). Andrea got the job and spent the next two years developing her skills and knowledge in the industry. She worked three days on and three days off meeting exciting people stepping off private jets. Applying a &ldquo;never say no to a new opportunity&rdquo; mindset, Andrea began climbing the SFS ladder first as a Supervisor where for 10 months she gained valuable management experience. She was then promoted to Station Manager and began overseeing profit and loss statements, invoices, reporting, training, and safety management. After two years, Andrea’s hard work and willingness to take on additional responsibilities paid off in the form of another promotion to General Manager for South Hampton and Bournemouth FBOs. She led these teams for over six years before relocating to Nice to serve as the General Manager for NCE. </p>
-                  <p>Andrea says, &ldquo;If you want to get on and up with SFS a willingness to be mobile is key as the next step may not be at the current location you are working.&rdquo; Following 18 months in Nice, Andrea accepted the General Manager position at London’s Luton Airport in 2010. The 120-member team and the busiest location in the EMEA portfolio made Andrea feel like the &ldquo;conductor of the orchestra.&rdquo;</p>
-                  <p><strong>&ldquo;I had a really good management team,&rdquo; she said, &ldquo;with strong department heads and a really dedicated team across all departments.&rdquo; Going into her two-year run at Luton, Andrea remembers thinking, &ldquo;Can I do this?&rdquo; </strong></p>
-                  <p>&ldquo;It was such a big location,&rdquo; she said, &ldquo;I quickly learned the importance of team work, that it’s ok to rely on others, and that it’s ok to ask questions when you don’t understand something.&rdquo; Andrea credits much of her success to surrounding herself with people she could rely on and trust. &ldquo;If you have a strong team,&rdquo; she says, &ldquo;you can’t fail.&rdquo; &ldquo;They’ll be there for you in even on the most challenging days.&rdquo; <p>
-                  <p>In 2012 Andrea assumed the role of Sales Manager for Europe and began working with pilots and partners to grow Signature’s network in the European market. After early success in her first sales position, Andrea was promoted to Senior Sales Manager in 2014 and then Director of Sales in 2016. In early 2017, she then became the Area Director for Italy and France in addition to her role as Director of the European Sales Team. Andrea travels weekly to visit Signature’s European FBOs and clients. She manages big fleet accounts, researches potential new customers, approves sales team negotiations and oversees her regions operationally ensuring service and safety are met at all times.</p>
-                  <p>Andrea recognized that her early directors became her mentors who encouraged her to develop her skill set and knowledge to grow her career. She shared that her current manager, Evie Freeman, Managing Director of Signature Flight Support EMEA is a true inspirational leader &ldquo;she’s the best!&rdquo;</p>
-                  <p>Andrea’s advice to current Signature team members looking for career growth: &ldquo;Don’t hold back, make it known that you want to grow your career. If you don’t say it, how will your manager know?&rdquo; Andrea notes that &ldquo;All of my team members know that I will not hold them back – its rewarding to see them grow and further their career within Signature.&rdquo; &ldquo;If you work hard, you’ll move on and up,&rdquo; she says. </p>
-                  <p>Andrea encourages those seeking a fun, fast-moving, exciting place to work to consider a career with Signature Flight Support. She wants potential new team members to know that one of the best things about being a part of the Signature family is that, &ldquo;No two days are the same, it really is an exciting place to work.&rdquo; &ldquo;I love having fun at work,&rdquo; she says. &ldquo;It’s a challenging job but you can still have fun and enjoy what you’re doing.&rdquo;</p>
-                  <p>f you’re ready to find a career that you love, that you get excited about every day, then take the first step toward joining the Signature Flight Support team by applying for one of our featured roles at <a href="http://signature.thegocostaging.com/signatureflight.com/careers">signatureflight.com/careers</a></p>
-                  </div>
-            </div>
-         </div>
-      </div>
-      <div class="modal fade signature-modal" id="learn-teach-modal" tabindex="-1" role="dialog" aria-labelledby="learn-teach-modal-heading">
-         <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-               <div class="modal-header">
-                  <div class="row"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
-                  <img class="img-responsive" src="img/careers/careers-growth/isaac_lee.jpg" alt="Learn it, try it, teach it.">
-                  <h4 class="modal-title" id="learn-teach-modal-heading">Isaac Lee | Operations Manager</h4>
-               </div>
-               <div class="modal-body">
-                  <p>n 1988, Isaac Lee joined the military and served as an active U. S. Naval aviator for six years. After transitioning to the Naval Reserves in 1994, he wanted to continue to work in the aviation industry. His first job in the civilian world was as a ramp supervisor with Piedmont Aviation Services. After only a year at his new role in Norfolk, Virginia, Isaac was promoted to Airline Operations Manager based on his knowledge in airline ground handling, fueling and his management talents. For two years Isaac managed the operations at Norfolk before continuing his career growth as an Airline Services Manager overseeing all airline contracts and audits for ground handling and interplane operations. Within 24 months, Isaac would receive another promotion and add the Operations Manager title and responsibilities to his repertoire. In 1996, Isaac was promoted to the position of Operations Manager for the entire Piedmont Aviation Services Norfolk Fixed Based Operation.</p>
-                  <p>Isaac knew from the start that he wanted to gain industry knowledge and explore its career advancement opportunities, but he says he didn’t always go out of his way to make his career aspirations known. Isaac recalls, &ldquo;I was so in to what I was doing...I just tried to do the very best job I could every day.&rdquo; During the next four years he focused on building a solid foundation of general aviation knowledge and skills. He credits company leaders, customers and associates for sharing and helping him reach higher levels.</p>
-                  <p>As his responsibilities expanded to general aviation operations, Isaac learned about line services, towing, fueling, customer service, accounting, scheduling, maintenance, human resources, and more. When a General Manager position became available in Charlottesville, Virginia in 1999, Isaac was ready with the experience needed to transition to this new level of leadership. Isaac says, &ldquo;All training is important. It helped me get where I am now. I’m a &ldquo;will do and can do person…&rdquo; I’m not a desk person. My team knows that I am a hands on leader. I always want to help my team, and they know I can do whatever I ask others to do. I’ve been a GM for 15 years now and I still love receiving new training. It’s important to me to know what my team knows so I can determine what the customer wants before they ask ... I think the team respects that.&rdquo;</p>
-                  <p>After 3 years in Charlottesville, Isaac returned to Norfolk as its next General Manager.  After 8 successful years in Norfolk, the company (now Landmark Aviation) promoted Isaac to run the largest FBO in its network, Miami. Isaac left his home state of Virginia to make his mark on the Sunshine State and he’s been an integral part of the South Florida team for 6 years now. In 2016, Signature Flight Support acquired Landmark Aviation forming the world’s largest FBO network.</p>
-                  <p>saac’s advice for potential new team members: &ldquo;Signature offers lots of different career avenues within aviation, from human resources, to finance, customer service, MRO, or charter...identify your goals and your experience with Signature can help you reach them. You can learn so much from the people you’re working with. Just work hard, follow procedures, put safety first, and your career will advance.&rdquo; Isaac is also a huge advocate for higher education. He works with team members whenever possible to build their work schedules around school so they can have additional options for advancing their careers.</p>
-                  <p><strong>After 21 years in the industry, Isaac still uses the same mantra, &ldquo;One Band, One Sound.&rdquo;
-&ldquo;If one person in the band sounds bad, the whole band sounds bad,&rdquo; he says. &ldquo;This concept gets everyone working together.&rdquo;</strong></p>
-                  <p>His words of wisdom to leaders of a band &ldquo;Advocate for your employees. If we take care of our employees, they will take care of our customers and everyone wins when that happens.&rdquo; Isaac says that through his years of career growth he learned that fostering a diverse team culture where different backgrounds and experiences are celebrated is one of the best ways to create camaraderie within an FBO. </p>
-                  <p>If you’re ready to join a winning team like Isaac’s view Signature Flight Support’s featured job opportunities <a href="http://signature.thegocostaging.com/signatureflight.com/careers">signatureflight.com/careers</a></p>
-              </div>
-            </div>
-         </div>
-      </div>
-      <div class="modal fade signature-modal" id="getting-there-modal" tabindex="-1" role="dialog" aria-labelledby="getting-there-modal-heading">
-         <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-               <div class="modal-header">
-                  <div class="row"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
-                  <img class="img-responsive" src="img/careers/careers-growth/rita_carrillo.jpg" alt="Rita Carrillo">
-                  <h4 class="modal-title" id="getting-there-modal-heading">Rita Carrillo | Area General Manager</h4>
-               </div>
-               <div class="modal-body">
-                  <p>Meet Rita! She’s been a Signature Flight Support (SFS) team members for over 30 years. Rita knew she wanted a career in the aviation industry so when she applied for a position with SFS and didn’t receive the job, she kept exploring opportunities to join the team. She was selected for the next position she applied for and began her SFS career as a Red Carpet Hostess. The role was similar to Signature’s current Air Concierge position and included greeting guests on the ramp and providing outstanding customer service.</p>
-                  <p>Rita credits persistence and perseverance for helping her grow in subsequent lead and supervisor roles. After just 6 months Rita was promoted to a lead position and 12 months later she became a supervisor. Rita values Signature Flight Support’s customer focus and ability to adapt in an ever-changing industry. Her most memorable moments with Signature include each time she welcomed Air Force One to her fixed base operation (FBO). </p>
-                  <p>Now as an Area General Manager, Rita puts her years of experience in the field to work guiding a whole new group of team members. Rita says her strong support team makes her feel invincible. Rita’s advice for those just starting out:</p>
-                  <p><strong>&ldquo;Love what you’re doing and your passion will flow from there. Be enthusiastic and you’ll be noticed.&rdquo;</strong></p>
-              </div>
-            </div>
-         </div>
-      </div>
-      <section class="featured-links">
-         <div class="container-fluid">
-            <div class="row">
-               <div class="featured-link-item col-xs-12 col-sm-12 col-md-6 col-lg-6" style="background-image:url(img/careers/careers-home/career-growth-bkg.jpg)">
-                  <a class="play videos" href="https://vimeo.com/199872458">
-                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 93 93">
-                        <title>icon-play</title>
-                        <circle cx="46.5" cy="46.5" r="45"></circle>
-                        <polygon points="67.21 46.84 33.82 66.12 33.82 27.56 67.21 46.84"></polygon>
-                     </svg>
-                  </a>
-                  <div class="item-heading-overlay"><span>Build a Career</span></div>
-               </div>
-               <div class="featured-link-item col-xs-12 col-sm-12 col-md-6 col-lg-6" style="background-image:url(img/careers/careers-home/meet-team-bkg.jpg)">
-                  <a class="play videos" href="https://vimeo.com/199872458">
-                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 93 93">
-                        <title>icon-play</title>
-                        <circle cx="46.5" cy="46.5" r="45"></circle>
-                        <polygon points="67.21 46.84 33.82 66.12 33.82 27.56 67.21 46.84"></polygon>
-                     </svg>
-                  </a>
-                  <div class="item-heading-overlay"><span>Find your passion, find your path</span></div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <section class="follow">
-         <div class="container-fluid">
-            <div class="row">
-               <div class="col-xs-12 col-sm-12 col-lg-6 col-md-6 f-social twitter"><a href="https://twitter.com/sfscareers" target="_blank"><span>Follow signature careers on</span> &nbsp;&nbsp;&nbsp;<em class="fa" aria-hidden="true"></em></a></div>
-               <div class="col-xs-12 col-sm-12 col-lg-6 col-md-6 f-social facebook"><a href="https://www.facebook.com/SignatureFlightCareers/" target="_blank"><span>Follow signature careers on</span> &nbsp;&nbsp;&nbsp;&nbsp;<em class="fa" aria-hidden="true"></em></a></div>
-            </div>
-         </div>
-      </section>
-      <style type="text/css">footer {
-         padding-bottom: 100px;
-         }
-         @media only screen and (min-width: 600px) {
-         footer .container .menus ul li.top-link {
-         font-size: 20px;
-         }
-         footer .container .menus ul li.top-link a {
-         font-size: 20px;
-         }
-         }
-      </style>
-      <footer>
-         <div class="container">
-            <div>
-               <div>
-                  <div class="row menus">
-                     <ul class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                        <li class="top-link"><a href="http://signature.thegocostaging.com/locations">Locations</a></li>
-                        <li><a href="http://signature.thegocostaging.com/locations?region=us">United States</a></li>
-                        <li><a href="http://signature.thegocostaging.com/locations?region=can">Canada</a></li>
-                        <li><a href="http://signature.thegocostaging.com/locations?region=eu">Europe</a></li>
-                        <li><a href="http://signature.thegocostaging.com/locations?region=asia">Asia</a></li>
-                        <li><a href="http://signature.thegocostaging.com/locations?region=africa">Africa</a></li>
-                        <li><a href="http://signature.thegocostaging.com/locations?region=americas">South / Central America</a></li>
-                        <li><a href="http://signature.thegocostaging.com/locations?region=caribbean">Caribbean</a></li>
-                        <li><a href="http://signature.thegocostaging.com/locations?region=gov">Government / Military</a></li>
-                     </ul>
-                     <ul class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                        <li class="top-link">Programs</li>
-                        <li><a href="http://signature.thegocostaging.com/programs/signature-tailwins" target="_blank">Signature TailWins</a></li>
-                        <li><a href="http://signature.thegocostaging.com/programs/signature-status" target="_blank">Signature Status</a></li>
-                        <li><a href="http://signature.thegocostaging.com/programs/signature-select" target="_blank">Signature Select</a></li>
-                        <li><a href="http://signature.thegocostaging.com/programs/aviation-card">Aviation Card</a></li>
-                        <li><a href="http://signature.thegocostaging.com/programs/national-car-rental">National Car Rental</a></li>
-                        <li><a href="http://signature.thegocostaging.com/programs/the-exotic-car-collection-by-enterprise">Enterprise Exotic Car Rental</a></li>
-                        <li><a href="http://signature.thegocostaging.com/programs/dassp-dca-access-program">DASSP DCA<br>Access Program</a></li>
-                     </ul>
-                     <ul class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                        <li class="top-link">Services</li>
-                        <li><a href="http://signature.thegocostaging.com/services/technicair">Maintenance</a></li>
-                        <li><a href="http://signature.thegocostaging.com/services/signature-elite-class">ELITE Class</a></li>
-                        <li><a href="http://signature.thegocostaging.com/services/real-estate">Real Estate</a></li>
-                        <li><a href="http://signature.thegocostaging.com/services/general-aviation">General Aviation</a></li>
-                        <li><a href="https://loyalty.signatureflight.com/#hotel" target="_blank">Hotel Reservation</a></li>
-                     </ul>
-                     <ul class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                        <li class="top-link">About</li>
-                        <li><a href="http://signature.thegocostaging.com/about/about">About Us</a></li>
-                        <li><a href="http://signature.thegocostaging.com/about/newsroom">Newsroom</a></li>
-                        <li><a href="http://signature.thegocostaging.com/about/social-responsibility">Social Responsibility</a></li>
-                        <li><a href="http://signature.thegocostaging.com/about/leadership">Leadership</a></li>
-                        <li><a href="http://signature.thegocostaging.com/about/bba-aviation">BBA Aviation</a></li>
-                        <li><a href="http://signature.thegocostaging.com/about/the-signature-difference">The Signature Difference</a></li>
-                     </ul>
-                     <ul class="col-xs-2 col-sm-2 col-md-2 col-lg-2 events">
-                        <li class="top-link"><a href="http://signature.thegocostaging.com/employment">Employment</a></li>
-                        <li><a href="http://signature.thegocostaging.com/employment-us">U.S. Positions</a></li>
-                        <li><a href="http://signature.thegocostaging.com/employment-emea">EMEA Positions</a></li>
-                        <li class="hidden-xs hidden-sm"><a href="http://signature.thegocostaging.com/employment-canada">Canada Positions</a></li>
-                     </ul>
-                     <ul class="col-xs-2 col-sm-2 col-md-2 col-lg-2 others">
-                        <li><a href="http://signature.thegocostaging.com/privacy-policy">Privacy Policy</a></li>
-                        <li><a href="http://signature.thegocostaging.com/terms-and-conditions">Terms &amp; Conditions</a></li>
-                        <li><a href="http://signature.thegocostaging.com/handling-charge-policy">Handling Charge Policy</a></li>
-                        <li class="hidden-xs hidden-sm"><a href="http://signature.thegocostaging.com/sitemap">Sitemap</a></li>
-                        <li><a href="http://signature.thegocostaging.com/contact-us">Contact Corporate Office</a></li>
-                     </ul>
-                  </div>
-                  <div class="row">
-                     <div class="col-lg-12">
-                        <a class="logo" href="careers-growth.html#"></a>
-                        <div class="socials">
-                           <ul>
-                              <li class="bba"><a href="http://www.bbaaviation.com/"><img alt="" src="img/icon-bba-aviation.png"></a></li>
-                              <li><a class="social" href="http://www.facebook.com/signatureflightsupport" target="_blank"><em class="fa fa-facebook" aria-hidden="true"></em></a></li>
-                              <li><a class="social" href="http://www.twitter.com/SignatureFBO" target="_blank"><em class="fa fa-twitter" aria-hidden="true"></em></a></li>
-                              <li><a class="social" href="http://www.linkedin.com/company/signature-flight-support" target="_blank"><em class="fa fa-linkedin" aria-hidden="true"></em></a></li>
-                              <li><a class="social" href="https://www.instagram.com/signaturefbo/" target="_blank"><em class="fa fa-instagram" aria-hidden="true"></em></a></li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </footer>
-      <script type="text/javascript" charset="UTF-8" src="https://translate.googleapis.com/element/TE_20170814_01/e/js/element/element_main.js"></script><script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script><script src="js/plugins/jquery.customSelect.min.js"></script><script src="js/plugins/jquery.magnific-popup.min.js"></script><script src="js/plugins/bootstrap.min.js"></script><script src="js/signature/careers.js"></script><script src="js/signature/signature.js"></script><script type="text/javascript" src="js/signature/careers-growth.js"></script>
-   </body>
+      <script type="text/javascript" charset="UTF-8" src="https://translate.googleapis.com/element/TE_20170814_01/e/js/element/element_main.js"></script><script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script><script src="/js/plugins/jquery.customSelect.min.js"></script><script src="/js/plugins/jquery.magnific-popup.min.js"></script><script src="/js/plugins/bootstrap.min.js"></script><script src="/js/signature/careers.js"></script>
+      <script src="/js/signature/signature.js"></script><script type="text/javascript" src="/js/signature/careers-growth.js"></script>
+
+
+</body>
 </html>
